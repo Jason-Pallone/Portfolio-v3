@@ -2,7 +2,7 @@ import React from 'react';
 import RSVP from './RSVP'
 
 const Projects =()=>
-    <div className='projects-container'>
+    <div id='projects' className='projects-container'>
         <h1 className='projects-header'>
         Projects
         </h1>

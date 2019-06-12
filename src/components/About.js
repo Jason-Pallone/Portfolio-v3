@@ -2,7 +2,7 @@ import React from 'react';
 import TechStack from './TechStack'
 
 const About =()=>
-    <div className='about-container'>
+    <div id='about' className='about-container'>
         <h1 className='about-header'>
         About
         </h1>

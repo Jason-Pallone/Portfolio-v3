@@ -61,7 +61,7 @@ class Home extends Component{
       return(
        <div>
          <Navbar />
-        <div className='home-div'>
+        <div id='home' className='home-div'>
             <h2 className='hello-header'  style={{display:`${this.state.showHello}`}}>Hello, I'm</h2>
             <h2 className='name-header'  style={{display:`${this.state.showName}`}}>Jason Pallone</h2>
             <h2 className='full-stack-header' style={{display: this.state.showFullStack}}>I'm a Full Stack Web Developer.</h2>
