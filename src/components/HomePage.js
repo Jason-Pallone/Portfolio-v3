@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import Navbar from './Navbar'
 
 
-class Home extends Component{
+class HomePage extends Component{
     state={
         showHello: 'none',
         showName: 'none',
@@ -91,4 +91,4 @@ class Home extends Component{
     )}
 }
 
-    export default Home
+    export default HomePage
