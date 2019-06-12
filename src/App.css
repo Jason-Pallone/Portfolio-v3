@@ -1007,7 +1007,7 @@ body{
   @media(max-width:415px) and (min-width:401px){
     
     .navbar a{
-      margin-left: 5.5%
+      margin-left: 6.25%
     }
   
     .hello-header{
@@ -1017,22 +1017,22 @@ body{
   
     .name-header{
       position: relative;
-      top:-2px
+      top:-1px
     }
     
     .full-stack-header{
       position: relative;
-      right: 11px;
+      right: 3px;
     }
   
     .resume{
       position: relative;
-      right:8px
+      right:1px
     }
 
     .github-profile{
       position: relative;
-      right: 7px;
+      right: 2px;
     }
 
     /*
