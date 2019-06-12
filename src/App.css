@@ -102,15 +102,6 @@ footer{
 }
 
 
-.home-button{
-  color:rgb(51, 51, 255);
-}
-
-.contact{
-  color: rgb(51, 51, 255);
-}
-
-
 
 
 /*
@@ -162,13 +153,13 @@ footer{
 
 /* 
 ================================
-          HEADERS
+         HOME HEADERS
 ================================
  */
 
 .hello-header{
   animation: slide-in-left;
-  animation-duration: 3s;
+  animation-duration: 2s;
   font-size: 50px;
   margin: 3% 0 0 30%;
   color: rgb(218, 216, 216);
@@ -176,7 +167,7 @@ footer{
 
 .name-header{
   animation: slide-down;
-  animation-duration: 2s;
+  animation-duration: 1s;
   font-size: 50px;
   margin: -5% 0 0 48%;
   color: rgb(51, 51, 255)
@@ -224,6 +215,13 @@ footer{
   text-align: center;
   margin-left: 15%;
 }
+
+
+/*
+===============================
+            STACK
+===============================
+*/
 
 .stack-header{
   margin-top: 15%;
@@ -369,12 +367,10 @@ footer{
 }
 
 .contact-form{
-  background: transparent; 
-  box-shadow: 1px 1px 7px inset white;
+  background: transparent;
   margin: 50px 200px 0 200px;
   padding-top: 150px;
   padding-bottom: 150px;
-  border-radius: 20px;
   cursor: pointer;
   height:50%
 }
@@ -480,3 +476,298 @@ footer{
   opacity: .9;
   padding: 0px 4px 3px 4px;
 } 
+
+
+
+@media(max-width:479px){
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+  a{
+    margin:0 0 0 6.75%
+  }
+
+  .navbar{
+    padding: 4% 0 4% 0;
+    width:100%
+  }
+
+
+  /*
+  ============================
+              HOME
+  ============================
+  */
+
+  .home-div{
+    padding-bottom: 30%
+  }
+
+  .hello-header,
+  .name-header{
+    font-size: 30px;
+  }
+
+  .hello-header{
+    margin: 20% 0 0 11%
+  }
+
+  .name-header{
+    margin:-10% 0 0 44.3%
+  }
+  
+  .full-stack-header{
+    margin:8% 0 0 12%;
+    font-size: 22px;
+  }
+
+  .resume{
+    margin:20% 0 0 18%;
+    font-size: 18px;
+  }
+
+  .github-profile{
+    margin:10% 0 0 24%;
+    font-size: 18px
+  }
+
+  .arrow{
+    margin:30% 0 0 45%
+  }
+
+/*
+================================
+            ABOUT
+================================
+*/
+
+  .about-container{
+    padding-bottom: 80%
+  }
+
+  .about-header{
+    margin:15% 0 10% 27%
+  }
+
+  .about-hr{
+    margin: -10% 0 15% 15%;
+    width: 70%
+  }
+
+  .tech-stack-ul li{
+    width: 45%;
+    margin: 1% 9.1% 0 -6.7%;
+  }
+
+
+  /*
+  ==================================
+                PROJECTS
+  ==================================
+  */
+
+  .projects-container{
+    padding-bottom: 20%
+  }
+
+  .projects-header{
+    margin:0 0 0 21.5%
+  }
+
+  .projects-hr{
+    width: 100%;
+    margin:2% 0 0 11.5%
+  }
+
+  /*
+  =======================
+            RSVP
+  =======================
+  */
+
+  .rsvp-h1{
+    margin: 30% 0 0 40.5%
+  }
+
+  .rsvp-hr{
+    width: 60%;
+    margin:0 0 10% 30%
+  }
+
+  .rsvp-gif{
+    width: 100%;
+    margin:0 0 0 12.5%
+  }
+
+  .rsvp-github-link{
+    margin:0 0 0 -38%;
+    font-size: 20px;
+  }
+
+  .rsvp-website-link{
+    margin:0 0 0 9%;
+    font-size: 20px;
+    position: relative;
+    top:50px;
+    left:52px
+  }
+
+  /*
+============================
+        CONTACT
+===========================
+*/
+
+  .contact-header{
+    font-size: 50px;
+  }
+
+  .contact-hr{
+    width:90%;
+    margin:-5% 0 0 5%
+  }
+
+  .contact-form{
+    margin:20% 0 0 0;
+    padding: 0 0 30% 0
+  }
+
+  .contact-me-input1{
+    margin:20% 100% 0 -12%
+  }
+
+  .contact-me-input2{
+    margin:0 0 0 45.2%
+  }
+
+  .contact-me-textarea{
+    margin:0 0 0 -42%;
+    width:70%
+  }
+
+  .contact-submit-button{
+    margin:0 0 0 70%;
+    right:80px;
+    padding: .2% 3%
+  }
+
+  .contact-reset-button{
+    margin:0 0 0 0;
+    top:77px;
+    right:80px
+  }
+}
+
+
+
+@media(max-width:420px){
+
+
+  /*
+  =====================
+          HOME
+  =====================
+  */
+  .hello-header{
+    margin: 20% 0 0 8.5%
+  }
+
+  .name-header{
+    margin:-10.9% 0 0 44.3%
+  }
+  
+  .full-stack-header{
+    margin:8% 0 0 10%;
+    font-size: 22px;
+  }
+
+
+  .resume{
+    margin:20% 0 0 17%;
+    font-size: 18px;
+  }
+
+  .github-profile{
+    margin:10% 0 0 23.5%;
+    font-size: 18px
+  }
+
+  /*
+==========================
+          ABOUT
+==========================
+*/
+.about-header{
+  margin:15% 0 10% 25%
+}
+
+  /*
+================================
+          PROJECTS
+================================
+*/
+.projects-header{
+  margin:0 0 0 18%
+}
+
+  /*
+  =========================
+            RSVP
+  ========================
+  */
+
+  .rsvp-h1{
+    margin: 30% 0 0 38%
+  }
+
+  .rsvp-github-link{
+    margin:0 0 0 -43%;
+    font-size: 20px;
+  }
+
+  .rsvp-website-link{
+    margin:0 0 0 9%;
+    font-size: 20px;
+    position: relative;
+    top:50px;
+    left:46px
+  }
+
+
+  /*
+  ============================  
+          CONTACT
+  ============================
+  */
+  .contact-me-input1{
+    margin:20% 100% 0 -16%
+  }
+
+  .contact-me-input2{
+    margin:0 0 0 45.2%
+  }
+
+  .contact-me-textarea{
+    margin:0 0 0 -43%;
+    width:70%
+  }
+
+  .contact-submit-button{
+    margin:0 0 0 70%;
+    right:65px;
+    padding: .2% 3%
+  }
+
+  .contact-reset-button{
+    margin:0 0 0 0;
+    top:77px;
+    right:70px
+  }
+
+}
