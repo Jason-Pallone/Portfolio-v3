@@ -662,6 +662,36 @@ html,body
     top:77px;
     right:80px
   }
+
+  /*
+  =======================
+          FOOTER
+  =======================
+  */
+
+  .github{
+    margin-left: 16%
+  }
+  
+  .fa-linkedin-square{
+    margin-left: 19%
+  }
+  
+  
+  .fa-twitter-square{
+    margin-left: 18%
+  }
+  
+  
+  .fa-google-plus-square{
+    margin-left: 4%
+  } 
+
+  .footer-text{
+   margin-left: 30%
+  }
+
+
 }
 
 @media(max-width:440px) and (min-width:421px){
