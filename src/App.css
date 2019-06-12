@@ -869,8 +869,67 @@ body{
   }
 
 
-  @media(max-width:400px){
+  @media(max-width:401px) and (min-width:383px){
   
+    a{
+      margin:0 0 0 6.75%
+    }
+  
+    .navbar{
+      padding: 4% 0 4% 0;
+      width:100%
+    }
+
+    /*
+    ===============
+          HOME
+    ===============
+    */
+
+    .hello-header,
+    .name-header{
+      font-size: 30px;
+    }
+
+    .hello-header{
+      margin-left:10%;
+    }
+
+    .name-header{
+      margin-left: 45%;
+      margin-top: -10.5%
+    }
+  
+    .full-stack-header{
+      margin:8% 0 0 16%;
+      font-size: 28px;
+    }
+
+    .resume{
+      margin:10% 0 0 15%;
+      font-size: 20px;
+    }
+  
+    .github-profile{
+      margin:10% 0 0 22%;
+      font-size: 20px
+    }
+
+    /*
+        =========
+          STACK
+        =========
+    */
+
+    .tech-stack-ul li{
+      width: 45%;
+      margin: 1% 9.1% 0 -6.7%;
+      position: relative;
+      left:13px;
+    }
+
+
+
   }
 
 
