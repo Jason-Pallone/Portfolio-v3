@@ -404,7 +404,66 @@ body{
     padding: 0px 4px 3px 4px;
   } 
   
+  @media(max-width:330px){
+    .navbar a{
+      margin-left: 6.25%
+    }
+
+    .hello-header{
+      position: relative;
+      right:5px;
+    }
   
+    .name-header{
+      position: relative;
+      top:-2px;
+    }
+    
+    .full-stack-header{
+      position: relative;
+      right: 4px;
+    }
+  
+    .resume{
+      position: relative;
+      right:5px;
+    }
+  
+    .github-profile{
+      position: relative;
+      right:5px
+    }
+
+    /*
+    ===================
+          ABOUT
+    ===================
+    */
+    .about-header{
+      position: relative;
+      right: 3px
+    }
+
+    /*
+    =======================
+            FOOTER
+    ========================
+    */
+
+    .github,
+    .fa-twitter-square,
+    .fa-linkedin-square{
+      position: relative;
+      right:6px;
+    }
+
+    .footer-text{
+      position: relative;
+      right:5px;
+    }
+
+  
+  }
   @media(max-width:350px){
 
     html,body
