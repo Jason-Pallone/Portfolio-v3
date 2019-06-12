@@ -238,7 +238,7 @@ body{
   
   .projects-container{
     text-align: center;
-    background: rgb(240, 238, 238);
+    background: rgb(239, 239, 239);
   }
   
   /*
@@ -418,9 +418,14 @@ body{
 
     a{
       margin:0 -2% 0 7.5%;
-      font-size: 15px
+      font-size: 18px;
     }
   
+    .navbar a{
+      position: relative;
+      right:7px;
+    }
+
     .navbar{
       padding: 4% 0 4% 0;
       width:100%
@@ -456,14 +461,14 @@ body{
     }
   
     .resume{
-      margin:15% 0 0 11.5%;
+      margin:15% 0 0 12.5%;
       font-size: 18px;
       font-size: 18px;
     }
   
     .github-profile{
       font-size: 18px;
-      margin:8% 0 0 18.5%
+      margin:8% 0 0 20.5%
     }
   
     .arrow{
@@ -602,7 +607,7 @@ body{
     }
   
     .contact-me-textarea{
-      margin:0 0 0 1.5%;
+      margin:0 0 0 1.8%;
       position: relative;
       width:70%;
       top:50px;
@@ -654,50 +659,10 @@ body{
   }
 
   @media(max-width:361px) and (min-width:351px){
-    a{
-      margin:0 0 0 4.75%
+    .navbar a{
+      position: relative;
+      right: 5px;
     }
-  
-    .navbar{
-      padding: 4% 0 4% 0;
-      width:100%
-    }
-
-    /*
-    ===============
-          HOME
-    ===============
-    */
-
-    .hello-header,
-    .name-header{
-      font-size: 30px;
-    }
-
-    .hello-header{
-      margin-left:10%;
-    }
-
-    .name-header{
-      margin-left: 45%;
-      margin-top: -10.5%
-    }
-  
-    .full-stack-header{
-      margin:8% 0 0 16%;
-      font-size: 28px;
-    }
-
-    .resume{
-      margin:10% 0 0 15%;
-      font-size: 20px;
-    }
-  
-    .github-profile{
-      margin:10% 0 0 22%;
-      font-size: 20px
-    }
-
 
   }
 
@@ -993,22 +958,22 @@ body{
   
     .name-header{
       position: relative;
-      top:-1px
+      top:-2px
     }
     
     .full-stack-header{
       position: relative;
-      right: 9px;
+      right: 11px;
     }
   
     .resume{
       position: relative;
-      right:6px
+      right:8px
     }
 
     .github-profile{
       position: relative;
-      right: 5px;
+      right: 7px;
     }
 
     /*
@@ -1018,7 +983,7 @@ body{
     */
     .about-header{
       position: relative;
-      right: 4px;
+      right: 5px;
     }
 
     /*
@@ -1034,22 +999,22 @@ body{
 
     .github{
       position: relative;
-      right: 5px;
+      right: 7px;
     }
 
     .fa-linkedin-square{
       position: relative;
-      right: 5px;
+      right: 7px;
     }
 
     .fa-twitter-square{
       position: relative;
-      right: 5px;
+      right: 7px;
     }
 
     .footer-text{
       position: relative;
-      right: 7px;
+      right: 9px;
     }
   }
 
