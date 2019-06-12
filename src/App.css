@@ -238,7 +238,7 @@ body{
   
   .projects-container{
     text-align: center;
-    background: rgb(239, 239, 239);
+    background: rgb(247, 247, 247);
   }
   
   /*
@@ -1325,6 +1325,240 @@ body{
     */
 
    @media(min-width:768px){
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+    
+      a{
+        margin:0 0 0 6.75%
+      }
+    
+      .navbar{
+        padding: 4% 0 4% 0;
+        width:100%
+      }
+    
+    
+      /*
+      ============================
+                  HOME
+      ============================
+      */
+    
+      .home-div{
+        padding-bottom: 45%;
+        padding-top: 1%
+      }
+    
+      .hello-header,
+      .name-header{
+        font-size: 32px;
+      }
+    
+      .hello-header{
+        margin: 45% 0 0 7.5%
+      }
+    
+      .name-header{
+        margin:-10.5% 0 0 44.3%
+      }
+      
+      .full-stack-header{
+        margin:8% 0 0 14%;
+        font-size: 31px;
+      }
+    
+      .resume{
+        margin:10% 0 0 12%;
+        font-size: 23px;
+      }
+    
+      .github-profile{
+        margin:10% 0 0 19.5%;
+        font-size: 23px
+      }
+    
+      .arrow{
+        margin:20% 0 0 25%;
+        font-size: 90px;
+      }
+    
+    /*
+    ================================
+                ABOUT
+    ================================
+    */
+    
+      .about-container{
+        padding-bottom: 80%
+      }
+    
+      .about-header{
+        margin:15% 0 10% 27%
+      }
+    
+      .about-hr{
+        margin: -10% 0 15% 15%;
+        width: 70%
+      }
+
+      .intro{
+        width:90%;
+        margin-left: 5%
+      }
+    
+      .tech-stack-ul li{
+        width: 45%;
+        margin: 1% 9.1% 0 -6.7%;
+        position: relative;
+        left:15px;
+      }
+    
+    
+      /*
+      ==================================
+                    PROJECTS
+      ==================================
+      */
+    
+      .projects-container{
+        padding-top: 10%;
+        padding-bottom: 30%;
+      }
+    
+      .projects-header{
+        margin:0;
+      }
+    
+      .projects-hr{
+        width: 80%;
+        margin:2% 0 0 9%
+      }
+    
+      /*
+      =======================
+                RSVP
+      =======================
+      */
+    
+      .rsvp-h1{
+        margin: 30% 0 0 0;
+      }
+    
+      .rsvp-hr{
+        width: 50%;
+        margin:0 0 10% 24%
+      }
+    
+      .rsvp-gif{
+        width: 90%;
+        margin:0;
+      }
+
+      .rsvp-description{
+        width:90%;
+        margin-left: 5%;
+      }
+    
+      .rsvp-github-link{
+        margin:0 0 0 -30%;
+        font-size: 20px;
+        position: relative;
+        right:45px;
+        top:20px
+      }
+    
+      .rsvp-website-link{
+        margin:0 0 0 9%;
+        font-size: 20px;
+        position: relative;
+        top:70px;
+        left:8px
+      }
+    
+      /*
+    ============================
+            CONTACT
+    ===========================
+    */
+
+      .contact-container{
+        padding-top: 1%;
+        padding-bottom: 5%;
+      }
+    
+      .contact-header{
+        font-size: 50px;
+        margin-top: 15%;
+      }
+    
+      .contact-hr{
+        width:90%;
+        margin:-5% 0 0 5%
+      }
+    
+      .contact-form{
+        margin:20% 0 0 0;
+      }
+    
+      .contact-me-input1{
+        margin:0 0 0 0;
+      }
+    
+      .contact-me-input2{
+        margin:5% 0 0 0;
+      }
+    
+      .contact-me-textarea{
+        margin:5% 0 0 0;
+        width:70%;
+      }
+    
+      .contact-submit-button{
+        margin:0 0 0 70%;
+        right:70px;
+        top:20px;
+        padding: .2% 3%
+      }
+    
+      .contact-reset-button{
+        margin:0;
+        top:-23px;
+        right:80px
+      }
+    
+      /*
+      =======================
+              FOOTER
+      =======================
+      */
+    
+      .github{
+        margin-left: 16%
+      }
+      
+      .fa-linkedin-square{
+        margin-left: 19%
+      }
+      
+      
+      .fa-twitter-square{
+        margin-left: 18%
+      }
+      
+      
+      .fa-google-plus-square{
+        margin-left: 4%
+      } 
+    
+      .footer-text{
+       margin-left: 30%
+      }
 
    }
     

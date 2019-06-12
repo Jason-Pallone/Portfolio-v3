@@ -54,7 +54,7 @@ class Home extends Component{
       setTimeout(() =>  this.showFullStack(), 2800);
       setTimeout(() =>  this.showResume(), 3800);
       setTimeout(() =>  this.showGitHub(), 3800);
-      setTimeout(() =>  this.showArrow(), 4200);
+      setTimeout(() =>  this.showArrow(), 4000);
     }
 
     render(){
