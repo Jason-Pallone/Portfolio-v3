@@ -694,7 +694,7 @@ html,body
 
 }
 
-@media(max-width:440px) and (min-width:421px){
+@media(max-width:479px) and (min-width:426px){
 
   
   a{
@@ -739,6 +739,20 @@ html,body
   }
 
   
+}
+
+@media(max-width:450px) and (min-width:440px){
+  .contact-me-input1{
+    margin-left: -9.5%
+  }
+
+  .contact-submit-button{
+    right:90px;
+  }
+
+  .contact-reset-button{
+    right:86px
+  }
 }
 
 
