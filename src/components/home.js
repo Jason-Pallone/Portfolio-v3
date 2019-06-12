@@ -50,11 +50,11 @@ class Home extends Component{
 
     componentDidMount(){
       setTimeout(()=>this.showHello(), 500);
-      setTimeout(()=>this.showName(), 3500);
-      setTimeout(() =>  this.showFullStack(), 5500);
-      setTimeout(() =>  this.showResume(), 7000);
-      setTimeout(() =>  this.showGitHub(), 7000);
-      setTimeout(() =>  this.showArrow(), 7700);
+      setTimeout(()=>this.showName(), 2000);
+      setTimeout(() =>  this.showFullStack(), 2800);
+      setTimeout(() =>  this.showResume(), 3800);
+      setTimeout(() =>  this.showGitHub(), 3800);
+      setTimeout(() =>  this.showArrow(), 4200);
     }
 
     render(){
@@ -62,12 +62,27 @@ class Home extends Component{
        <div>
          <Navbar />
         <div id='home' className='home-div'>
-            <h2 className='hello-header'  style={{display:`${this.state.showHello}`}}>Hello, I'm</h2>
-            <h2 className='name-header'  style={{display:`${this.state.showName}`}}>Jason Pallone</h2>
-            <h2 className='full-stack-header' style={{display: this.state.showFullStack}}>I'm a Full Stack Web Developer.</h2>
-            <a className='resume' style={{display: this.state.showResume}}>Download my resume here!</a>
-            <a className='github-profile' style={{display: this.state.showGitHub}}>View my GitHub here!</a>
-            <h1 className='arrow' style={{display: this.state.showArrow}}>&#x21E9;</h1>
+            <h2 className='hello-header'  style={{display:`${this.state.showHello}`}}>
+                Hello, I'm
+            </h2>
+            <h2 className='name-header'  style={{display:`${this.state.showName}`}}>
+                Jason Pallone
+            </h2>
+            <h2 className='full-stack-header' style={{display: this.state.showFullStack}}>
+                I'm a Web Developer.
+            </h2>
+            <a className='resume' style={{display: this.state.showResume}}>
+                Download my resume here!
+            </a>
+            <a className='github-profile' style={{display: this.state.showGitHub}}>
+                View my GitHub here!
+            </a>
+            <div className='arrow' style={{display: this.state.showArrow}}>
+                <a className='arrow' href="#about"> 
+                    &#x21E9; 
+                </a>
+            </div> 
+           
         </div>
       </div>
 
