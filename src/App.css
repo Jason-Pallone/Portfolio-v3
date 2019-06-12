@@ -1045,6 +1045,18 @@ body{
       right: 5px;
     }
 
+
+    /*
+    ====================
+            RSVP
+    ====================
+    */
+
+    .rsvp-github-link{
+      position: relative;
+      left:-47px;
+    }
+
     /*
     ======================
            FOOTER
