@@ -868,6 +868,56 @@ body{
 
   }
 
+  
+  @media(max-width:361px) and (min-width:351px){
+    a{
+      margin:0 0 0 4.75%
+    }
+  
+    .navbar{
+      padding: 4% 0 4% 0;
+      width:100%
+    }
+
+    /*
+    ===============
+          HOME
+    ===============
+    */
+
+    .hello-header,
+    .name-header{
+      font-size: 30px;
+    }
+
+    .hello-header{
+      margin-left:10%;
+    }
+
+    .name-header{
+      margin-left: 45%;
+      margin-top: -10.5%
+    }
+  
+    .full-stack-header{
+      margin:8% 0 0 16%;
+      font-size: 28px;
+    }
+
+    .resume{
+      margin:10% 0 0 15%;
+      font-size: 20px;
+    }
+  
+    .github-profile{
+      margin:10% 0 0 22%;
+      font-size: 20px
+    }
+
+
+  }
+
+
 
   @media(max-width:401px) and (min-width:383px){
   
@@ -930,10 +980,6 @@ body{
 
   }
 
-  @media(max-width:382px) and (min-width:351px){
-
-  }
-
 
   @media(max-width:479px) and (min-width:401px){
     html,body
@@ -968,20 +1014,20 @@ body{
     
       .hello-header,
       .name-header{
-        font-size: 35px;
+        font-size: 32px;
       }
     
       .hello-header{
-        margin: 45% 0 0 5.5%
+        margin: 45% 0 0 8.5%
       }
     
       .name-header{
-        margin:-11% 0 0 44.3%
+        margin:-10.5% 0 0 44.3%
       }
       
       .full-stack-header{
-        margin:8% 0 0 13%;
-        font-size: 33px;
+        margin:8% 0 0 14%;
+        font-size: 31px;
       }
     
       .resume{
@@ -990,7 +1036,7 @@ body{
       }
     
       .github-profile{
-        margin:10% 0 0 18.5%;
+        margin:10% 0 0 19.5%;
         font-size: 23px
       }
     
