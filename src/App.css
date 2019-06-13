@@ -95,7 +95,7 @@ body{
   .navbar{
     display: inline-block;
     position: fixed;
-    background: rgb(27, 27, 27);
+    background: rgb(15, 15, 15);
     border-bottom-style: solid;
     border-color: rgb(51, 51, 255);
     z-index: 100;
@@ -111,7 +111,7 @@ body{
   */
   
   .home-div{
-    background: rgb(20, 20, 20);
+    background: rgb(15, 15, 15)
   }
   
   .arrow{
