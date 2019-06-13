@@ -617,7 +617,7 @@ body{
       margin:0 0 0 -15%;
       font-size: 20px;
       position: relative;
-      right:65px; 
+      left:30px; 
       top:60px
     }
   
@@ -626,7 +626,7 @@ body{
       font-size: 20px;
       position: relative;
       top:10px;
-      left:65px
+      left:0
     }
 
     /*
@@ -724,6 +724,38 @@ body{
       right: 5px;
     }
 
+   
+    .rsvp-website-link{
+      position: relative;
+      margin:0;
+      left:78px;
+    }
+
+    .rsvp-github-link{
+      left:0;
+      display: block;
+    }
+
+  }
+
+  @media(max-width:386px) and (min-width:362px){
+
+      .rsvp-github-link{
+        margin:0;
+        left:0px;
+        right:0
+      }
+  
+      .rsvp-website-link{
+        margin:0;
+      }
+
+      .website-div-rsvp{
+        margin:0 0 -10% 0%;
+        position: relative;
+        left:80px
+      }
+      
   }
 
 
@@ -857,20 +889,19 @@ body{
       margin-left: 5%;
     }
 
-    .rsvp-website-link{
-      margin: 0;
-      position: relative;
-      top: 20px;
-      left:90px;
+    .website-div-rsvp{
+      margin-right: 45%;
+      margin-top: 10%;
     }
 
     .rsvp-github-link{
       margin: 0;
       position: relative;
+      display: block;
       top:70px;
-      right:90px;
+      right:90px
     }
-
+    
 
     /*
     =========================
@@ -1003,9 +1034,23 @@ body{
       left:13px;
     }
 
+    /*
+    ========================
+              RSVP
+    ========================
+    */
+    .website-div-rsvp{
+      margin-right:10%;
+      margin-bottom: -5%;
+    }
+
+    .github-div-rsvp{
+      margin-left: 44%;
+    }
+
   }
 
-  @media(max-width:415px) and (min-width:401px){
+  @media(max-width:415px) and (min-width:402px){
     
     .navbar a{
       margin-left: 6.25%
@@ -1055,7 +1100,11 @@ body{
 
     .rsvp-github-link{
       position: relative;
-      left:-47px;
+      left:60px;
+    }
+
+    .website-div-rsvp{
+      margin:0 0 -10% -16.5%
     }
 
     /*
@@ -1330,6 +1379,20 @@ body{
     
     }
 
+    @media(max-width:479px) and (min-width:416px){
+
+      .rsvp-github-link{
+        margin:0;
+        left:-2px;
+        right:0
+      }
+  
+      .website-div-rsvp{
+        margin:0 0 -10% -17%;
+      }
+      
+    }
+
 
     /*
     =============================
@@ -1575,4 +1638,3 @@ body{
 
    }
     
-   
