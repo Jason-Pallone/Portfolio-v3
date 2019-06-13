@@ -113,8 +113,12 @@ body{
   */
   
   .home-div{
+    background: linear-gradient(rgba(0,0,0, .95), rgba(0,0,0, .95)),
+     url("../src/images/shlomo-shalev-1005553-unsplash.jpg") center no-repeat;
+    background-size: cover;
+    /*
     background: rgb(15, 15, 15);
-    height: 650px
+    height: 650px*/
   }
    
   .arrow{
