@@ -1,3 +1,5 @@
+@import url("Normalize.css");
+
 body{
     font-family: 'open-sans'
   }
@@ -513,7 +515,7 @@ body{
     }
   
     .name-header{
-      margin:-9.5% 0 0 44.3%
+      margin:-8.3% 0 0 44.3%
     }
     
     .full-stack-header{
@@ -798,7 +800,7 @@ body{
     }
 
     .name-header{
-      margin:-9.4% 0 0 44%;
+      margin:-7.7% 0 0 44%;
      
     }
 
@@ -1003,8 +1005,8 @@ body{
     }
 
     .name-header{
-      margin-left: 45%;
-      margin-top: -10.5%
+      margin-left: 45.5%;
+      margin-top: -9%
     }
   
     .full-stack-header{
@@ -1064,7 +1066,7 @@ body{
   
     .name-header{
       position: relative;
-      top:-1px
+      top:5px
     }
     
     .full-stack-header{
@@ -1138,6 +1140,7 @@ body{
       position: relative;
       right: 9px;
     }
+
   }
 
 
@@ -1346,7 +1349,7 @@ body{
     
       .contact-reset-button{
         margin:0;
-        top:-23px;
+        top:-20.5px;
         right:80px
       }
     
@@ -1394,6 +1397,17 @@ body{
         margin:0 0 -10% -17%;
       }
       
+      .name-header{
+        margin:-9.5% 0 0 44.3%
+        
+      }
+
+    }
+
+    @media(max-width:479px) and (min-width:425px){
+      .name-header{
+        margin:-8.5% 0 0 44.3%
+      }
     }
 
 
