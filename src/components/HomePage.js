@@ -4,7 +4,6 @@ import Navbar from './Navbar'
 
 class HomePage extends Component{
     state={
-        showHello: 'none',
         showName: 'none',
         showFullStack: 'none',
         showResume:'none',
@@ -12,11 +11,6 @@ class HomePage extends Component{
         showArrow: 'none'
       }
     
-    showHello=()=>{
-        this.setState({
-            showHello: ''
-        })
-    }
 
     showName=()=>{
         this.setState({
@@ -49,12 +43,11 @@ class HomePage extends Component{
     }
 
     componentDidMount(){
-      setTimeout(()=>this.showHello(), 500);
-      setTimeout(()=>this.showName(), 2000);
-      setTimeout(() =>  this.showFullStack(), 2800);
-      setTimeout(() =>  this.showResume(), 3800);
-      setTimeout(() =>  this.showGitHub(), 3800);
-      setTimeout(() =>  this.showArrow(), 4000);
+      setTimeout(()=>this.showName(), 1500);
+      setTimeout(() =>  this.showFullStack(), 2000);
+      setTimeout(() =>  this.showResume(), 3000);
+      setTimeout(() =>  this.showGitHub(), 3000);
+      setTimeout(() =>  this.showArrow(), 3100);
     }
 
     render(){
