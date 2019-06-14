@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Navbar from './Navbar'
-
+import {Link, animateScroll as scroll} from 'react-scroll'
 
 class HomePage extends Component{
     state={
@@ -51,6 +51,10 @@ class HomePage extends Component{
       setTimeout(() =>  this.showArrow(), 3100);
     }
 
+    scrollToAbout=()=>{
+        scroll.scrollTo(800)
+    }
+
     render(){
       return(
        <div>
@@ -72,7 +76,7 @@ class HomePage extends Component{
                 View my GitHub here!
             </a>
             <div className='arrow'  style={{display: this.state.showArrow}}>
-                <a className='arrow' href="#about"> 
+                <a className='arrow' onClick={this.scrollToAbout}> 
                     &#x21E9; 
                 </a>
             </div> 

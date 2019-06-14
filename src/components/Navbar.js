@@ -108,7 +108,6 @@ class Navbar extends Component{
             onClick={this.scrollToAbout}
             smooth={true}
             offset={-80}
-            duration={1000}
             >About
             </Link>
             
@@ -118,8 +117,6 @@ class Navbar extends Component{
             onClick={this.scrollToProjects}
             smooth={true}
             offset={-50}
-            duration={1000}
-            hashSpy={true}
             >Projects
             </Link>
             
@@ -130,7 +127,6 @@ class Navbar extends Component{
             onClick={this.scrollToContact}
             smooth={true}
             offset={0}
-            duration={1000}
             >Contact
             </Link>
             
