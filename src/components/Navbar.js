@@ -77,15 +77,15 @@ class Navbar extends Component{
     }
 
     scrollToAbout=()=>{
-        scroll.scrollTo(600)
+        scroll.scrollTo(800)
     }
 
     scrollToProjects=()=>{
-        scroll.scrollTo(1800)
+        scroll.scrollTo(2000)
     }
 
     scrollToContact=()=>{
-        scroll.scrollTo(2750)
+        scroll.scrollTo(2950)
     }
 
 
