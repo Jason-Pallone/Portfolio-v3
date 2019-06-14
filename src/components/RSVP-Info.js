@@ -9,7 +9,7 @@ class RSVPInfo extends Component{
 
     showRSVP = () => {
         const top = window.pageYOffset;
-        if(top>1900)
+        if(top>1800)
         this.setState({
         showRSVP: true
         })
