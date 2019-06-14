@@ -8,9 +8,10 @@ class HomePage extends Component{
         showFullStack: 'none',
         showResume:'none',
         showGitHub: 'none',
-        showArrow: 'none'
+        showArrow: 'none',
       }
     
+
 
     showName=()=>{
         this.setState({
@@ -70,7 +71,7 @@ class HomePage extends Component{
             <a className='github-profile' style={{display: this.state.showGitHub}}>
                 View my GitHub here!
             </a>
-            <div className='arrow' style={{display: this.state.showArrow}}>
+            <div className='arrow'  style={{display: this.state.showArrow}}>
                 <a className='arrow' href="#about"> 
                     &#x21E9; 
                 </a>
