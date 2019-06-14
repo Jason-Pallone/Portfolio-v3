@@ -7,35 +7,25 @@ class About extends Component{
 
     
     state={
-        showIntro: false,
-        showAbout: false
+        showAbout:false
     }
 
-    showText = () => {
+    showAbout = () => {
         // get how many px we've scrolled
         console.log(window.pageYOffset)
         const top = window.pageYOffset;
         if(top>880)
-        this.setState({
-        showIntro: true
-        })
-    }
-
-
-    showAbout = () => {
-        const top = window.pageYOffset;
-        if(top>1250)
         this.setState({
         showAbout: true
         })
     }
 
     componentDidMount(){
-        window.addEventListener("scroll", this.showText)
+        window.addEventListener("scroll", this.showAbout)
     }
 
     componentWillUnmount(){
-        window.removeEventListener("scroll", this.showText)
+        window.removeEventListener("scroll", this.showAbout)
     }
 
 
@@ -50,7 +40,7 @@ class About extends Component{
             <hr className='about-hr'></hr>
 
             <div className='about-me-container'>
-                <div  className={ this.state.showIntro ? 'intro showText' : 'hidden'} >
+                <div  className={ this.state.showAbout ? 'intro showText' : 'hidden'} >
                     <p>
                         My name is Jason Pallone, I'm a Full Stack Developer who specializes in React, and I love to learn!
                         I am currently seeking my first role as a Junior Developer.
