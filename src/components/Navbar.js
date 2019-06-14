@@ -76,6 +76,18 @@ class Navbar extends Component{
         window.removeEventListener("scroll", this.highLightContact)
     }
 
+    scrollToAbout=()=>{
+        scroll.scrollTo(600)
+    }
+
+    scrollToProjects=()=>{
+        scroll.scrollTo(1800)
+    }
+
+    scrollToContact=()=>{
+        scroll.scrollTo(2750)
+    }
+
 
     render(){
         return(
@@ -93,27 +105,29 @@ class Navbar extends Component{
             <Link 
             style={{color:`${this.state.highLightAbout}`}}
             activeClass='highLight'
-            to="about"
+            onClick={this.scrollToAbout}
             smooth={true}
             offset={-80}
             duration={1000}
             >About
             </Link>
-
+            
             <Link 
             style={{color:`${this.state.highLightProjects}`}}
             activeClass='highLight'
-            to="projects"
+            onClick={this.scrollToProjects}
             smooth={true}
             offset={-50}
             duration={1000}
+            hashSpy={true}
             >Projects
             </Link>
-
+            
+           
             <Link 
             style={{color:`${this.state.highLightContact}`}}
             activeClass='highLight'
-            to="contact"
+            onClick={this.scrollToContact}
             smooth={true}
             offset={0}
             duration={1000}
