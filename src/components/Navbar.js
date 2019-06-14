@@ -115,7 +115,7 @@ class Navbar extends Component{
             activeClass='highLight'
             to="contact"
             smooth={true}
-            offset={-50}
+            offset={0}
             duration={1000}
             >Contact
             </Link>
