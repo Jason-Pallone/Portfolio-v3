@@ -113,12 +113,8 @@ body{
   */
   
   .home-div{
-    background: linear-gradient(rgba(0,0,0, .78), rgba(0,0,0, .78)),
-     url("../src/images/raphael-nogueira-722678-unsplash.jpg") center no-repeat;
-    background-size: cover;
-    /*
     background: rgb(15, 15, 15);
-    height: 650px*/
+    height: 650px
   }
    
   .arrow{
