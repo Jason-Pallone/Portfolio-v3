@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link, animateScroll as scroll} from 'react-scroll'
 
 
 class Navbar extends Component{
@@ -75,14 +76,51 @@ class Navbar extends Component{
         window.removeEventListener("scroll", this.highLightContact)
     }
 
+
     render(){
         return(
-        <div className='navbar'>
-            <a href="#home"  style={{color:`${this.state.highLightHome}`}}>Home</a>
-            <a href="#about" style={{color:`${this.state.highLightAbout}`}}>About</a>
-            <a href="#projects" style={{color:`${this.state.highLightProjects}`}}>Projects</a>
-            <a href="#contact" style={{color:`${this.state.highLightContact}`}} >Contact</a>
-        </div>
+        <nav className='navbar'>
+            <Link 
+            style={{color:`${this.state.highLightHome}`}}
+            activeClass='highLight'
+            to="home"
+            smooth={true}
+            offset={-80}
+            duration={1000}
+            >Home
+            </Link>
+
+            <Link 
+            style={{color:`${this.state.highLightAbout}`}}
+            activeClass='highLight'
+            to="about"
+            smooth={true}
+            offset={-80}
+            duration={1000}
+            >About
+            </Link>
+
+            <Link 
+            style={{color:`${this.state.highLightProjects}`}}
+            activeClass='highLight'
+            to="projects"
+            smooth={true}
+            offset={-40}
+            duration={1000}
+            >Projects
+            </Link>
+
+            <Link 
+            style={{color:`${this.state.highLightContact}`}}
+            activeClass='highLight'
+            to="contact"
+            smooth={true}
+            offset={-50}
+            duration={1000}
+            >Contact
+            </Link>
+            
+        </nav>
         )
     }
     
