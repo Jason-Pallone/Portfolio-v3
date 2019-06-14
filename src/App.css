@@ -107,6 +107,11 @@ body{
             NAVBAR
   =============================
   */
+
+  a .highLight{
+    color: blue
+  }
+
   .navbar{
     display: inline-block;
     position: fixed;

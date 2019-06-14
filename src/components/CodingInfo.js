@@ -9,7 +9,7 @@ class CodingInfo extends Component{
 
     showCodingInfo = () => {
         const top = window.pageYOffset;
-        if(top>1000)
+        if(top>800)
         this.setState({
         showCodingInfo: true
         })
