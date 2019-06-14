@@ -69,7 +69,8 @@ class HomePage extends Component{
             <h2 className='full-stack-header' style={{display: this.state.showFullStack}}>
                 I'm a Web Developer.
             </h2>
-            <a className='resume' href='../resume/Jason_Pallone_Resume.pdf' download style={{display: this.state.showResume}}>
+            <a className='resume' href='../resume/Jason_Pallone_Resume.pdf' download
+             style={{display: this.state.showResume}}>
                 Download my resume here!
             </a>
             <a className='github-profile' href='https://github.com/Jason-Pallone'
