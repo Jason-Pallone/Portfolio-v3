@@ -85,7 +85,7 @@ class Navbar extends Component{
             activeClass='highLight'
             to="home"
             smooth={true}
-            offset={-80}
+            offset={-0}
             duration={1000}
             >Home
             </Link>
@@ -105,7 +105,7 @@ class Navbar extends Component{
             activeClass='highLight'
             to="projects"
             smooth={true}
-            offset={-40}
+            offset={-20}
             duration={1000}
             >Projects
             </Link>
