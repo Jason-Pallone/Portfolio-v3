@@ -25,7 +25,7 @@ class SubIntro extends Component{
 
     render(){
         return(
-            <p className={ this.state.showSubIntro ? 'sub-intro showText' : 'hidden'}>
+            <p className={ this.state.showSubIntro ? 'sub-intro showText-right' : 'hidden'}>
             Coding has become a big part of my life and I cannot wait to make it my career!
         </p>
         )
