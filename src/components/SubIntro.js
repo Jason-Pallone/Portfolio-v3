@@ -9,7 +9,7 @@ class SubIntro extends Component{
 
     showSubIntro = () => {
         const top = window.pageYOffset;
-        if(top>1100)
+        if(top>900)
         this.setState({
         showSubIntro: true
         })

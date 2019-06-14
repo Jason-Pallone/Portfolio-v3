@@ -14,7 +14,7 @@ class About extends Component{
         // get how many px we've scrolled
         console.log(window.pageYOffset)
         const top = window.pageYOffset;
-        if(top>880)
+        if(top>600)
         this.setState({
         showAbout: true
         })
