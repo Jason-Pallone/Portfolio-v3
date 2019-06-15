@@ -16,7 +16,7 @@ body{
     font-family: 'open-sans';
     font-weight: bold;
     letter-spacing: 1px;
-    color:rgb(212, 211, 211)
+    color:white
   }
 
   a:hover{
@@ -32,7 +32,7 @@ body{
   .footer-text{
     margin-left: 41.5%;
     font-size: 1.5rem;
-    color: rgb(211, 209, 209)
+    color: white
   }
   
   /*
@@ -162,7 +162,7 @@ body{
   .resume{
     display: inline-block;
     font-size: 30px;
-    color: rgb(221, 221, 221);
+    color: white;
     animation:fade-in;
     animation-duration: 3s;
   }
@@ -172,6 +172,7 @@ body{
     font-size: 30px;
     animation: fade-in;
     animation-duration: 3s;
+    color: white;
   }
   
   
@@ -185,7 +186,7 @@ body{
     animation: slide-in-left;
     animation-duration: 1.5s;
     font-size: 50px;
-    color: rgb(218, 216, 216);
+    color: white
   }
   
   .name-header{
@@ -199,7 +200,7 @@ body{
     animation: fade-in;
     animation-duration: 4s;
     font-size: 50px;
-    color: rgb(214, 213, 213)
+    color: white
   }
   
   /*
@@ -322,7 +323,7 @@ body{
     font-family:'open-sans';
     font-size: 80px;
     text-align: center;
-    color: rgb(230, 223, 223);
+    color: rgb(245, 245, 245);
     background: transparent;
   }
   
