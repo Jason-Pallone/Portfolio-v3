@@ -1106,7 +1106,8 @@ body{
   @media(max-width:415px) and (min-width:402px){
     
     .navbar a{
-      margin-left: 6.25%
+      margin-left: 5.75%;
+      letter-spacing: 1.5px;
     }
   
     .hello-header{
