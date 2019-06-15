@@ -57,6 +57,11 @@ body{
         KEYFRAMES
   ========================
   */
+
+  @keyframes pop-in{
+   0% {transform: scale(0);}
+   100% {transform: scale(1)}
+  }
   
   @keyframes fade-in{
     0% {opacity: 0;};
@@ -114,6 +119,11 @@ body{
   .fade-in{
     animation: fade-in;
     animation-duration: 4s
+  }
+
+  .pop-in{
+    animation: pop-in;
+    animation-duration: 4s;
   }
   
   /*

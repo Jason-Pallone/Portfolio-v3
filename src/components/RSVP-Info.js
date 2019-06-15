@@ -27,7 +27,7 @@ class RSVPInfo extends Component{
         return(
             <div>
             <img src="/RSVP-gif.gif" alt='rsvp project'
-            className={ this.state.showRSVP ? 'rsvp-gif fade-in' : 'hidden'}
+            className={ this.state.showRSVP ? 'rsvp-gif pop-in' : 'hidden'}
              />
             <br></br>
             <p className={ this.state.showRSVP ? 'rsvp-description showText' : 'hidden'}>
