@@ -74,7 +74,7 @@ class HomePage extends Component{
                 Download my resume here!
             </a>
             <a className='github-profile' href='https://github.com/Jason-Pallone'
-             style={{display: this.state.showGitHub}}>
+            target="_blank" style={{display: this.state.showGitHub}}>
                 View my GitHub here!
             </a>
             <div className='arrow'  style={{display: this.state.showArrow}}>
