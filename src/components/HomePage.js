@@ -60,12 +60,16 @@ class HomePage extends Component{
        <div>
          <Navbar />
         <div id='home' className='home-div'>
+        
+        <div className='hello-name-header-container'>
             <h2 className='hello-header'  style={{display:`${this.state.showHello}`}}>
                 Hello, I'm
             </h2>
             <h2 className='name-header'  style={{display:`${this.state.showName}`}}>
                 Jason Pallone
             </h2>
+        </div>
+
             <h2 className='full-stack-header' style={{display: this.state.showFullStack}}>
                 I'm a Web Developer.
             </h2>

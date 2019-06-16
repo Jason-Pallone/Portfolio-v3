@@ -91,7 +91,7 @@ class Navbar extends Component{
 
     render(){
         return(
-        <nav className='navbar'>
+        <nav className='navbar'> 
             <Link 
             style={{color:`${this.state.highLightHome}`}}
             activeClass='highLight'
