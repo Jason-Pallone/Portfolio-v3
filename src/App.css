@@ -290,7 +290,7 @@ body{
   */
   
   .stack-header{
-    color:rgb(255, 254, 254);
+    color:rgb(34, 34, 34);
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
@@ -366,7 +366,7 @@ body{
   }
   
   .rsvp-hr{
-    background-color: rgb(43, 42, 42);
+    background-color: white;
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
@@ -376,7 +376,7 @@ body{
   .rsvp-description{
     font-size: 1.2rem;
     font-weight: 500;
-    color: rgb(65, 64, 64);
+    color: white;
   }
   
   .rsvp-website-link,
