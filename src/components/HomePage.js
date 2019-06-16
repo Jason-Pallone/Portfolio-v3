@@ -44,11 +44,11 @@ class HomePage extends Component{
     }
 
     componentDidMount(){
-      setTimeout(()=>this.showName(), 1500);
-      setTimeout(() =>  this.showFullStack(), 2000);
-      setTimeout(() =>  this.showResume(), 3000);
-      setTimeout(() =>  this.showGitHub(), 3000);
-      setTimeout(() =>  this.showArrow(), 3100);
+      setTimeout(()=>this.showName(), 500);
+      setTimeout(() =>  this.showFullStack(), 1000);
+      setTimeout(() =>  this.showResume(), 2000);
+      setTimeout(() =>  this.showGitHub(), 2000);
+      setTimeout(() =>  this.showArrow(), 2100);
     }
 
     scrollToAbout=()=>{
@@ -65,10 +65,12 @@ class HomePage extends Component{
             <h2 className='hello-header'  style={{display:`${this.state.showHello}`}}>
                 Hello, I'm
             </h2>
+           
             <h2 className='name-header'  style={{display:`${this.state.showName}`}}>
                 Jason Pallone
             </h2>
         </div>
+
 
             <h2 className='full-stack-header' style={{display: this.state.showFullStack}}>
                 I'm a Web Developer.
