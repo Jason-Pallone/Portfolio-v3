@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import Navbar from './Navbar'
-import {Link, animateScroll as scroll} from 'react-scroll'
+import {animateScroll as scroll} from 'react-scroll'
 
 class HomePage extends Component{
     state={
@@ -80,7 +80,7 @@ class HomePage extends Component{
                 Download my resume here!
             </a>
             <a className='github-profile' href='https://github.com/Jason-Pallone'
-            target="_blank" style={{display: this.state.showGitHub}}>
+            target="_blank" rel='noopener noreferrer' style={{display: this.state.showGitHub}}>
                 View my GitHub here!
             </a>
             <div className='arrow'  style={{display: this.state.showArrow}}>

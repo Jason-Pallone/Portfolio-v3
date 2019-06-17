@@ -28,7 +28,7 @@ class TechStack extends Component{
             <h1  className={ this.state.showStack ? 'stack-header showText-right' : 'hidden'}>
             My Stack
             </h1>
-              <ul  className={ this.state.showStack ? 'tech-stack-ul pop-in' : 'hidden'}>
+              <ul  className={ this.state.showStack ? 'tech-stack-ul showText' : 'hidden'}>
                   <li><strong>HTML</strong></li>
                   <li><strong>CSS</strong></li>
                   <li><strong>JavaScript</strong></li>
