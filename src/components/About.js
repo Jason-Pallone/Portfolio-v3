@@ -35,7 +35,6 @@ class About extends Component{
             <h1 className='about-header'>
             About
             </h1>
-            <hr className='about-hr'></hr>
 
             <div className='about-me-container'>
                 <div  className={ this.state.showAbout ? 'intro showText' : 'hidden'} >

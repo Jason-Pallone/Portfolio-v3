@@ -273,15 +273,13 @@ body{
     color:rgb(34, 34, 34);
     display: flex;
     justify-content: center;
-    margin-bottom: 0;
+    margin-bottom: 20%;
+    border-bottom: solid;
+    width: 80%;
+    margin-left: 11.5%
   }
   
-  .about-hr{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(34, 34, 34);
-    margin-bottom: 20%
-  }
+ 
   
   .intro{
     font-size: 1.3rem;
@@ -621,10 +619,6 @@ body{
       padding-bottom: 80%;
       width: 95%
     }
-  
-    .about-hr{
-      width: 85%
-    }
     
     .intro{
       margin-left: 5%
@@ -761,7 +755,7 @@ body{
   @media(max-width:380px) and (min-width:366px){
     .contact-reset-button{
       margin-top: -41.2%;
-      padding: .4% 2.2%
+      padding: .4% 2.2%;
     }
   }
 
@@ -821,13 +815,7 @@ body{
     }
 
     .about-header{
-      margin-left: 11%;
-      margin-bottom: 0
-    }
-
-    .about-hr{
-      width:85%;
-      margin-left: 13%
+      margin-left: 14%;
     }
 
     .intro{
@@ -979,9 +967,9 @@ body{
       .about-container{
         padding-bottom: 80%
       }
-    
-      .about-hr{
-        width: 70%
+
+      .about-header{
+        margin-left: 9.8%
       }
 
       .intro{
