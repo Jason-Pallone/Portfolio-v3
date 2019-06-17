@@ -3,7 +3,6 @@ import React from 'react';
 const Footer =()=>
 
     <div className='footer-container'>
-        <p className='footer-text'> &#160; Jason Pallone</p>
         <footer>
             <a href="mailto:jasonpallone7593@gmail.com" rel='noopener noreferrer'  alt='gmail logo'
             className="fa fa-google-plus-square"><br></br>
@@ -21,7 +20,11 @@ const Footer =()=>
             <a href="https://twitter.com/JasonPallone?s=09" rel='noopener noreferrer' alt="twitter icon"
             target='_blank' className="fa fa-twitter-square">
             </a>
+          
         </footer>
+        <p className='footer-text'>
+         &#160; Jason Pallone
+        </p>
     </div>
 
 export default Footer
