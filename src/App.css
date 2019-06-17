@@ -69,7 +69,7 @@ body{
    90% {transform: scale(1.1);}
    100% {transform: scale(1);}
   }
-  
+
   @keyframes fade-in{
     0% {opacity: 0;};
     100% {opacity: 1;}
@@ -249,8 +249,7 @@ body{
   }
   
   .name-header{
-    animation: slide-down;
-    animation-duration: 1s;
+    animation: slide-down 1.5s;
     font-size: 50px;
     color: rgb(0, 140, 255);
     margin-left: 2%;
@@ -1272,13 +1271,21 @@ body{
       }
     
       .contact-me-input1{
-        margin:0 2% 0 0;
+        margin:0 -2% 0 0;
         padding:5px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left:230px;
       }
     
       .contact-me-input2{
         margin:5% 0 0 0;
         padding:5px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left:230px
       }
     
       .contact-me-textarea{
@@ -1288,15 +1295,16 @@ body{
     
       .contact-submit-button{
         margin:0 0 0 0%;
-        right:200px;
-        top:55px;
-        padding: .2% 3%
+        left:160px;
+        top:15px;
+        padding: .2% 3%;
+
       }
     
       .contact-reset-button{
         margin:0;
-        top:10px;
-        right:150px;
+        left:455px;
+        top:-30px;
         padding:.3% 3%
       }
     
