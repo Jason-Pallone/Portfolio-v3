@@ -273,12 +273,14 @@ body{
     color:rgb(34, 34, 34);
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
   }
   
   .about-hr{
     display: flex;
     justify-content: center;
     background-color: rgb(34, 34, 34);
+    margin-bottom: 20%
   }
   
   .intro{
@@ -299,6 +301,7 @@ body{
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
+    margin-top: 30%
   }
   
   .stack-hr{
@@ -345,7 +348,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 1%;
-    margin-bottom: 10%
+    margin-bottom: 40%
   }
   
   .projects-container{
