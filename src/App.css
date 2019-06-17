@@ -273,7 +273,7 @@ body{
     color:rgb(34, 34, 34);
     display: flex;
     justify-content: center;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
     border-bottom: solid;
     width: 80%;
     margin-left: 11.5%
@@ -346,7 +346,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 1%;
-    margin-bottom: 40%
+    margin-bottom: 15%
   }
   
   .projects-container{
@@ -619,6 +619,10 @@ body{
       padding-bottom: 80%;
       width: 95%
     }
+
+    .about-header{
+      margin-bottom: 20%;
+    }
     
     .intro{
       margin-left: 5%
@@ -641,6 +645,7 @@ body{
     .projects-hr{
       width: 92%;
       background-color: black;
+      margin-bottom: 40%;
     }
   
     /*
@@ -816,6 +821,7 @@ body{
 
     .about-header{
       margin-left: 14%;
+      margin-bottom: 20%;
     }
 
     .intro{
@@ -840,7 +846,7 @@ body{
     .projects-hr{
       width:90%;
       background-color: black;
-      margin-bottom: 25%;
+      margin-bottom: 40%;
     }
 
     .rsvp-h1{
@@ -969,7 +975,8 @@ body{
       }
 
       .about-header{
-        margin-left: 9.8%
+        margin-left: 9.8%;
+        margin-bottom: 20%;
       }
 
       .intro{
@@ -996,6 +1003,7 @@ body{
     
       .projects-hr{
         width: 80%;
+        margin-bottom: 40%;
       }
     
       /*
