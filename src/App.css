@@ -1114,7 +1114,7 @@ body{
       }
     }
 
-    @media(max-width:470px) and (min-width:431px){
+    @media(max-width:479px) and (min-width:431px){
        
       .contact-submit-button{
         padding: .2% 3%;
