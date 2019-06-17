@@ -16,7 +16,7 @@ body{
   footer{
     padding:1% 0 1% 0;
     margin-top: 0;
-    background-color: black;
+    background-color: rgb(0, 140, 255);
     display: flex;
     justify-content: center;
   }
@@ -408,14 +408,14 @@ body{
     color: black;
     text-align: center;
     font-family: 'open-sans', Georgia, 'Times New Roman', Times, serif;
-    background:rgb(24, 24, 24);
+    background:white;
   }
   
   .contact-header{
     font-family:'open-sans';
     font-size: 80px;
     text-align: center;
-    color: rgb(245, 245, 245);
+    color: rgb(27, 27, 27);
     background: transparent;
     display: flex;
     justify-content: center;
@@ -445,6 +445,8 @@ body{
     justify-content: center;
     margin-left: 17%;
     padding:5px;
+    border-color:   rgb(0, 140, 255);
+    border-width: 2px
   }
 
   .contact-me-input2{
@@ -457,6 +459,8 @@ body{
     margin-left: 14.75%;
     margin-top: 5%;
     border-radius: 10px;
+    border-color:   rgb(0, 140, 255);
+    border-width: 2px
   }
   
   
@@ -502,20 +506,17 @@ body{
   =========================================
   */
   .github{
-    color: rgb(148, 147, 147);
     font-size: 45px;
     opacity: .9;
   }
   
   .fa-linkedin-square{
-    color: rgb(148, 147, 147);
     font-size: 45px;
     opacity: .9
   }
   
   
   .fa-twitter-square{
-    color: rgb(148, 147, 147);
     opacity: .9;
     border-bottom-style: solid;
     border-radius: 4px;
@@ -526,7 +527,6 @@ body{
   
   
   .fa-google-plus-square{
-    color:rgb(148, 147, 147);
     text-align: center;
     border-radius: 7px;
     font-size: 45px;
@@ -538,6 +538,7 @@ body{
   .fa-twitter-square,
   .github,
   .fa-linkedin-square{
+    color:white;
     margin-right: 10%
   }
 
@@ -546,7 +547,7 @@ body{
   }
 
   .footer-container{
-    background: black
+    background: rgb(0, 140, 255);
   }
 
   .footer-text{
