@@ -1,7 +1,7 @@
 @import url("Normalize.css");
 
 body{
-    font-family: 'open-sans'
+    font-family: 'roboto'
   }
 
   *{
@@ -58,7 +58,8 @@ body{
 
   @keyframes pop-in{
    0% {transform: scale(0);}
-   100% {transform: scale(1)}
+   90% {transform: scale(1.1);}
+   100% {transform: scale(1);}
   }
   
   @keyframes fade-in{
@@ -299,14 +300,8 @@ body{
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
-    margin-top: 30%
-  }
-  
-  .stack-hr{
-    height: 3px;
-    background-color: rgb(34, 34, 34);
-    display: flex;
-    justify-content: center;
+    margin-top: 30%;
+    border-bottom: solid;
   }
   
   .tech-stack-ul li{
