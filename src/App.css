@@ -429,18 +429,10 @@ body{
     background: transparent;
     display: flex;
     justify-content: center;
-  }
-  
-  .contact-hr{
-    margin-bottom: 5%;
+    border-bottom: solid;
     width:50%;
-    height: 3px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(27, 27, 27);
+    margin:auto;
   }
-  
   
   .contact-form{
     background: transparent;
@@ -693,10 +685,7 @@ body{
     
     .contact-header{
       font-size: 50px;
-    }
-  
-    .contact-hr{
-      width:90%;
+      width:90%
     }
   
     .contact-form{
@@ -754,11 +743,12 @@ body{
     }
   }
 
+
+
   @media(max-width:365px) and (min-width:351px){
     .contact-reset-button{
       margin-top: -41.7%;
       padding: .4% 2.2%
-
     }
   }
 
@@ -887,7 +877,9 @@ body{
 
     .contact-header{
       font-size: 60px;
-      margin-bottom: 0;
+      width:93%;
+      margin-bottom: 20%;
+      margin-top: 20%;
     }
 
     .contact-me-input1,
@@ -921,6 +913,11 @@ body{
     }
   }
 
+  @media(max-width:355px) and (min-width: 351px){
+    .contact-header{
+      width:95%
+    }
+  }
 
   @media(max-width:479px) and (min-width:401px){
     .App
@@ -1051,6 +1048,7 @@ body{
     
       .contact-header{
         font-size: 50px;
+        width:80%;
         margin-top: 15%;
       }
     
@@ -1518,7 +1516,7 @@ body{
     .hello-header,
     .name-header{
       font-size: 43px;
-      margin-top: -20%
+      margin-top: -20%;
     }
     
     .full-stack-header{
@@ -1528,20 +1526,20 @@ body{
   
     .resume{
       margin-top: 2%;
-      margin-left: 35%;
+      margin-left: 29.5%;
       padding:1%;
-      width: 30%;
+      width: 40%;
     }
   
     .github-profile{
       margin-top: 2%;
-      margin-left: 37.65%;
+      margin-left: 32.4%;
       padding:1%;
-      width: 25%;
+      width: 35%;
     }
   
     .arrow{
-      margin-top: 5%;
+      margin-top: 7%;
       font-size: 90px;
     }
 
@@ -1552,13 +1550,8 @@ body{
   */
   
     .about-container{
-      padding-bottom: 30%
+      padding-bottom: 35%
     }
-  
-    .about-hr{
-      width: 40%
-    }
-
 
     .tech-stack-ul li{
       left:5px;
@@ -1569,6 +1562,7 @@ body{
     */
 
     .stack-header{
+      margin-top: 10%;
       margin-bottom: 2%;
       font-size: 60px;
     }
@@ -1613,15 +1607,19 @@ body{
       font-size: 50px;
       margin-top: 10%;
     }
+
+    .contact-me-input1{
+      margin-top: -10%
+    }
   
-    .contact-hr{
-      width:50%;
-      margin:0% 0 -15% 25%
+    .contact-me-input1,
+    .contact-me-input2{
+      left:365px;
     }
   
     .contact-submit-button{
       margin:0 0 0 0%;
-      right:205px;
+      left:220px;
       top:55px;
       padding: .2% 3%
     }
@@ -1629,7 +1627,7 @@ body{
     .contact-reset-button{
       margin:0;
       top:10px;
-      right:220px;
+      left:630px;
       padding:.3% 3%
     }
   
@@ -1722,14 +1720,15 @@ body{
       font-size: 50px;
       margin-top: 10%;
     }
-  
-    .contact-hr{
-      width:50%;
-      margin:0% 0 -15% 25%
+
+    .contact-me-input1,
+    .contact-me-input2{
+      left:450px;
+      width:25%;
     }
   
     .contact-submit-button{
-      margin:0 0 0 0%;
+      margin:auto;
       right:265px;
       top:55px;
       padding: .2% 3%
@@ -1738,7 +1737,7 @@ body{
     .contact-reset-button{
       margin:0;
       top:10px;
-      right:220px;
+      left:250px;
       padding:.3% 3%
     }
   }
@@ -1780,6 +1779,7 @@ body{
     }
   
     .arrow{
+      margin-top: 6%;
       font-size: 90px;
     }
   
@@ -1800,10 +1800,14 @@ body{
   ===========================
   */
 
+    .contact-me-input1,
+    .contact-me-input2{
+      left:550px;
+      width:25%;
+    }
   
     .contact-submit-button{
-      margin:0 0 0 0%;
-      right:350px;
+      margin:auto;
       top:55px;
       padding: .2% 3%
     }
@@ -1811,7 +1815,7 @@ body{
     .contact-reset-button{
       margin:0;
       top:10px;
-      right:220px;
+      left:350px;
       padding:.3% 3%
     }
   }
@@ -1915,8 +1919,7 @@ body{
     }
   
     .contact-submit-button{
-      margin:0 0 0 0%;
-      right:400px;
+      margin:auto;
       top:55px;
       padding: .2% 3%
     }
@@ -1924,7 +1927,7 @@ body{
     .contact-reset-button{
       margin:0;
       top:10px;
-      right:350px;
+      left:550px;
       padding:.3% 3%
     }
 
@@ -1934,8 +1937,9 @@ body{
       padding:15px;
     }
 
-    .contact-me-input1{
-      margin-left: 2.5%
+    .contact-me-input1,
+    .contact-me-input2{
+      margin-left: 6.5%
     }
   
     /*
@@ -1961,8 +1965,8 @@ body{
     }
 
     .footer-text{
-     margin-left: 47%
-    }
+      font-size: 35px;
+     }
    }
 
 
@@ -2069,12 +2073,10 @@ body{
 
     .contact-header{
       font-size: 120px;
-      margin:0 0 3% .5%
     }
   
     .contact-submit-button{
-      margin:0 0 0 0%;
-      right:600px;
+      margin:auto;
       top:95px;
       padding: .2% 3%;
       font-size: 60px;
@@ -2083,7 +2085,7 @@ body{
     .contact-reset-button{
       margin:0;
       top:10px;
-      right:350px;
+      left:820px;
       padding:.3% 3%;
       font-size: 60px
     }
@@ -2094,8 +2096,9 @@ body{
       padding:15px;
     }
 
-    .contact-me-input1{
-      margin-left: 4%
+    .contact-me-input1,
+    .contact-me-input2{
+      margin-left: 12%
     }
   
     /*
@@ -2125,7 +2128,6 @@ body{
     }
     .footer-text{
       font-size: 40px;
-      margin: -1px 0 -1% 0 
     }
 
    }
