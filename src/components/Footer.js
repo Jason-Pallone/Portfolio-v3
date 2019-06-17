@@ -23,7 +23,7 @@ const Footer =()=>
           
         </footer>
         <p className='footer-text'>
-         &#160; Jason Pallone
+         &copy; Jason Pallone
         </p>
     </div>
 
