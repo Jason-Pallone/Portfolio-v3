@@ -39,10 +39,11 @@ class About extends Component{
             <div className='about-me-container'>
                 <div  className={ this.state.showAbout ? 'intro showText' : 'hidden'} >
                     <p>
-                        My name is Jason Pallone, I'm a Full Stack Developer who specializes in React, and I love to learn!
-                        I am currently seeking my first role as a Junior Developer.
-                        I have experience with HTML, CSS, JavaScript, React.js, AJAX, jQuery, Express.js, node.js, mongoDB and redux.
-                        I also have experience with GIT. I am very passionate about coding and learning, I'm a life long learner who
+                        My name is Jason Pallone, I'm a Front End Developer who specializes in React.
+                        I love to learn and I am currently seeking a new role as a Developer.
+                        I have experience with JavaScript, HTML, CSS, React.js, AJAX, jQuery, Express.js, Node.js, mongoDB and Redux.
+                        I also have experience with Git and GitHub.  I have a strong attention to detail, critical
+                        thinking and problem solving skills. I am very passionate about coding and learning, I'm a life long learner who
                         loves to collaborate with teams to generate success.
                     </p>
 
