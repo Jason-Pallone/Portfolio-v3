@@ -1,5 +1,9 @@
 @import url("Normalize.css");
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     font-family: 'roboto'
   }
@@ -229,7 +233,7 @@ body{
     animation: pop-in;
     animation-duration: 2s;
     color: white;
-    width:75%
+    width:75%;
   }
   
   
@@ -248,8 +252,7 @@ body{
   
   
   .hello-header{
-    animation: slide-up;
-    animation-duration: 1.5s;
+    animation: slide-up 1.5s;
     font-size: 50px;
     color: white;
     margin-right: 1%;
