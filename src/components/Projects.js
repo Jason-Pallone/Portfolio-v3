@@ -4,7 +4,7 @@ import RSVP from './RSVP'
 const Projects =()=>
     <div id='projects' className='projects-container'>
         <h1 className='projects-header'>
-        My Projects
+        Portfolio
         </h1>
         <RSVP />
     </div>

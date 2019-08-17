@@ -117,7 +117,7 @@ class Navbar extends Component{
             onClick={this.scrollToProjects}
             smooth={true}
             offset={-50}
-            >Projects
+            >Portfolio
             </Link>
             
            

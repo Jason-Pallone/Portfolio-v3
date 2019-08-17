@@ -8,7 +8,7 @@ class RSVPLinks extends Component{
 
     showRSVPLinks = () => {
         const top = window.pageYOffset;
-        if(top>2050)
+        if(top>1750)
         this.setState({
         showRSVPLinks: true
         })
@@ -24,7 +24,7 @@ class RSVPLinks extends Component{
     render(){
         return(
     <div>
-    <div className={this.state.showRSVPLinks ? 'website-div-rsvp pop-in' : 'hidden'}>
+    <div className={this.state.showRSVPLinks ? 'website-div-rsvp fade-in' : 'hidden'}>
         <a href="https://jasonpallone-rsvp.com/" rel='noopener noreferrer' target="_blank" 
         alt='RSVP site link' className='rsvp-website-link'>
             <strong>
@@ -33,7 +33,7 @@ class RSVPLinks extends Component{
         </a>
     </div>
 
-    <div className={this.state.showRSVPLinks ? 'github-div-rsvp pop-in' : 'hidden'}>
+    <div className={this.state.showRSVPLinks ? 'github-div-rsvp fade-in' : 'hidden'}>
         <a href="https://github.com/Jason-Pallone/RSVP" rel='noopener noreferrer' target="_blank"
         alt='link to RSVP repo'  className='rsvp-github-link'> 
             <strong>

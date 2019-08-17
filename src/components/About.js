@@ -48,7 +48,7 @@ class About extends Component{
 
                 <SubIntro />
                 <CodingInfo />
-                <TechStack />
+                <TechStack /> 
                 </div>
             </div>
         </div>
