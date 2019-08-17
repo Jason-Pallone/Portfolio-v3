@@ -4,7 +4,6 @@ import {animateScroll as scroll} from 'react-scroll'
 
 class HomePage extends Component{
     state={
-        showName: 'none',
         showFullStack: 'none',
         showResume:'none',
         showGitHub: 'none',
@@ -13,11 +12,6 @@ class HomePage extends Component{
     
 
 
-    showName=()=>{
-        this.setState({
-            showName: ''
-        })
-    }
 
     showFullStack=()=>{
         this.setState({
@@ -44,7 +38,6 @@ class HomePage extends Component{
     }
 
     componentDidMount(){
-      setTimeout(()=>this.showName(), 500);
       setTimeout(() =>  this.showFullStack(), 1200);
       setTimeout(() =>  this.showResume(), 2100);
       setTimeout(() =>  this.showGitHub(), 2100);
@@ -62,7 +55,7 @@ class HomePage extends Component{
         <div id='home' className='home-div'>
         
         <div className='hello-name-header-container'>
-            <h2 className='hello-header'  style={{display:`${this.state.showHello}`}}>
+            <h2 className='hello-header'>
                 Hello, I'm
             </h2>
            
