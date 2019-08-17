@@ -285,7 +285,7 @@ body{
   
   .about-container{
     letter-spacing: .2px;
-    background: rgb(12, 12, 12);
+    background: rgb(26, 26, 26);
     margin-top: -1px;
   }
   
@@ -415,7 +415,7 @@ body{
   */
   
   .contact-container{
-    color: black;
+    color: rgb(26, 26, 26);
     text-align: center;
     font-family: 'open-sans', Georgia, 'Times New Roman', Times, serif;
     background:rgb(12, 12, 12);
@@ -550,7 +550,7 @@ body{
   
     .about-container{
       padding-bottom: 80%;
-      width: 95%
+     margin-top: -15%;
     }
 
     .about-header{
@@ -558,7 +558,7 @@ body{
     }
     
     .intro{
-      margin-left: 5%
+      padding: 0 8%;
     }
   
     /*
@@ -680,17 +680,16 @@ body{
     */
 
     .about-container{
-      width:90%;
-      padding-bottom: 80%
+      padding-bottom: 80%;
+      margin-top: -15%;
     }
 
     .about-header{
-      margin-left: 14%;
       margin-bottom: 20%;
     }
 
     .intro{
-      margin:0 0 0 10%
+      padding:0 8%;
     }
   
     /*
@@ -817,17 +816,16 @@ body{
     */
     
       .about-container{
-        padding-bottom: 80%
+        padding-bottom: 80%;
+        margin-top: -15%;
       }
 
       .about-header{
-        margin-left: 9.8%;
         margin-bottom: 20%;
       }
 
       .intro{
-        width:90%;
-        margin-left: 5%
+        padding:0 8%
       }
     
     
