@@ -8,7 +8,7 @@ class RSVPLinks extends Component{
 
     showRSVPLinks = () => {
         const top = window.pageYOffset;
-        if(top>2450)
+        if(top>2100)
         this.setState({
         showRSVPLinks: true
         })
