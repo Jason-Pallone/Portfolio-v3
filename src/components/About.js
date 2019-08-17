@@ -33,7 +33,7 @@ class About extends Component{
         
         <div  id="about" className='about-container'>
             <h1 className='about-header'>
-            About
+            About me
             </h1>
 
             <div className='about-me-container'>

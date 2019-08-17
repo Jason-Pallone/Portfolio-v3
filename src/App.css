@@ -42,7 +42,7 @@ body{
   }
 
   p{
-    color:rgb(65, 64, 64)
+    /*color:rgb(65, 64, 64)*/
   }
   
   /*
@@ -101,7 +101,7 @@ body{
   
   @keyframes point-down-arrow{
     0% {transform: translatey(-50%);}
-    50%{transform: translateY(10%)}
+    50%{transform: translateY(1%)}
     100%{transform: translateY(0%)}
     100%{transform: translateY(-50%)}
     
@@ -182,7 +182,8 @@ body{
   
   .home-div{
     background: rgb(5, 5, 5);
-    height: 650px
+    height: 650px;
+    margin-bottom:-3.5%;
   }
    
   .arrow{
@@ -284,25 +285,26 @@ body{
   
   .about-container{
     letter-spacing: .2px;
+    background: rgb(12, 12, 12);
+    margin-top: -1px;
   }
   
   .about-header{
     font-size: 70px;
-    color:rgb(34, 34, 34);
+    color: rgb(0, 140, 255);
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 5%;
     margin-bottom: 5%;
-    border-bottom: solid;
-    width: 80%;
-    margin-left: 11.5%
   }
   
  
   
   .intro{
     font-size: 1.3rem;
-    text-align: left;
-    color: rgb(65, 64, 64);
+    text-align: center;
+    color: white;
   }
 
   
@@ -313,7 +315,7 @@ body{
   */
   
   .stack-header{
-    color:rgb(34, 34, 34);
+    color:rgb(0, 140, 255);
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
@@ -322,13 +324,13 @@ body{
   }
   
   .tech-stack-ul li{
-    border-style: solid;
+    /*border-style: solid;*/
     border-radius: 15px;
-    border-color:rgb(0, 125, 255);
+    /*border-color:rgb(0, 125, 255);*/
     color: white;
     list-style: none;
     float: left;
-    background-color:rgb(0, 140, 255);
+    /*background-color: rgb(0, 140, 255);*/
     display: flex;
     justify-content: center;
     width: 45%;
@@ -347,19 +349,13 @@ body{
   .projects-header{
     font-family: 'open-sans';
     font-size: 70px;
-    color: rgb(255, 255, 255);
+    color:rgb(0, 140, 255);
+    /*color: rgb(255, 255, 255);*/
     letter-spacing: 1.2px;
     display: flex;
     justify-content: center;
   }
-  
-  .projects-hr{
-    background-color: rgb(41, 40, 40);
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
-    margin-bottom: 15%
-  }
+
   
   .projects-container{
     text-align: center;
@@ -376,11 +372,12 @@ body{
     font-family: 'open-sans';
     font-size: 60px;
     letter-spacing: 1.5px;
-    color:white;
+    color: rgb(0, 140, 255);
     display: flex;
     justify-content: center;
     width: 30%;
     margin-left:35%;
+    margin-top: 15%;
   }
   
   .rsvp-hr{
@@ -421,89 +418,25 @@ body{
     color: black;
     text-align: center;
     font-family: 'open-sans', Georgia, 'Times New Roman', Times, serif;
-    background:white;
+    background:rgb(12, 12, 12);
   }
   
   .contact-header{
     font-family:'open-sans';
     font-size: 80px;
     text-align: center;
-    color: rgb(27, 27, 27);
+    color: rgb(0, 140, 255);
     background: transparent;
     display: flex;
     justify-content: center;
-    border-bottom: solid;
     width:50%;
     margin:auto;
   }
-  
-  .contact-form{
-    background: transparent;
-    cursor: pointer;
-  }
-  
-  .contact-me-input1,
-  .contact-me-input2{
-    border-radius: 5px;
-    font-size: 1.4rem;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin-left: 17%;
-    padding:5px;
-    border-color: rgb(206, 206, 206);
-    border-width: 1.5px
-  }
-
-  .contact-me-input2{
+  .contact-me-email{
     margin-top: 5%;
+    color: white;
+    font-size: 30px;
   }
-  
-  .contact-me-textarea{
-    display: flex;
-    justify-content: center;
-    margin-left: 14.75%;
-    margin-top: 5%;
-    border-radius: 10px;
-    border-color: rgb(204, 203, 203);
-    border-width:1.5px
-  }
-  
-  
-  .contact-reset-button,
-  .contact-submit-button{
-    background: white;
-    border-radius: 15px;
-    font-size: 2rem;
-    border-style: solid;
-    border-color: white;
-    position: relative;
-    top:120px;
-    opacity: .9;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-  }
-
-  .contact-reset-button{
-    margin-bottom: 30%;
-    margin-top: -39.6%;
-    margin-left: 57%;
-  }
-
-  .contact-submit-button{
-    margin-bottom: 30%;
-    margin-top: -25%;
-    margin-left: 20%
-    
-  }
-  
-  .contact-me-input1:focus,
-  .contact-me-input2:focus,
-  .contact-me-textarea:focus{
-    box-shadow: 1px 1px 3px 1px inset rgb(0, 119, 255);
-  }
-  
   
   
   /*
@@ -691,75 +624,9 @@ body{
       width:90%
     }
   
-    .contact-form{
-      margin:20% 0 0 0;
-      padding: 0 0 30% 0
-    }
-  
-    .contact-me-input1,
-    .contact-me-input2{
-      width:70%;
-      padding:5px;
-      display: flex;
-      justify-content: center;
-      margin-left: 15%
-    }
-  
-    .contact-me-textarea{
-      width:70%;
-      display: flex;
-      justify-content: center
-    }
-  
-
-    .contact-submit-button{
-      padding: .2% 3%;
-      display: flex;
-      justify-content: center;
-      top: 103.5px;
-    }
-
-    .contact-reset-button{
-      display: flex;
-      justify-content: center;
-      margin-top: -46.7%;
-      margin-left: 52%
-    }
-  
-  }
-
-  /*
-  ======================================
-        fix for contact reset button
-  ======================================
-  */
-
-  @media(max-width:332px){
-    .contact-reset-button{
-      top:117.5px;
-    }
-  }
-
-  @media(max-width:340px){
-    .contact-reset-button{
-      margin-top: -47%;
-    }
-  }
-
-
-
-  @media(max-width:365px) and (min-width:351px){
-    .contact-reset-button{
-      margin-top: -41.7%;
-      padding: .4% 2.2%
-    }
-  }
-
-  @media(max-width:380px) and (min-width:366px){
-    .contact-reset-button{
-      margin-top: -41.2%;
-      padding: .4% 2.2%;
-    }
+   .contact-me-email{
+     font-size: 15px;
+   }
   }
 
   /*
@@ -885,34 +752,8 @@ body{
       margin-top: 20%;
     }
 
-    .contact-me-input1,
-    .contact-me-input2{
-      margin-top: 10%;
-      margin-left: 14.5%;
-      padding:5px;
-      display: flex;
-      justify-content: center;
-      width:70.5%
-    }
-
-    .contact-me-textarea{
-      width:75%;
-      display: flex;
-      justify-content: center;
-      margin-left: 12.5%
-    }
-
-    .contact-submit-button{
-      padding:.4% 3%;
-    }
-
-    .contact-reset-button{
-      display: flex;
-      justify-content: center;
-      margin-top: -40.8%;
-      margin-left: 52%;
-      padding: .4% 2.2%
-
+    .contact-me-email{
+      font-size: 15px;
     }
   }
 
@@ -1055,84 +896,10 @@ body{
         margin-top: 15%;
       }
     
-      .contact-hr{
-        width:90%;
+      .contact-me-email{
+        font-size: 20px;
       }
     
-      .contact-form{
-        margin:20% 0 0 0;
-      }
-    
-      .contact-me-input1,
-      .contact-me-input2{
-        padding:5px;
-        display: flex;
-        justify-content: center;
-        width:65.5%;
-      }
-    
-      .contact-me-textarea{
-        width:70%;
-        display: flex;
-        justify-content: center
-      }
-    
-      .contact-submit-button{
-        padding: .2% 3%;
-        display: flex;
-        justify-content: center;
-        top: 111px;
-      }
-  
-      .contact-reset-button{
-        display: flex;
-        justify-content: center;
-        margin-top: -42.7%;
-        margin-left: 56%
-      }
-    
-    }
-
-    @media(max-width:414px) and (min-width:402px){
-       
-      .contact-submit-button{
-        padding: .2% 3%;
-        top: 111px;
-      }
-  
-      .contact-reset-button{
-        margin-top: -42.4%;
-        margin-left: 54.5%;
-        padding: .4% 2.2%
-      }
-    }
-
-    @media(max-width:430px) and (min-width:415px){
-       
-      .contact-submit-button{
-        padding: .2% 3%;
-        top: 119px;
-      }
-  
-      .contact-reset-button{
-        margin-top: -40.4%;
-        margin-left: 55.5%;
-        padding: .4% 2.2%
-      }
-    }
-
-    @media(max-width:479px) and (min-width:431px){
-       
-      .contact-submit-button{
-        padding: .2% 3%;
-        top: 130px;
-      }
-  
-      .contact-reset-button{
-        margin-top: -37%;
-        margin-left: 55.5%;
-        padding: .4% 2.2%
-      }
     }
 
 
