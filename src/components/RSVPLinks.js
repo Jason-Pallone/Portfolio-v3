@@ -1,9 +1,30 @@
-import React from 'react';
+import React, {Component} from 'react';
 
     
-const RSVPLinks =()=>
+class RSVPLinks extends Component{
+    state={
+        showRSVPLinks: false,
+    }
+
+    showRSVPLinks = () => {
+        const top = window.pageYOffset;
+        if(top>2450)
+        this.setState({
+        showRSVPLinks: true
+        })
+    }
+
+    componentDidMount(){
+        window.addEventListener("scroll", this.showRSVPLinks)
+    }
+
+    componentWillUnmount(){
+        window.removeEventListener("scroll", this.showRSVPLinks)
+    }
+    render(){
+        return(
     <div>
-    <div className='website-div-rsvp'>
+    <div className={this.state.showRSVPLinks ? 'website-div-rsvp pop-in' : 'hidden'}>
         <a href="https://jasonpallone-rsvp.com/" rel='noopener noreferrer' target="_blank" 
         alt='RSVP site link' className='rsvp-website-link'>
             <strong>
@@ -12,7 +33,7 @@ const RSVPLinks =()=>
         </a>
     </div>
 
-    <div className='github-div-rsvp'>
+    <div className={this.state.showRSVPLinks ? 'github-div-rsvp pop-in' : 'hidden'}>
         <a href="https://github.com/Jason-Pallone/RSVP" rel='noopener noreferrer' target="_blank"
         alt='link to RSVP repo'  className='rsvp-github-link'> 
             <strong>
@@ -22,6 +43,8 @@ const RSVPLinks =()=>
     </div>
     
     </div>
+        )}
+}
    
 
 export default RSVPLinks
