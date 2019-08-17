@@ -207,9 +207,9 @@ body{
   
   .resume,
   .github-profile{
-    border-radius: 10px;
+    border-radius: 50px;
     color: white;
-    background: rgb(0, 140, 255);
+    background: linear-gradient(to right, rgb(35, 156, 255), rgb(0, 140, 255));
     padding:3%;
   }
 
@@ -285,7 +285,7 @@ body{
   
   .about-container{
     letter-spacing: .2px;
-    background: rgb(26, 26, 26);
+    background: rgb(19, 19, 19);
     margin-top: 47px;
   }
   
@@ -417,7 +417,7 @@ body{
     color: rgb(26, 26, 26);
     text-align: center;
     font-family: 'open-sans', Georgia, 'Times New Roman', Times, serif;
-    background:rgb(26, 26, 26);
+    background:rgb(19, 19, 19);
   }
   
   .contact-header{
