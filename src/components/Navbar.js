@@ -49,7 +49,7 @@ class Navbar extends Component{
 
     highLightContact = () => {
         const top = window.pageYOffset;
-        if(top>2500)
+        if(top>2450)
         this.setState({
         highLightContact:'rgb(0, 140, 255)',
         highLightProjects:'',
