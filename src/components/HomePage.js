@@ -38,10 +38,10 @@ class HomePage extends Component{
     }
 
     componentDidMount(){
-      setTimeout(() =>  this.showFullStack(), 1200);
-      setTimeout(() =>  this.showResume(), 2100);
-      setTimeout(() =>  this.showGitHub(), 2100);
-      setTimeout(() =>  this.showArrow(), 2200);
+      setTimeout(() =>  this.showFullStack(), 900);
+      setTimeout(() =>  this.showResume(), 1700);
+      setTimeout(() =>  this.showGitHub(), 1700);
+      setTimeout(() =>  this.showArrow(), 2000);
     }
 
     scrollToAbout=()=>{
