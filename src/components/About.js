@@ -37,7 +37,7 @@ class About extends Component{
             </h1>
 
             <div className='about-me-container'>
-                <div  className={ this.state.showAbout ? 'intro showText' : 'hidden'} >
+                <div  className={ this.state.showAbout ? 'intro fade-in' : 'hidden'} >
                     <p>
                         My name is Jason Pallone, I'm a Front End Developer who specializes in React.
                         I love to learn and I am currently seeking a new role as a Developer.

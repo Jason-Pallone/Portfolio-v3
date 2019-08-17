@@ -25,7 +25,7 @@ class CodingInfo extends Component{
 
     render(){
         return(
-            <p className={ this.state.showCodingInfo ? 'coding-info showText' : 'hidden'}>
+            <p className={ this.state.showCodingInfo ? 'coding-info fade-in' : 'hidden'}>
             Learning to code was one of the best decisions I have ever made.
             Everyday I continue to learn more!
         </p>
