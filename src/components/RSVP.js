@@ -9,7 +9,7 @@ state={
 
 showRSVP = () => {
     const top = window.pageYOffset;
-    if(top>1650)
+    if(top>1600)
     this.setState({
     showRSVP: true
     })

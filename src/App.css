@@ -132,14 +132,9 @@ body{
 
   .fade-in{
     animation: fade-in;
-    animation-duration: 4s
+    animation-duration: 3s
   }
-/*---------------------------*/
-  .fade-up{
-    animation: fade-up;
-    animation-duration: 4s;
-  }
-/*-----------------------------------*/
+
   .pop-in{
     animation: pop-in;
     animation-duration: 1.5s;
