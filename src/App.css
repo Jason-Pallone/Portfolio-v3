@@ -559,6 +559,9 @@ body{
       padding: 0 8%;
     }
   
+    .stack-header{
+      font-size: 45px;
+    }
     /*
     ==================================
                   PROJECTS
@@ -691,6 +694,10 @@ body{
 
     .intro{
       padding:0 8%;
+    }
+
+    .stack-header{
+      font-size: 45px;
     }
   
     /*
@@ -832,6 +839,9 @@ body{
         padding:0 8%
       }
     
+      .stack-header{
+        font-size: 50px;
+      }
     
       /*
       ==================================
