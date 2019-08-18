@@ -1,34 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class TechStack extends Component{
-
-    state={
-        showStack: false,
-    }
-
-    showStack = () => {
-        const top = window.pageYOffset;
-        if(top>900)
-        this.setState({
-        showStack: true
-        })
-    }
-
-    componentDidMount(){
-        window.addEventListener("scroll", this.showStack)
-    }
-
-    componentWillUnmount(){
-        window.removeEventListener("scroll", this.showStack)
-    }
+const TechStack=(props)=>
     
-    render(){
-        return(
             <div className='techStack-container'>
-                <h1  className={ this.state.showStack ? 'stack-header showText-right' : 'hidden'}>
+                <h1  className={ props.showStack ? 'stack-header showText-right' : 'hidden'}>
                 My Stack
                 </h1>
-                <ul  className={ this.state.showStack ? 'tech-stack-ul fade-in' : 'hidden'}>
+                <ul  className={ props.showStack ? 'tech-stack-ul fade-in' : 'hidden'}>
                     <li><strong>HTML</strong></li>
                     <li><strong>CSS</strong></li>
                     <li><strong>JavaScript</strong></li>
@@ -43,9 +21,5 @@ class TechStack extends Component{
                     <li><strong>GitHub</strong></li>
                 </ul> 
             </div>
-        )
-    }
-   
-}
    
 export default TechStack

@@ -1,12 +1,17 @@
 import React from 'react';
 import RSVP from './RSVP'
 
-const Projects =()=>
-    <div id='projects' className='projects-container'>
+const Projects =(props)=>
+    <div id='portfolio' className='projects-container'>
         <h1 className='projects-header'>
-        Portfolio
+            Portfolio
         </h1>
-        <RSVP />
+
+        <RSVP
+        showRSVP={props.showRSVP}
+        showRSVPInfo={props.showRSVPInfo}
+        showRSVPLinks={props.showRSVPLinks} 
+        />
     </div>
 
 export default Projects

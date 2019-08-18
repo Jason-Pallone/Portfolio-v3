@@ -70,17 +70,12 @@ class HomePage extends Component{
             </h2>
             <a className='resume' href='../resume/Jason-Pallone.pdf' download
              style={{display: this.state.showResume}}>
-                Download my resume here!
+                View my resume here!
             </a>
             <a className='github-profile' href='https://github.com/Jason-Pallone'
             target="_blank" rel='noopener noreferrer' style={{display: this.state.showGitHub}}>
                 View my GitHub here!
             </a>
-            <div className='arrow' style={{display: this.state.showArrow}}>
-                <a className='arrow' onClick={this.scrollToAbout}> 
-                    &#x21E9; 
-                </a>
-            </div> 
            
         </div>
       </div>

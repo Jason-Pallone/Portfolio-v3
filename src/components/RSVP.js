@@ -1,39 +1,17 @@
-import React, {Component} from 'react';
+import React from 'react';
 import RSVPInfo from './RSVP-Info'
 
-class RSVP extends Component{
+const RSVP =(props)=>
 
-state={
-    showRSVP: false,
-}
-
-showRSVP = () => {
-    const top = window.pageYOffset;
-    if(top>1500)
-    this.setState({
-    showRSVP: true
-    })
-}
-
-componentDidMount(){
-    window.addEventListener("scroll", this.showRSVP)
-}
-
-componentWillUnmount(){
-    window.removeEventListener("scroll", this.showRSVP)
-}
-
-  render(){
-      return(
     <div className='RSVP-container'>
-        <h1 className={this.state.showRSVP ? 'rsvp-h1 showText-right' : 'hidden'}>RSVP</h1>
+        <h1 className={props.showRSVP ? 'rsvp-h1 showText-right' : 'hidden'}>RSVP</h1>
        
-
-        <RSVPInfo />
+        <RSVPInfo 
+        showRSVPInfo={props.showRSVPInfo}
+        showRSVPLinks={props.showRSVPLinks}
+         />
     </div>
-      )
-  }
-}
+
 
 
 export default RSVP
