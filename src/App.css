@@ -40,10 +40,6 @@ body{
     display: flex;
     justify-content: center;
   }
-
-  p{
-    /*color:rgb(65, 64, 64)*/
-  }
   
   /*
   ===============================
@@ -152,7 +148,7 @@ body{
     font-family: 'open-sans';
     font-weight: bold;
     letter-spacing: 1px;
-    color:white
+    color:white;
   }
 
   a:hover{
@@ -163,7 +159,7 @@ body{
     display:flex;
     justify-content:space-around;
     position: fixed;
-    background: rgb(5, 5, 5);
+    background:rgb(5, 5, 5);
     border-bottom-style: solid;
     border-bottom-width: 1.5px;
     border-color: rgb(0, 140, 255);
@@ -180,7 +176,9 @@ body{
   */
   
   .home-div{
-    background: rgb(5, 5, 5);
+    background: linear-gradient(transparent, rgba(240, 240, 240, 0), rgb(0, 0, 0)),
+     url("../src/photos/one.jpg") center no-repeat;
+    background-size: cover;
     height: 500px;
     margin-bottom:-3.5%;
   }
@@ -240,14 +238,14 @@ body{
   
   .hello-header{
     font-size: 50px;
-    color: white;
+    color: black;
     margin-right: 1%;
   }
   
   .name-header{
    
     font-size: 50px;
-    color: rgb(0, 140, 255);
+    color: black;
     margin-left: 2%;
     vertical-align: top;
   }
@@ -258,7 +256,7 @@ body{
     animation: fade-in;
     animation-duration: 4s;
     font-size: 50px;
-    color: white;
+    color: black;
     margin-top:0;
   }
   
@@ -267,11 +265,12 @@ body{
             ABOUT
   =========================
   */
-  
+ 
   .about-container{
     letter-spacing: .2px;
-    background: rgb(36, 36, 36);
+    background: rgb(5, 5, 5);
     margin-top: 47px;
+    color: white;
   }
   
   .about-header{
@@ -342,7 +341,8 @@ body{
   
   .projects-container{
     text-align: center;
-    background: black
+    color:rgb(255, 255, 255);
+    background: rgb(29, 29, 29);
   }
   
   /*
@@ -374,12 +374,11 @@ body{
   .rsvp-description{
     font-size: 1.2rem;
     font-weight: 500;
-    color: white;
+    color:rgb(240, 240, 240);
   }
   
   .rsvp-website-link,
   .rsvp-github-link{
-    color: black;
     display: flex;
     justify-content: center;
     border-radius:50px;
@@ -400,7 +399,7 @@ body{
   .contact-container{
     text-align: center;
     font-family: 'open-sans', Georgia, 'Times New Roman', Times, serif;
-    background:rgb(36, 36, 36);
+    background:rgb(0, 0, 0);
   }
   
   .contact-header{

@@ -55,6 +55,7 @@ class HomePage extends Component{
         <div id='home' className='home-div'>
         
         <div className='hello-name-header-container'>
+
             <h2 className='hello-header'>
                 Hello, I'm
             </h2>
