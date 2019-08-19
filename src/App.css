@@ -492,7 +492,7 @@ html, body{
       font-size: 24px;
     }
     
-    .full-stack-header{
+    .frontEnd-header{
       font-size: 22px
     }
   
@@ -631,7 +631,7 @@ html, body{
     
     .hello-header,
     .name-header,
-    .full-stack-header{
+    .frontEnd-header{
       font-size: 25px;
     }
 
@@ -765,7 +765,7 @@ html, body{
         font-size: 32px;
       }
       
-      .full-stack-header{
+      .frontEnd-header{
         font-size: 31px;
       }
     
@@ -913,13 +913,9 @@ html, body{
           font-size: 50px;
           margin-top: -5%
         }
-      
-        .arrow{
-          margin-top: 10%
-        }
        
         
-        .full-stack-header{
+        .frontEnd-header{
           font-size: 31px;
         }
       
@@ -1097,7 +1093,7 @@ html, body{
       }
      
       
-      .full-stack-header{
+      .frontEnd-header{
         font-size: 31px;
       }
     
@@ -1266,7 +1262,7 @@ html, body{
       margin-top: -20%;
     }
     
-    .full-stack-header{
+    .frontEnd-header{
       font-size: 38px;
       margin-top: -8%
     }
@@ -1285,10 +1281,6 @@ html, body{
       width: 35%;
     }
   
-    .arrow{
-      margin-top: 7%;
-      font-size: 90px;
-    }
 
   /*
   ================================
@@ -1410,7 +1402,7 @@ html, body{
       font-size: 47px;
     }
     
-    .full-stack-header{
+    .frontEnd-header{
       font-size: 38px;
     }
   
@@ -1513,7 +1505,7 @@ html, body{
       font-size: 60px;
     }
     
-    .full-stack-header{
+    .frontEnd-header{
       font-size: 50px;
     }
   
@@ -1596,7 +1588,7 @@ html, body{
       font-size: 60px;
     }
     
-    .full-stack-header{
+    .frontEnd-header{
       font-size: 50px;
     }
   
@@ -1742,7 +1734,7 @@ html, body{
       font-size: 110px;
     }
     
-    .full-stack-header{
+    .frontEnd-header{
       font-size: 90px;
     }
   
