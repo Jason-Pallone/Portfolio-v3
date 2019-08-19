@@ -174,34 +174,24 @@ html, body{
   
   .resume,
   .github-profile{
+    animation: pop-in;
+    animation-duration: 2s;
+    display: flex;
+    justify-content: center;
     border-radius: 50px;
     color: white;
     background: linear-gradient(to right, rgb(35, 156, 255), rgb(0, 140, 255));
     padding:3%;
+    font-size: 30px;
+    color: white;
   }
 
   .resume{
-    display: flex;
-    justify-content: center;
-    margin-top: 12%;
-    margin-left: 5%;
-    font-size: 30px;
-    color: white;
-    animation:pop-in;
-    animation-duration: 2s;
-    width:90%;
+   margin: auto;
   }
   
   .github-profile{
-    display: flex;
-    justify-content: center;
-    margin-left: 12.5%;
-    margin-top: 9%;
-    font-size: 30px;
-    animation: pop-in;
-    animation-duration: 2s;
-    color: white;
-    width:75%;
+    margin: auto
   }
   
   
@@ -366,12 +356,14 @@ html, body{
     border-radius:50px;
     color: white;
     background: linear-gradient(to right, rgb(35, 156, 255), rgb(0, 140, 255));
-    padding:3%;
-    margin-top: 8%;
-    margin-left: 5%;
-    width:90%;
+    padding:2%;
+    margin: auto;
+    max-width: 50%;
   }
   
+  .rsvp-github-link{
+    margin-top: 5%;
+  }
   /*
   =================================
               CONTACT
@@ -459,6 +451,12 @@ html, body{
               MEDIAs MOBILE
   ====================================
   */
+
+  @media(min-width:300px) and (max-width: 766px){
+    .rsvp-github-link, .rsvp-website-link{
+      max-width: 75%;
+    }
+  }
   
 
   @media(max-width:350px){
@@ -497,11 +495,15 @@ html, body{
     }
   
     .resume{
+      max-width: 75%;
       font-size: 18px;
+      margin: auto
     }
   
     .github-profile{
+      max-width: 75%;
       font-size: 18px;
+      margin:5% auto auto auto;
     }
   
   
@@ -573,7 +575,7 @@ html, body{
 
     .rsvp-github-link,
     .rsvp-website-link{
-      font-size: 20px
+      font-size: 20px;
     }
 
     /*
@@ -635,13 +637,15 @@ html, body{
       font-size: 25px;
     }
 
-    .resume{
+    .resume, .github-profile{
       font-size: 20px;
+      max-width: 75%;
     }
-    
+
     .github-profile{
-      font-size: 20px;
+      margin-top: 5%;
     }
+  
 
     /*
     ====================== 
@@ -769,18 +773,15 @@ html, body{
         font-size: 31px;
       }
     
-      .resume{
+      .resume, .github-profile{
         font-size: 23px;
+        max-width: 75%;
       }
-    
+
       .github-profile{
-        font-size: 23px
+        margin-top: 5%;
       }
-    
-      .arrow{
-        font-size: 90px;
-      }
-    
+  
     /*
     ================================
                 ABOUT
@@ -919,17 +920,15 @@ html, body{
           font-size: 31px;
         }
       
-        .resume{
+        .resume, .github-profile{
           font-size: 23px;
+          max-width: 80%;
         }
-      
+
         .github-profile{
-          font-size: 23px
+          margin-top: 5%;
         }
       
-        .arrow{
-          font-size: 90px;
-        }
       
       /*
       ================================
@@ -991,6 +990,8 @@ html, body{
           margin-left: 5%;
         }
       
+        
+        
         /*
       ============================
               CONTACT
@@ -1087,26 +1088,20 @@ html, body{
         font-size: 50px;
         margin-top: -5%
       }
-    
-      .arrow{
-        margin-top: 10%
-      }
      
       
       .frontEnd-header{
         font-size: 31px;
       }
     
-      .resume{
+      .resume, .github-profile{
         font-size: 23px;
+        max-width: 40%;
+        padding: 1.5%;
       }
-    
+
       .github-profile{
-        font-size: 23px
-      }
-    
-      .arrow{
-        font-size: 90px;
+        margin-top: 5%;
       }
     
     /*
@@ -1266,19 +1261,10 @@ html, body{
       font-size: 38px;
       margin-top: -8%
     }
-  
-    .resume{
-      margin-top: 2%;
-      margin-left: 29.5%;
-      padding:1%;
-      width: 40%;
-    }
-  
-    .github-profile{
-      margin-top: 2%;
-      margin-left: 32.4%;
-      padding:1%;
-      width: 35%;
+
+    .resume, .github-profile{
+      max-width: 35%;
+      padding:1.5%;
     }
   
 
