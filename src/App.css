@@ -467,11 +467,11 @@ html, body{
   
     .hello-header,
     .name-header{
-      font-size: 24px;
+      font-size: 27px;
     }
     
     .frontEnd-header{
-      font-size: 22px
+      font-size: 25px
     }
   
     .resume{
@@ -538,7 +538,7 @@ html, body{
     */
   
     .rsvp-h1{
-      margin: 15% 0 2% 35%;
+      margin: 25% 0 2% 35%;
       font-size: 25px;
     }
   
@@ -614,7 +614,7 @@ html, body{
     .hello-header,
     .name-header,
     .frontEnd-header{
-      font-size: 25px;
+      font-size: 29px;
     }
 
     .resume, .github-profile{
@@ -675,7 +675,7 @@ html, body{
 
     .rsvp-h1{
       margin-bottom: 5%;
-      margin-top: 10%;
+      margin-top: 20%;
       font-size: 30px;
     }
 
@@ -746,11 +746,11 @@ html, body{
     
       .hello-header,
       .name-header{
-        font-size: 30px;
+        font-size: 33px;
       }
       
       .frontEnd-header{
-        font-size: 26px;
+        font-size: 28px;
       }
     
       .resume, .github-profile{
@@ -816,7 +816,7 @@ html, body{
     
       
       .rsvp-h1{
-        margin-top: 10%;
+        margin-top: 20%;
         margin-bottom: 4%;
         font-size: 30px;
       }
