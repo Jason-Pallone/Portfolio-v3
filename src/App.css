@@ -116,7 +116,7 @@ html, body{
 
   a:hover{
     cursor:pointer;
-    color:rgb(94, 94, 94);
+    color:rgb(0, 140, 255);
   }
 
   .navbar{
@@ -160,11 +160,12 @@ html, body{
     display: flex;
     justify-content: center;
     border-radius: 50px;
+    border-color: rgb(0, 140, 255);
+    border-style: solid;
     color: white;
-    background: linear-gradient(to right, rgb(35, 156, 255), rgb(0, 140, 255));
+    background: transparent;
     padding:3%;
     font-size: 30px;
-    color: white;
   }
 
   .resume{
@@ -334,7 +335,9 @@ html, body{
     justify-content: center;
     border-radius:50px;
     color: white;
-    background: linear-gradient(to right, rgb(35, 156, 255), rgb(0, 140, 255));
+    border-color: rgb(0, 140, 255);
+    border-style: solid;
+    background: transparent;
     padding:2%;
     margin: auto;
     max-width: 50%;
@@ -743,11 +746,11 @@ html, body{
     
       .hello-header,
       .name-header{
-        font-size: 32px;
+        font-size: 30px;
       }
       
       .frontEnd-header{
-        font-size: 31px;
+        font-size: 26px;
       }
     
       .resume, .github-profile{
