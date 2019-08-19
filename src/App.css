@@ -283,10 +283,9 @@ html, body{
   */
   
   .projects-header{
-    font-family: 'open-sans';
     font-size: 70px;
     color:rgb(0, 140, 255);
-    letter-spacing: 1.2px;
+    letter-spacing: 2px;
     display: flex;
     justify-content: center;
   }
@@ -305,7 +304,6 @@ html, body{
   */
   
   .rsvp-h1{
-    font-family: 'open-sans';
     font-size: 60px;
     letter-spacing: 1.5px;
     color: rgb(0, 140, 255);
@@ -353,12 +351,10 @@ html, body{
   
   .contact-container{
     text-align: center;
-    font-family: 'open-sans', Georgia, 'Times New Roman', Times, serif;
     background:rgb(0, 0, 0);
   }
   
   .contact-header{
-    font-family:'open-sans';
     font-size: 80px;
     text-align: center;
     color: rgb(0, 140, 255);

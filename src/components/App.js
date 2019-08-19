@@ -19,15 +19,15 @@ class App extends Component{
     showStack: false,
     showRSVP: false,
     showRSVPInfo: false,
-    showRSVPLinks: false
-
+    showRSVPLinks: false,
 }
+
 
 showAbout = () => {
   const top = window.pageYOffset;
   if(top>400)
   this.setState({
-  showAbout: true
+  showAbout: true,
   })
 }
 
@@ -105,7 +105,7 @@ componentWillUnmount(){
   render(){
     return(
       <div className='App'>
-        <HomePage  />
+        <HomePage />
 
         <About 
         showAbout={this.state.showAbout}
