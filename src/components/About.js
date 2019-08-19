@@ -12,7 +12,7 @@ const About =(props)=>
 
             <div  className={ props.showAbout ? 'intro fade-in' : 'hidden'} >
                 <p>
-                My name is Jason Pallone, I'm a Front End Developer who specializes in React.
+                My name is Jason Pallone, I'm a Front End Developer.
                 I love to learn and I am currently seeking a new role as a Developer.
                 </p>
 
