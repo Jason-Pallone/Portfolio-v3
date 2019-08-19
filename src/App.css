@@ -123,7 +123,7 @@ html, body{
     display:flex;
     justify-content:space-around;
     position: fixed;
-    background:rgb(15, 15, 15);
+    background:rgb(20, 20, 20);
     border-bottom-style: solid;
     border-bottom-width: 1.5px;
     border-color: rgb(0, 140, 255);
@@ -140,7 +140,7 @@ html, body{
   */
   
   .home-div{
-    background:linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, .99)),
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .99)),
      url("../src/photos/clement-h-95YRwf6CNw8-unsplash.jpg") center no-repeat;
     background-size: cover;
     height: 500px;
@@ -223,7 +223,7 @@ html, body{
   .about-container{
     letter-spacing: .2px;
     line-height: 30px;
-    background: rgb(15, 15, 15);
+    background: rgb(20, 20, 20);
     margin-top: 47px;
     color: white;
   }
@@ -351,7 +351,7 @@ html, body{
   
   .contact-container{
     text-align: center;
-    background:rgb(15, 15, 15);
+    background:rgb(20, 20, 20);;
   }
   
   .contact-header{
