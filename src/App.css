@@ -160,7 +160,7 @@ html, body{
     display: flex;
     justify-content: center;
     border-radius: 50px;
-    border-color: rgb(0, 140, 255);
+    border-color: rgb(204, 204, 204);
     border-style: solid;
     color: white;
     background: transparent;
