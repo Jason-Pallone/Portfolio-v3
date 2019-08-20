@@ -17,8 +17,6 @@ class App extends Component{
     showSubIntro: false,
     showCodingInfo: false,
     showStack: false,
-    showRSVP: false,
-    showRSVPInfo: false,
     showRSVPLinks: false,
 }
 
@@ -55,23 +53,6 @@ showStack = () => {
   })
 }
 
-showRSVP = () => {
-  const top = window.pageYOffset;
-  if(top>1500)
-  this.setState({
-  showRSVP: true
-  })
-}
-
-
-showRSVPInfo = () => {
-  const top = window.pageYOffset;
-  if(top>1600)
-  this.setState({
-  showRSVPInfo: true
-  })
-}
-
 
 showRSVPLinks = () => {
   const top = window.pageYOffset;
@@ -87,8 +68,6 @@ componentDidMount(){
     window.addEventListener("scroll", this.showSubIntro)
     window.addEventListener("scroll", this.showCodingInfo)
     window.addEventListener("scroll", this.showStack)
-    window.addEventListener("scroll", this.showRSVP)
-    window.addEventListener("scroll", this.showRSVPInfo)
     window.addEventListener("scroll", this.showRSVPLinks)
 }
 
@@ -97,8 +76,6 @@ componentWillUnmount(){
   window.addEventListener("scroll", this.showSubIntro)
   window.addEventListener("scroll", this.showCodingInfo)
   window.addEventListener("scroll", this.showStack)
-  window.addEventListener("scroll", this.showRSVP)
-  window.addEventListener("scroll", this.showRSVPInfo)
   window.addEventListener("scroll", this.showRSVPLinks)
 }
 
@@ -115,8 +92,6 @@ componentWillUnmount(){
         />
 
         <Projects
-        showRSVP={this.state.showRSVP}
-        showRSVPInfo={this.state.showRSVPInfo}
         showRSVPLinks={this.state.showRSVPLinks}
           />
 

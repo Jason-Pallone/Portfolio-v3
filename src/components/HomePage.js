@@ -30,7 +30,7 @@ class HomePage extends Component{
     }
 
     componentDidMount(){
-      setTimeout(() =>  this.showFullStack(), 700);
+      setTimeout(() =>  this.showFullStack(), 1200);
       setTimeout(() =>  this.showResume(), 1400);
       setTimeout(() =>  this.showGitHub(), 1400);
     }
