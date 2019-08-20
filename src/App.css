@@ -334,7 +334,7 @@ html, body{
     display: flex;
     justify-content: center;
     border-radius:50px;
-    color: rgb(0, 140, 255);
+    color: white;
     border-color: rgb(0, 140, 255);
     border-style: solid;
     background: transparent;
