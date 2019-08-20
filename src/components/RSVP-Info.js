@@ -10,7 +10,7 @@ const RSVPInfo =(props)=>
         <br></br>
         
         <p className={ props.showRSVPInfo ? 'rsvp-description fade-in' : 'hidden'}>
-            This is an RSVP site created in React. You can add a guest, edit the guest,
+            This is an RSVP app created in React. You can add a guest, edit the guest,
             remove the guest and confirm them.
         </p>
             
