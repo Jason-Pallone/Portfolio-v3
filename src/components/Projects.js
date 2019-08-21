@@ -3,9 +3,7 @@ import RSVP from './RSVP'
 
 const Projects =(props)=>
     <div id='portfolio' className='projects-container'>
-        <h1 className='projects-header'>
-            Portfolio
-        </h1>
+        <h1 className='projects-header'>Portfolio</h1>
 
         <RSVP
         showRSVP={props.showRSVP}

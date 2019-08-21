@@ -6,9 +6,7 @@ import CodingInfo from './CodingInfo'
 const About =(props)=>
   
         <div  id="about" className='about-container'>
-            <h1 className='about-header'>
-            About me
-            </h1>
+            <h1 className='about-header'>About me</h1>
 
             <div  className={ props.showAbout ? 'intro fade-in' : 'hidden'} >
                 <p>

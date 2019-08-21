@@ -93,7 +93,7 @@ componentWillUnmount(){
 
         <Projects
         showRSVPLinks={this.state.showRSVPLinks}
-          />
+        />
 
         <Contact />
         <Footer />

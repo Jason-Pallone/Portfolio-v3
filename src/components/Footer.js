@@ -4,7 +4,7 @@ const Footer =()=>
 
     <div className='footer-container'>
         <footer>
-            <a href="mailto:jasonpallone7593@gmail.com" rel='noopener noreferrer'  alt='gmail logo'
+            <a href="mailto:jason.pallone@gmail.com" rel='noopener noreferrer'  alt='gmail logo'
             className="fa fa-google-plus-square"><br></br>
             </a>
 
@@ -22,9 +22,7 @@ const Footer =()=>
             </a>
           
         </footer>
-        <p className='footer-text'>
-         &copy; Jason Pallone
-        </p>
+        <p className='footer-text'>&copy; Jason Pallone</p>
     </div>
 
 export default Footer

@@ -4,9 +4,7 @@ import RSVPLinks from './RSVPLinks'
 const RSVPInfo =(props)=>
 
     <div>
-        <img src="/RSVP-gif.gif" alt='rsvp project'
-        className='rsvp-gif'
-        />
+        <img src="/RSVP-gif.gif" alt='rsvp project' className='rsvp-gif'/>
         <br></br>
         
         <p className= 'rsvp-description'>
@@ -16,7 +14,5 @@ const RSVPInfo =(props)=>
             
         <RSVPLinks showRSVPLinks={props.showRSVPLinks} />
     </div>
-
-
 
 export default RSVPInfo
