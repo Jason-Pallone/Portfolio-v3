@@ -256,7 +256,6 @@ html, body{
   */
 
 
-
   .stack-header{
     color: rgb(2, 36, 109);;
     letter-spacing: 1px;
@@ -264,6 +263,8 @@ html, body{
     justify-content: center;
     margin-top: 30%;
   }
+
+  
   
   .tech-stack-ul li{
     color: rgb(1, 48, 150);
@@ -492,11 +493,11 @@ html, body{
   
     .about-container{
       padding-bottom: 80%;
-      margin-top: -15%;
+      margin-top: -8%;
     }
 
     .about-header{
-      margin-bottom: 20%;
+      margin-bottom: 10%;
       font-size: 35px
     }
     
@@ -639,11 +640,11 @@ html, body{
 
     .about-container{
       padding-bottom: 80%;
-      margin-top: -15%;
+      margin-top: 0%;
     }
 
     .about-header{
-      margin-bottom: 20%;
+      margin-bottom: 10%;
       font-size: 40px;
     }
 
