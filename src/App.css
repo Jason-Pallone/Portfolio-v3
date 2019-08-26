@@ -24,9 +24,7 @@ html, body{
   }
 
   .footer-text{
-    margin-left: 40%;
-    position: relative;
-    left:-7px;
+    margin: auto;
     font-size: 1.5rem;
     color: white;
     display: flex;
@@ -55,7 +53,7 @@ html, body{
   }
   
   @keyframes slide-in-right{
-    0% {transform: translatex(200%);}
+    0% {transform: translatex(60%);}
   100% {transform: translatex(0);}
   }
   
@@ -92,12 +90,12 @@ html, body{
 
   .fade-in{
     animation: fade-in;
-    animation-duration: 3s
+    animation-duration: 1s
   }
 
   .pop-in{
     animation: pop-in;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
   }
   
   /*
@@ -264,7 +262,6 @@ html, body{
   }
   
   .tech-stack-ul li{
-    border-radius: 15px;
     color: white;
     list-style: none;
     float: left;
@@ -314,15 +311,7 @@ html, body{
     margin-left:35%;
     margin-top: 15%;
   }
-  
-  .rsvp-hr{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5%;
-    margin-top: -3%
-  }
-  
+
   .rsvp-description{
     font-size: 1.2rem;
     font-weight: 500;
@@ -413,7 +402,7 @@ html, body{
   .github,
   .fa-linkedin-square{
     color:white;
-    margin-right: 10%
+    margin-right: 10%;
   }
 
   .fa-google-plus-square{
@@ -423,7 +412,6 @@ html, body{
   .footer-text{
     display: flex;
     justify-content: center;
-    margin:0 0 2% 0%
   }
 
   /*
@@ -432,12 +420,6 @@ html, body{
   ====================================
   */
 
-  @media(min-width:300px) and (max-width: 766px){
-    .rsvp-github-link, .rsvp-website-link{
-      max-width: 75%;
-    }
-  }
-  
 
   @media(max-width:350px){
 
@@ -468,10 +450,15 @@ html, body{
     .hello-header,
     .name-header{
       font-size: 27px;
+      margin-top: 20%;
+    }
+
+    .name-header{
+      margin-left: 1%;
     }
     
     .frontEnd-header{
-      font-size: 25px
+      font-size: 24px
     }
   
     .resume{
@@ -495,12 +482,12 @@ html, body{
   
     .about-container{
       padding-bottom: 80%;
-     margin-top: -15%;
+      margin-top: -15%;
     }
 
     .about-header{
       margin-bottom: 20%;
-      font-size: 40px
+      font-size: 35px
     }
     
     .intro{
@@ -508,7 +495,7 @@ html, body{
     }
   
     .stack-header{
-      font-size: 45px;
+      font-size: 35px;
     }
     /*
     ==================================
@@ -522,14 +509,9 @@ html, body{
 
     .projects-header{
       margin:-12% 0 5% 0;
-      font-size: 30px;
+      font-size: 35px;
     }
   
-    .projects-hr{
-      width: 92%;
-      background-color: black;
-      margin-bottom: 40%;
-    }
   
     /*
     =======================
@@ -538,8 +520,8 @@ html, body{
     */
   
     .rsvp-h1{
-      margin: 25% 0 2% 35%;
-      font-size: 25px;
+      margin: 10% 0 2% 35%;
+      font-size: 30px;
     }
   
   
@@ -556,6 +538,8 @@ html, body{
     .rsvp-github-link,
     .rsvp-website-link{
       font-size: 20px;
+      max-width: 75%;
+      padding: 2%
     }
 
     /*
@@ -566,7 +550,7 @@ html, body{
     
     .contact-container{
       margin-top: -1px;
-      padding-top: 5%;
+      padding-top: 3%;
       padding-bottom: 5%;
     }
     
@@ -577,7 +561,7 @@ html, body{
     }
   
    .contact-me-email{
-     font-size: 15px;
+     font-size: 18px;
    }
   }
 
@@ -612,10 +596,19 @@ html, body{
     }
     
     .hello-header,
-    .name-header,
-    .frontEnd-header{
+    .name-header{
       font-size: 29px;
+      margin-top: 12%;
     }
+
+    .frontEnd-header{
+      font-size: 26px;
+    }
+
+    .name-header{
+      margin-left: 1%;
+    }
+    
 
     .resume, .github-profile{
       font-size: 20px;
@@ -648,7 +641,7 @@ html, body{
     }
 
     .stack-header{
-      font-size: 45px;
+      font-size: 40px;
     }
   
     /*
@@ -663,26 +656,14 @@ html, body{
     }
 
     .projects-header{
-      margin-top: 0;
+      margin-top: 1%;
       font-size: 35px;
-    }
-
-    .projects-hr{
-      width:90%;
-      background-color: black;
-      margin-bottom: 40%;
     }
 
     .rsvp-h1{
       margin-bottom: 5%;
-      margin-top: 20%;
+      margin-top: 10%;
       font-size: 30px;
-    }
-
-    .rsvp-hr{
-      width:55%;
-      background-color: black;
-      margin-bottom: 15%;
     }
 
     .rsvp-gif{
@@ -692,6 +673,11 @@ html, body{
     .rsvp-description{
       width: 90%;
       margin-left: 5%;
+    }
+
+    .rsvp-github-link,
+    .rsvp-website-link{
+      max-width: 60%;
     }
     
 
@@ -710,7 +696,7 @@ html, body{
       font-size: 35px;
       width:93%;
       margin-bottom: 8%;
-      margin-top: 20%;
+      margin-top: 2.5%;
     }
 
     .contact-me-email{
@@ -747,8 +733,13 @@ html, body{
       .hello-header,
       .name-header{
         font-size: 33px;
+        margin-top: 25%;
       }
       
+      .name-header{
+        margin-left: .5%;
+      }
+
       .frontEnd-header{
         font-size: 28px;
       }
@@ -756,12 +747,9 @@ html, body{
       .resume, .github-profile{
         font-size: 23px;
         max-width: 75%;
-      }
-
-      .github-profile, .resume{
         margin-top: 20%;
       }
-  
+
     /*
     ================================
                 ABOUT
@@ -783,7 +771,7 @@ html, body{
       }
     
       .stack-header{
-        font-size: 50px;
+        font-size: 40px;
       }
     
       /*
@@ -798,7 +786,7 @@ html, body{
       }
 
       .projects-header{
-        margin-top: -7%;
+        margin-top: -6%;
         font-size: 35px;
       }
     
@@ -816,7 +804,7 @@ html, body{
     
       
       .rsvp-h1{
-        margin-top: 20%;
+        margin-top: 10%;
         margin-bottom: 4%;
         font-size: 30px;
       }
@@ -834,6 +822,7 @@ html, body{
       .rsvp-github-link,
       .rsvp-website-link{
         font-size: 20px;
+        max-width: 70%;
       }
     
       /*
@@ -850,7 +839,7 @@ html, body{
       .contact-header{
         font-size: 30px;
         width:80%;
-        margin-top: 15%;
+        margin-top: 3%;
         margin-bottom: 5%;
       }
     
@@ -884,6 +873,10 @@ html, body{
                   HOME
       ============================
       */
+
+      .navbar{
+        padding: 1%;
+      }
     
       .home-div{
         padding-bottom: 110%;
@@ -893,13 +886,17 @@ html, body{
     
       .hello-header,
       .name-header{
-        font-size: 50px;
-        margin-top: -5%
+        font-size: 40px;
+        margin-top: 5%;
+      }
+
+      .name-header{
+        margin-left: 0
       }
      
       
       .frontEnd-header{
-        font-size: 31px;
+        font-size: 37px;
       }
     
       .resume, .github-profile{
@@ -921,10 +918,9 @@ html, body{
       .about-container{
         padding-bottom: 40%
       }
-    
-    
-      .about-hr{
-        width: 40%
+
+      .about-header{
+        font-size: 45px;
       }
 
       .intro{
@@ -940,16 +936,13 @@ html, body{
       */
     
       .projects-container{
-        padding-top: 0%;
+        padding-top: 1%;
         padding-bottom: 10%;
       }
     
       .projects-header{
-        margin:0;
-      }
-    
-      .projects-hr{
-        width: 50%;
+        font-size: 40px;
+        margin:1% 0 0 0;
       }
     
       /*
@@ -957,9 +950,10 @@ html, body{
                 RSVP
       =======================
       */
-    
-      .rsvp-hr{
-        width: 35%;
+  
+      .rsvp-h1{
+        font-size: 35px;
+        margin-top: 5%;
       }
     
       .rsvp-gif{
@@ -972,6 +966,12 @@ html, body{
         margin-left: 5%;
       }
     
+
+      .rsvp-github-link,
+      .rsvp-website-link{
+        padding: 1%;
+        max-width: 45%;
+      }
       /*
     ============================
             CONTACT
@@ -984,8 +984,8 @@ html, body{
       }
     
       .contact-header{
-        font-size: 50px;
-        margin-top: 15%;
+        font-size: 40px;
+        margin-top: 1.5%;
       }
    }
     
@@ -1008,23 +1008,24 @@ html, body{
     }
   
     .hello-header{
-      margin-right: -.5%
+      margin-left: .5%
     }
 
     .hello-header,
     .name-header{
       font-size: 43px;
-      margin-top: -20%;
+      margin-top: -10%;
     }
     
     .frontEnd-header{
       font-size: 38px;
-      margin-top: -8%
+      margin-top: 0
     }
 
     .resume, .github-profile{
-      max-width: 35%;
-      padding:1.5%;
+      max-width: 25%;
+      padding:1%;
+      font-size: 20px;
     }
   
 
@@ -1033,6 +1034,10 @@ html, body{
               ABOUT
   ================================
   */
+
+    .about-header{
+      font-size: 35px;
+    }
   
     .about-container{
       padding-bottom: 35%
@@ -1049,7 +1054,7 @@ html, body{
     .stack-header{
       margin-top: 10%;
       margin-bottom: 2%;
-      font-size: 60px;
+      font-size: 35px;
     }
   
     /*
@@ -1060,8 +1065,7 @@ html, body{
     .rsvp-github-link{
       font-size: 20px;
       width:30%;
-      padding-top: 2%;
-      padding-bottom: 2%;
+      padding: 1%;
       margin-left: 36%
     }
 
@@ -1077,11 +1081,19 @@ html, body{
       width: 50%
     }
 
+    .projects-header{
+      font-size: 35px;
+      margin-top: 3.5%
+    }
+
 
     .projects-container{
       padding-bottom: 10%;
     }
 
+    .rsvp-h1{
+      font-size: 30px;
+    }
     /*
   ============================
           CONTACT
@@ -1089,8 +1101,8 @@ html, body{
   */
 
     .contact-header{
-      font-size: 50px;
-      margin-top: 10%;
+      font-size: 35px;
+      margin-top: 3.5%;
     }
   
    }
@@ -1116,36 +1128,41 @@ html, body{
     ============================
     */
   
-  
-    .hello-header{
-      font-size: 47px;
+    .navbar{
+      padding:.5% 0;
     }
   
+    .hello-header, .name-header{
+      font-size: 40px;
+      margin-top: -8%;
+    }
+
     .name-header{
-      font-size: 47px;
+      margin-left: 1%;
     }
     
     .frontEnd-header{
-      font-size: 38px;
+      font-size: 30px;
+      margin-top: -2%;
     }
   
-    .resume{
-      font-size: 23px;
+    .resume, .github-profile{
+      font-size: 20px;
+      max-width: 20%;
+      padding: 1% 0
     }
   
-    .github-profile{
-      font-size: 23px
-    }
-  
-    .arrow{
-      font-size: 90px;
-    }
   
   /*
   ================================
               ABOUT
   ================================
   */
+
+    .about-header{
+      font-size: 50px;
+      margin-top: 0;
+    }
   
     .about-container{
       padding-bottom: 30%
@@ -1162,46 +1179,55 @@ html, body{
     .stack-header{
       margin-top: 12%;
       margin-bottom: 2%;
+      font-size: 50px;
+    }
+
+    .tech-stack-ul li{
+      font-size: 40px;
     }
   
     /*
           PROJECTS
     */
 
+    .projects-header{
+      font-size: 50px;
+      margin-top: 3%;
+    }
+
     .projects-container{
       padding-bottom: 10%
     }
 
+    .rsvp-h1{
+      font-size: 40px;
+    }
+
+    .rsvp-github-link, .rsvp-website-link{
+      max-width: 20%;
+      padding: 10px ; 
+      margin: auto;
+    }
+
+    .rsvp-github-link{
+      margin-top: 2%;
+    }
     /*
   ============================
           CONTACT
   ===========================
   */
 
-    .contact-header{
-      font-size: 50px;
-      margin-top: 10%;
+    .contact-container{
+      padding: 1% 0 0 0
     }
 
-    .contact-me-input1,
-    .contact-me-input2{
-      left:450px;
-      width:25%;
+    .contact-header{
+      font-size: 35px;
+      margin-top: 3%;
     }
-  
-    .contact-submit-button{
-      margin:auto;
-      right:265px;
-      top:55px;
-      padding: .2% 3%
-    }
-  
-    .contact-reset-button{
-      margin:0;
-      top:10px;
-      left:250px;
-      padding:.3% 3%
-    }
+
+
   }
 
 
@@ -1220,16 +1246,12 @@ html, body{
     */
   
   
-    .hello-header{
-      font-size: 60px;
-    }
-  
-    .name-header{
-      font-size: 60px;
+    .hello-header, .name-header{
+      font-size: 40px;
     }
     
     .frontEnd-header{
-      font-size: 50px;
+      font-size: 33px;
     }
   
     .resume{
@@ -1240,61 +1262,9 @@ html, body{
       font-size: 23px
     }
   
-    .arrow{
-      margin-top: 6%;
-      font-size: 90px;
-    }
-  
-  /*
-  ================================
-              ABOUT
-  ================================
-  */
-  
-    .about-hr{
-      width: 30%
-    }
-
-
-    /*
-  ============================
-          CONTACT
-  ===========================
-  */
-
-    .contact-me-input1,
-    .contact-me-input2{
-      left:550px;
-      width:25%;
-    }
-  
-    .contact-submit-button{
-      margin:auto;
-      top:55px;
-      padding: .2% 3%
-    }
-  
-    .contact-reset-button{
-      margin:0;
-      top:10px;
-      left:350px;
-      padding:.3% 3%
-    }
   }
 
-   /*
-   =====================================
-                XL PCs
-    ====================================
-   */
-
-
-
-   @media(min-width:2000px){
-
-    .navbar a{
-      font-size: 30px
-    }
+@media(min-width:1441px){
   
      /*
     ============================
@@ -1302,294 +1272,91 @@ html, body{
     ============================
     */
   
-  
-    .hello-header{
-      font-size: 60px;
-    }
-  
-    .name-header{
-      font-size: 60px;
-    }
-    
-    .frontEnd-header{
-      font-size: 50px;
-    }
-  
-    .resume{
-      font-size: 30px;
-    }
-  
-    .github-profile{
-      font-size: 30px
-    }
-  
-  
-  /*
-  ================================
-              ABOUT
-  ================================
-  */
-  
-  
-    .about-header{
-      font-size: 100px
-    }
-  
-    .about-hr{
-      width: 30%
-    }
-
-    .intro{
-      font-size: 35px
-    }
-
-  
-    /*
-          PROJECTS
-    */
-
-
-    .projects-header{
-      font-size: 100px;
-    }
-
-    .rsvp-h1{
-      font-size: 80px
-    }
-
-    .rsvp-website-link{
-      font-size: 35px
-    }
-
-    .rsvp-github-link{
-      font-size: 35px;
-    }
-
-    .rsvp-description{
-      font-size: 30px;
-    }
-
-    /*
-  ============================
-          CONTACT
-  ===========================
-  */
-
-
-    .contact-header{
-      font-size: 100px
-    }
-  
-    .contact-submit-button{
-      margin:auto;
-      top:55px;
-      padding: .2% 3%
-    }
-  
-    .contact-reset-button{
-      margin:0;
-      top:10px;
-      left:550px;
-      padding:.3% 3%
-    }
-
-    .contact-me-input1,
-    .contact-me-input2{
-      width:30%;
-      padding:15px;
-    }
-
-    .contact-me-input1,
-    .contact-me-input2{
-      margin-left: 6.5%
-    }
-  
-    /*
-    =======================
-            FOOTER
-    =======================
-    */
-    
-    .fa-google-plus-square{
-      font-size: 70px
-    } 
-    
-    .github{
-       font-size: 70px;
-    }
-
-    .fa-linkedin-square{
-      font-size: 70px;
-    }
-
-    .fa-twitter-square{
-      font-size: 70px;
-    }
-
-    .footer-text{
-      font-size: 35px;
-     }
-   }
-
-
-   @media(min-width:2400px){
-
     .navbar a{
-      font-size: 45px
+      font-size: 35px;
     }
   
-     /*
-    ============================
-                HOME
-    ============================
-    */
-
-    .home-div{
-      padding-bottom: 50%
-    }
-  
-  
-    .hello-header{
-      font-size: 110px;
-    }
-  
-    .name-header{
-      font-size: 110px;
+    .hello-header, .name-header{
+      font-size: 70px;
     }
     
     .frontEnd-header{
-      font-size: 90px;
-    }
-  
-    .resume{
-      font-size: 50px;
-    }
-  
-    .github-profile{
-      font-size: 50px
-    }
-  
-    .arrow{
-      font-size: 150px;
-    }
-  
-  /*
-  ================================
-              ABOUT
-  ================================
-  */
-  
-  
-    .about-header{
-      font-size: 140px
-    }
-  
-    .about-hr{
-      width: 30%
-    }
-
-    .intro{
-      font-size: 50px
-    }
-
-    /*
-        STACK
-    */
-
-
-    .tech-stack-ul li{
-      font-size: 50px;
-    }
-  
-    /*
-          PROJECTS
-    */
-
-
-    .projects-header{
-      font-size: 140px;
-    }
-
-    .rsvp-h1{
-      font-size: 120px
-    }
-
-    .rsvp-website-link{
-      font-size: 50px
-    }
-
-    .rsvp-github-link{
-      font-size: 50px;
-    }
-
-    .rsvp-description{
-      font-size: 50px;
-    }
-
-    /*
-  ============================
-          CONTACT
-  ===========================
-  */
-
-
-    .contact-header{
-      font-size: 120px;
-    }
-  
-    .contact-submit-button{
-      margin:auto;
-      top:95px;
-      padding: .2% 3%;
       font-size: 60px;
     }
   
-    .contact-reset-button{
-      margin:0;
-      top:10px;
-      left:820px;
-      padding:.3% 3%;
-      font-size: 60px
-    }
-
-    .contact-me-input1,
-    .contact-me-input2{
-      width:30%;
-      padding:15px;
-    }
-
-    .contact-me-input1,
-    .contact-me-input2{
-      margin-left: 12%
+    .resume{
+      font-size: 32px;
     }
   
+    .github-profile{
+      font-size: 32px
+    }
+
+
     /*
-    =======================
-            FOOTER
-    =======================
+    ================
+          ABOUT
+    ================
     */
-    
+
+    .about-header{
+      font-size:80px;
+    }
+
+    p{
+      font-size: 35px;
+    }
+
+    .stack-header{
+      font-size: 80px;
+    }
+
+    /*
+    ==========================
+          PORTFOLIO
+    ==========================
+    */
+
+   
+    .projects-header{
+      font-size: 80px;
+      margin-top: 2%;
+    }
+
+    .rsvp-h1{
+      font-size: 70px;
+    }
+
+    .rsvp-description{
+      font-size: 35px;
+    }
+
+    .rsvp-github-link, .rsvp-website-link{
+      max-width: 25%;
+      font-size: 35px;
+      padding: 1% 0
+    }
+
+    /*
+    ==========================
+            CONTACT
+    ==========================
+    */
+    .contact-header{
+      font-size: 60px;
+    }
+
+    .contact-me-email{
+      font-size: 50px;
+    }
+
+    .github, .fa-twitter-square,
+    .fa-linkedin-square,
     .fa-google-plus-square{
-      font-size: 90px
-    } 
-    
-    .github{
-       font-size: 90px;
+      font-size: 70px;
     }
 
-    .fa-linkedin-square{
-      font-size: 90px;
-    }
-
-    .fa-twitter-square{
-      font-size: 90px;
-    }
-
-    footer{
-      margin-top: 2%
-    }
     .footer-text{
       font-size: 40px;
     }
-
-   }
+}

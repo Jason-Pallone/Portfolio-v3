@@ -3,7 +3,7 @@ import React from 'react';
 const TechStack=(props)=>
     
             <div className='techStack-container'>
-                <h1  className={ props.showStack ? 'stack-header showText-right' : 'hidden'}>
+                <h1  className={ props.showStack ? 'stack-header fade-in showText-right' : 'hidden'}>
                 My Stack
                 </h1>
                 <ul  className={ props.showStack ? 'tech-stack-ul fade-in' : 'hidden'}>
