@@ -1241,6 +1241,10 @@ html, body{
 
    @media(min-width:1440px){
 
+    p{
+      line-height: 1.7
+    }
+
      /*
     ============================
                 HOME
@@ -1311,6 +1315,10 @@ html, body{
 
     .stack-header{
       font-size: 80px;
+    }
+
+    .tech-stack-ul li{
+      font-size: 40px;
     }
 
     /*
