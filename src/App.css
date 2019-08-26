@@ -562,7 +562,7 @@ html, body{
       margin-top: -1px;
       padding-top: 3%;
       padding-bottom: 5%;;
-      border-width: 5px;
+      border-width: 4px;
     }
     
     .contact-header{
@@ -701,7 +701,7 @@ html, body{
     .contact-container{
       padding-top: 1%;
       padding-bottom: 15%;;
-      border-width: 5px;
+      border-width: 4px;
     }
 
     .contact-header{
@@ -770,8 +770,9 @@ html, body{
     
       .about-container{
         padding-bottom: 80%;
-        margin-top: -15%;
-        border-radius: 0 0 50% 50%
+        margin-top: 10%;
+        border-radius: 20%;
+        width: 90%;
       }
 
       .about-header{
@@ -847,7 +848,7 @@ html, body{
       .contact-container{
         padding-top: 1%;
         padding-bottom: 5%;
-        border-width: 5px;
+        border-width: 4px;
       }
     
       .contact-header{
