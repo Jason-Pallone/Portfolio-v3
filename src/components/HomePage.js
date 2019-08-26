@@ -30,7 +30,7 @@ class HomePage extends Component{
     render(){
       return(
         <div>
-            <Navbar />
+            <Navbar showNavBackground={this.props.showNavBackground} />
             <div id='home' className='home-div'>
             
                 <div className='hello-name-header-container'>

@@ -18,6 +18,7 @@ class App extends Component{
     showCodingInfo: false,
     showStack: false,
     showRSVPLinks: false,
+    showNavBackground: false
 }
 
 
@@ -26,7 +27,13 @@ showAbout = () => {
   if(top>400)
   this.setState({
   showAbout: true,
+  showNavBackground:true
   })
+  else{
+    this.setState({
+      showNavBackground: false
+    })
+  }
 }
 
 showSubIntro = () => {
@@ -82,7 +89,7 @@ componentWillUnmount(){
   render(){
     return(
       <div className='App'>
-        <HomePage />
+        <HomePage showNavBackground={this.state.showNavBackground}/>
 
         <About 
         showAbout={this.state.showAbout}

@@ -2,8 +2,8 @@ import React from 'react';
 
 
 
-const Navbar=()=>
-        <nav  className='navbar'> 
+const Navbar=(props)=>
+        <nav style={{background: props.showNavBackground ? 'white':'transparent'}} className= 'navbar' > 
             <a href='#home'>Home</a>
             <a href='#about'>About</a>
             <a href='#portfolio'>Portfolio</a>
