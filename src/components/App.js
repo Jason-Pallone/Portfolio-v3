@@ -27,14 +27,9 @@ showAbout = () => {
   if(top>400)
   this.setState({
   showAbout: true,
-  showNavBackground:true
   })
-  else{
-    this.setState({
-      showNavBackground: false
-    })
-  }
 }
+
 
 
 showSubIntro = () => {

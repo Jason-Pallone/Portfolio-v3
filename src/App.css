@@ -5,28 +5,16 @@ html, body{
     scroll-behavior: smooth;
   }
 
+  .App{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+  }
+
   *{
     box-sizing: border-box;
-  }
-
-  footer{
-    padding:1% 0 1% 0;
-    margin-top: -2%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footer-container{
-    padding-top: 5%;
-    padding-bottom: 1%
-  }
-
-  .footer-text{
-    margin: auto;
-    font-size: 1.5rem;
-    color: white;
-    display: flex;
-    justify-content: center;
   }
 
   p{
@@ -53,21 +41,6 @@ html, body{
     100% {opacity: 1;}
   }
 
-  @keyframes slide-in-left{
-    0% {transform: translateX(-100%);}
-    100% {transform: translateX(0);}
-  }
-  
-  @keyframes slide-in-right{
-    0% {transform: translatex(60%);}
-  100% {transform: translatex(0);}
-  }
-  
-  @keyframes slide-down{
-    0% {transform: translatey(-200%);}
-    100% {transform: translatey(0);}
-  }
-
   
   
   /*
@@ -76,22 +49,8 @@ html, body{
   =============================================================================
   */
 
-  .highLight{
-    color:rgb(0, 140, 255)
-  }
-
   .hidden{
     display: none;
-  }
-
-  .showText{
-    animation: slide-in-left;
-    animation-duration: 1.5s
-  }
-
-  .showText-right{
-    animation: slide-in-right;
-    animation-duration: 1.5s;
   }
 
   .fade-in{
@@ -143,15 +102,9 @@ html, body{
     background:linear-gradient( rgba(209, 209, 209, 0.4), rgba(139, 139, 139, 0.6)),
      url("../src/photos/clement-h-95YRwf6CNw8-unsplash.jpg") center no-repeat;
     background-size: cover;
-    height: 500px;
-    margin-bottom:-3.5%;
+   /* height: 500px;
+    margin-bottom:-3.5%;*/
   }
-
-  /*
-  ====================================
-        GITHUB & RESUME
-  ====================================
-  */
   
   .resume,
   .github-profile{
@@ -207,11 +160,13 @@ html, body{
     vertical-align: top;
   }
 
+ 
+
   .frontEnd-header{
     display: flex;
     justify-content: center;
     animation: fade-in;
-    animation-duration: 4s;
+    animation-duration: 3s;
     font-size: 50px;
     color:white;
     margin-top:0;
@@ -378,6 +333,28 @@ html, body{
            FOOTER SOCIAL MEDIA ICONS
   =========================================
   */
+
+  
+  footer{
+    padding:1% 0 1% 0;
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container{
+    padding-top: 5%;
+    padding-bottom: 1%
+  }
+
+  .footer-text{
+    margin: auto;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
   .github{
     font-size: 45px;
     opacity: .9;
@@ -426,62 +403,51 @@ html, body{
   }
 
   /*
-  ====================================
-              MEDIAs MOBILE
-  ====================================
+  =====================================
+              MEDIA QUERIES
+  =====================================
   */
 
-
-  @media(max-width:350px){
-
-    .App
-    {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden; 
-    }
-    
-    .navbar a{
-      font-size: 15px
-    }
-
+  @media(min-width:1025px){
+  
+  
     /*
     ============================
                 HOME
     ============================
     */
-  
+
     .home-div{
-      padding: 1% 0% 30% 0%;
-      margin-top: 0;
+      padding-top: 1%;
+      height: 750px;
     }
   
-    .hello-header,
-    .name-header{
-      font-size: 27px;
-      margin-top: 20%;
+    .navbar{
+      padding:.5% 0;
+    }
+  
+    .hello-header, .name-header{
+      font-size: 40px;
+      margin-top: -15%;
     }
 
     .name-header{
-      margin-left: 1%;
+      margin-left: -.5%;
     }
     
     .frontEnd-header{
-      font-size: 24px
+      font-size: 30px;
+      margin-top: -5%;
     }
   
-    .resume{
-      max-width: 75%;
-      font-size: 18px;
-      margin: 20% auto auto auto;
+    .resume, .github-profile{
+      font-size: 20px;
+      max-width: 20%;
+      padding: 1% 0
     }
-  
+
     .github-profile{
-      max-width: 75%;
-      font-size: 18px;
-      margin:15% auto auto auto;
+      margin-top: 2%;
     }
   
   
@@ -490,242 +456,419 @@ html, body{
               ABOUT
   ================================
   */
-  
-    .about-container{
-      padding-bottom: 80%;
-      margin-top: -8%;
-    }
 
     .about-header{
-      margin-bottom: 10%;
-      font-size: 35px
+      font-size: 50px;
+      margin-top: 0;
     }
     
     .intro{
-      padding: 0 8%;
+      width: 65%;
+      margin: auto;
+      text-align: center;
     }
-  
-    .stack-header{
-      font-size: 35px;
-    }
+
     /*
-    ==================================
-                  PROJECTS
-    ==================================
+        STACK
     */
-  
-    .projects-container{
-      padding: 15% 0 15% 0;
+
+    .stack-header{
+      margin-top: 12%;
+      margin-bottom: 2%;
+      font-size: 50px;
     }
+
+    .tech-stack-ul li{
+      font-size: 22px;
+    }
+  
+    /*
+          PROJECTS
+    */
 
     .projects-header{
-      margin:-12% 0 5% 0;
-      font-size: 35px;
+      font-size: 50px;
+      margin-top: 28%;
     }
-  
-  
-    /*
-    =======================
-              RSVP
-    =======================
-    */
-  
+
+    .projects-container{
+      padding-bottom: 10%
+    }
+
     .rsvp-h1{
-      margin: 10% 0 2% 35%;
-      font-size: 30px;
+      font-size: 40px;
+      margin-top: 5%;
     }
-  
-  
+
     .rsvp-gif{
-      width: 95%;
-      margin:0 0 0 0
+      width:60%;
     }
-  
+
     .rsvp-description{
-      width:90%;
-      margin-left: 5%
-    }
-
-    .rsvp-github-link,
-    .rsvp-website-link{
       font-size: 20px;
-      max-width: 75%;
-      padding: 2%
+      width: 60%;
+      margin: 3% auto;
     }
 
+    .rsvp-github-link, .rsvp-website-link{
+      max-width: 20%;
+      padding: 10px ; 
+      margin: auto;
+    }
+
+    .rsvp-github-link{
+      margin-top: 2%;
+    }
     /*
   ============================
           CONTACT
   ===========================
   */
-    
+
     .contact-container{
-      margin-top: -1px;
-      padding-top: 3%;
-      padding-bottom: 5%;;
-      border-width: 4px;
+      padding: 1% 0 0 0
     }
-    
+
     .contact-header{
-      font-size: 25px;
-      margin-bottom: 8%;
-      width:90%
+      font-size: 35px;
+      margin-top: 3%;
     }
-  
-   .contact-me-email{
-     font-size: 18px;
-   }
+
+
   }
 
-  /*
-  -------------------------------
-  */
-
-
-  @media(max-width:400px) and (min-width:351px){
-    
-    .App
-    {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden; 
-    }
+  @media(min-width:1900px){
 
     .navbar a{
-      font-size: 17px;
-    }
-
-    /*
-    =========================
-              HOME
-    =========================
-    */
-
-    .home-div{
-      padding: 1% 0 12% 0;
-    }
-    
-    .hello-header,
-    .name-header{
-      font-size: 29px;
-      margin-top: 12%;
-    }
-
-    .frontEnd-header{
-      font-size: 26px;
-    }
-
-    .name-header{
-      margin-left: 1%;
-    }
-    
-
-    .resume, .github-profile{
-      font-size: 20px;
-      max-width: 75%;
-    }
-
-    .github-profile, .resume{
-      margin-top: 15%;
-    }
-  
-
-    /*
-    ====================== 
-            ABOUT
-    ======================
-    */
-
-    .about-container{
-      padding-bottom: 80%;
-      margin-top: 0%;
-    }
-
-    .about-header{
-      margin-bottom: 10%;
-      font-size: 40px;
-    }
-
-    .intro{
-      padding:0 8%;
-    }
-
-    .stack-header{
-      font-size: 40px;
-    }
-  
-    /*
-    ================================
-              PROJECTS
-    ================================
-    */
-
-    .projects-container{
-      padding-top: 2%;
-      padding-bottom: 15%;
-    }
-
-    .projects-header{
-      margin-top: 1%;
       font-size: 35px;
     }
 
-    .rsvp-h1{
-      margin-bottom: 5%;
-      margin-top: 10%;
+    p{
+      font-size: 35px;
+    }
+
+    .home-div{
+      height: 1300px;
+    }
+
+    .name-header, 
+    .hello-header,
+    .frontEnd-header{
+      font-size: 70px
+    }
+
+    .resume,
+    .github-profile{
+      max-width: 30%;
       font-size: 30px;
     }
 
-    .rsvp-gif{
-      width: 90%
+    .about-header,
+    .projects-header,
+    .stack-header,
+    .contact-header{
+      font-size: 85px;
+    }
+
+    .intro{
+      line-height: 1.7
+    }
+
+   .tech-stack-ul li{
+      font-size: 40px;
+    }
+
+    .rsvp-h1{
+      font-size: 75px;
     }
 
     .rsvp-description{
-      width: 90%;
-      margin-left: 5%;
+      font-size: 35px;
     }
 
     .rsvp-github-link,
     .rsvp-website-link{
-      max-width: 60%;
-    }
-    
-
-    /*
-    =========================
-            CONTACT
-    ========================
-    */
-
-    .contact-container{
-      padding-top: 1%;
-      padding-bottom: 15%;;
-      border-width: 4px;
-    }
-
-    .contact-header{
+      max-width: 30%;
       font-size: 35px;
-      width:93%;
-      margin-bottom: 8%;
-      margin-top: 2.5%;
     }
 
     .contact-me-email{
-      font-size: 25px;
+      font-size: 50px;
     }
+    
   }
+  
 
-  @media(max-width:479px) and (min-width:401px){
-    .App
-    {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden; 
+  @media (max-width:1024px) and (min-width:769px){
+  
+    .navbar{
+      padding: 1.5% 0
     }
+
+    /*
+    ============================
+                HOME
+    ============================
+    */
+    
+    .home-div{
+      padding-top: 1%;
+      height: 600px;
+    }
+  
+    .hello-header,
+    .name-header{
+      font-size: 43px;
+      margin-top: -5%;
+    }
+
+    .name-header{
+      margin-left: 0;
+    }
+    
+    .frontEnd-header{
+      font-size: 38px;
+      margin-top: 0;
+    }
+
+    .resume, .github-profile{
+      max-width: 30%;
+      padding:1%;
+      font-size: 20px;
+    }
+
+    .github-profile{
+      margin-top: 2%;
+    }
+  
+
+  /*
+  ================================
+              ABOUT
+  ================================
+  */
+
+    .about-header{
+      font-size: 35px;
+    }
+
+    .intro{
+      width: 70%;
+      margin: auto;
+    }
+
+
+    /*
+        STACK
+    */
+
+    .stack-header{
+      margin-top: 10%;
+      margin-bottom: 2%;
+      font-size: 35px;
+    }
+  
+    /*
+          PROJECTS
+    */
+
+
+    
+    .projects-header{
+      font-size: 35px;
+      margin-top: 40%
+    }
+
+
+    .projects-container{
+      padding-bottom: 10%;
+    }
+
+    .rsvp-website-link,
+    .rsvp-github-link{
+      font-size: 20px;
+      width:30%;
+      padding: 1%;
+      margin-left: 36%
+    }
+
+    .rsvp-website-link{
+      margin-top: 3%
+    }
+  
+    .rsvp-github-link{
+      margin-top: 2%
+    }
+
+    .rsvp-description{
+      width: 60%;
+      margin: 3% auto;
+    }
+
+    .rsvp-gif{
+      width: 60%;
+    }
+
+    .rsvp-h1{
+      font-size: 30px;
+      margin-top: 5%;
+    }
+    /*
+  ============================
+          CONTACT
+  ===========================
+  */
+
+    .contact-header{
+      font-size: 35px;
+      margin-top: 3.5%;
+    }
+  
+   }
+
+ 
+    /*
+    =============================
+              TABLETS
+    =============================
+    */
+
+      
+    @media(max-width:768px){
+      .App
+      {
+          width: 100%;
+          height: 100%;
+          margin: 0px;
+          padding: 0px;
+          overflow-x: hidden; 
+      }
+   
+        /*
+        ============================
+                    HOME
+        ============================
+        */
+  
+        .navbar{
+          padding: 1%;
+        }
+      
+        .home-div{
+          padding-top: 1%;
+          height: 600px;
+        }
+      
+        .hello-header,
+        .name-header{
+          font-size: 40px;
+          margin-top: 0;
+        }
+  
+        .name-header{
+          margin-left: 0
+        }
+       
+        
+        .frontEnd-header{
+          font-size: 37px;
+        }
+      
+        .resume, .github-profile{
+          font-size: 23px;
+          max-width: 40%;
+          padding: 1.5%;
+        }
+  
+        .github-profile{
+          margin-top: 5%;
+        }
+      
+      /*
+      ================================
+                  ABOUT
+      ================================
+      */
+      
+        .about-header{
+          font-size: 45px;
+        }
+  
+        .intro{
+          width:70%;
+          margin: auto;
+        }
+      
+        /*
+        ==================================
+                      PROJECTS
+        ==================================
+        */
+      
+        .projects-container{
+          padding-top: 1%;
+          padding-bottom: 10%;
+        }
+      
+        .projects-header{
+          font-size: 40px;
+          margin-top: 40%;
+        }
+      
+        /*
+        =======================
+                  RSVP
+        =======================
+        */
+    
+        .rsvp-h1{
+          font-size: 35px;
+          margin-top: 5%;
+        }
+      
+        .rsvp-gif{
+          width: 70%;
+        }
+  
+        .rsvp-description{
+          width:70%;
+          margin: 3% auto;
+        }
+      
+  
+        .rsvp-github-link,
+        .rsvp-website-link{
+          padding: 1%;
+          max-width: 45%;
+        }
+        /*
+      ============================
+              CONTACT
+      ===========================
+      */
+  
+        .contact-container{
+          padding-top: 1%;
+          padding-bottom: 5%;
+        }
+      
+        .contact-header{
+          font-size: 40px;
+          margin-top: 1.5%;
+        }
+     }
+      
+  
+
+  /*
+  ====================================
+              MEDIAs MOBILE
+  ====================================
+  */
+
+  
+  @media screen and (max-width:479px){
+  
 
     .navbar a{
       font-size: 19px
@@ -770,7 +913,6 @@ html, body{
     */
     
       .about-container{
-        padding-bottom: 80%;
         margin-top: 10%;
       }
 
@@ -780,7 +922,8 @@ html, body{
       }
 
       .intro{
-        padding:0 8%
+        padding:0 8%;
+        width: 95%
       }
     
       .stack-header{
@@ -799,15 +942,10 @@ html, body{
       }
 
       .projects-header{
-        margin-top: -6%;
+        margin-top: 70%;
         font-size: 35px;
       }
     
-    
-      .projects-hr{
-        width: 80%;
-        margin-bottom: 40%;
-      }
     
       /*
       =======================
@@ -824,12 +962,10 @@ html, body{
 
       .rsvp-gif{
         width: 90%;
-        margin:0;
       }
 
       .rsvp-description{
         width:90%;
-        margin-left: 5%;
       }
     
       .rsvp-github-link,
@@ -862,518 +998,37 @@ html, body{
       }
     
     }
+  
 
+  @media(max-width:350px){
 
-
-    /*
-    =============================
-              TABLETS
-    =============================
-    */
-
-      
-   @media(min-width:481px){
-    .App
-    {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden; 
-    }
- 
-      /*
-      ============================
-                  HOME
-      ============================
-      */
-
-      .navbar{
-        padding: 1%;
-      }
-    
-      .home-div{
-        padding-bottom: 110%;
-        padding-top: 1%;
-        margin-bottom: -7%;
-      }
-    
       .hello-header,
       .name-header{
-        font-size: 40px;
-        margin-top: 5%;
+        font-size: 29px;
+        margin-top: 25%;
+      }
+      
+      .name-header{
+        margin-left: 1%;
       }
 
-      .name-header{
-        margin-left: 0
-      }
-     
-      
       .frontEnd-header{
-        font-size: 37px;
+        font-size: 25px;
       }
     
       .resume, .github-profile{
         font-size: 23px;
-        max-width: 40%;
-        padding: 1.5%;
+        max-width: 85%;
+        margin-top: 20%;
       }
 
-      .github-profile{
-        margin-top: 5%;
-      }
-    
-    /*
-    ================================
-                ABOUT
-    ================================
-    */
-    
-      .about-container{
-        padding-bottom: 40%
-      }
-
-      .about-header{
-        font-size: 45px;
-      }
-
-      .intro{
-        width:90%;
-        margin-left: 5%
-      }
-    
-      /*
-      ==================================
-                    PROJECTS
-      ==================================
-      */
-    
-      .projects-container{
-        padding-top: 1%;
-        padding-bottom: 10%;
-      }
-    
       .projects-header{
-        font-size: 40px;
-        margin:1% 0 0 0;
+        margin-top: 80%;
       }
     
-      /*
-      =======================
-                RSVP
-      =======================
-      */
-  
-      .rsvp-h1{
-        font-size: 35px;
-        margin-top: 5%;
-      }
-    
-      .rsvp-gif{
-        width: 90%;
-        margin:0;
-      }
-
-      .rsvp-description{
-        width:90%;
-        margin-left: 5%;
-      }
-    
-
-      .rsvp-github-link,
-      .rsvp-website-link{
-        padding: 1%;
-        max-width: 45%;
-      }
-      /*
-    ============================
-            CONTACT
-    ===========================
-    */
-
-      .contact-container{
-        padding-top: 1%;
-        padding-bottom: 5%;
-      }
-    
-      .contact-header{
-        font-size: 40px;
-        margin-top: 1.5%;
-      }
-   }
-    
-
-   @media(min-width:1024px){
-  
-    .navbar{
-      padding: 1.5% 0
-    }
-
-    /*
-    ============================
-                HOME
-    ============================
-    */
-
-    .home-div{
-      padding-bottom: 50%;
-      margin-bottom: -5%;
-    }
-  
-    .hello-header{
-      margin-left: .5%
-    }
-
-    .hello-header,
-    .name-header{
-      font-size: 43px;
-      margin-top: -10%;
-    }
-    
-    .frontEnd-header{
-      font-size: 38px;
-      margin-top: 0
-    }
-
-    .resume, .github-profile{
-      max-width: 25%;
-      padding:1%;
-      font-size: 20px;
-    }
-  
-
-  /*
-  ================================
-              ABOUT
-  ================================
-  */
-
-    .about-header{
-      font-size: 35px;
-    }
-  
-    .about-container{
-      padding-bottom: 35%
-    }
-
-    .tech-stack-ul li{
-      left:5px;
-    }
-
-    /*
-        STACK
-    */
-
-    .stack-header{
-      margin-top: 10%;
-      margin-bottom: 2%;
-      font-size: 35px;
-    }
-  
-    /*
-          PROJECTS
-    */
-
-    .rsvp-website-link,
-    .rsvp-github-link{
-      font-size: 20px;
-      width:30%;
-      padding: 1%;
-      margin-left: 36%
-    }
-
-    .rsvp-website-link{
-      margin-top: 3%
-    }
-  
-    .rsvp-github-link{
-      margin-top: 2%
-    }
-
-    .rsvp-gif{
-      width: 50%
-    }
-
-    .projects-header{
-      font-size: 35px;
-      margin-top: 3.5%
-    }
-
-
-    .projects-container{
-      padding-bottom: 10%;
-    }
-
-    .rsvp-h1{
-      font-size: 30px;
-    }
-    /*
-  ============================
-          CONTACT
-  ===========================
-  */
-
-    .contact-header{
-      font-size: 35px;
-      margin-top: 3.5%;
-    }
-  
-   }
-
-
-
-   @media(min-width:1200px){
-  
-  
-    /*
-    ============================
-                HOME
-    ============================
-    */
-  
-    .navbar{
-      padding:.5% 0;
-    }
-  
-    .hello-header, .name-header{
-      font-size: 40px;
-      margin-top: -8%;
-    }
-
-    .name-header{
-      margin-left: -.5%;
-    }
-    
-    .frontEnd-header{
-      font-size: 30px;
-      margin-top: -2%;
-    }
-  
-    .resume, .github-profile{
-      font-size: 20px;
-      max-width: 20%;
-      padding: 1% 0
-    }
-  
-  
-  /*
-  ================================
-              ABOUT
-  ================================
-  */
-
-    .about-header{
-      font-size: 50px;
-      margin-top: 0;
-    }
-  
-    .about-container{
-      padding-bottom: 30%;
-    }
-    
-    .intro{
-      width: 50%;
-      margin: auto;
-      text-align: center;
-    }
-
-    /*
-        STACK
-    */
-
-    .stack-header{
-      margin-top: 12%;
-      margin-bottom: 2%;
-      font-size: 50px;
-    }
-
-    .tech-stack-ul li{
-      font-size: 22px;
-    }
-  
-    /*
-          PROJECTS
-    */
-
-    .projects-header{
-      font-size: 50px;
-      margin-top: 3%;
-    }
-
-    .projects-container{
-      padding-bottom: 10%
-    }
-
-    .rsvp-h1{
-      font-size: 40px;
-    }
-
-    .rsvp-description{
-      font-size: 20px
-    }
-
-    .rsvp-github-link, .rsvp-website-link{
-      max-width: 20%;
-      padding: 10px ; 
-      margin: auto;
-    }
-
-    .rsvp-github-link{
-      margin-top: 2%;
-    }
-    /*
-  ============================
-          CONTACT
-  ===========================
-  */
-
-    .contact-container{
-      padding: 1% 0 0 0
-    }
-
-    .contact-header{
-      font-size: 35px;
-      margin-top: 3%;
-    }
-
-
   }
 
-
-   /*
-   ==================================
-              LAPTOP AND PC
-    =================================
-    */
-
-   @media(min-width:1440px){
-
-    p{
-      line-height: 1.7
-    }
-
-     /*
-    ============================
-                HOME
-    ============================
-    */
+ 
   
-  
-    .hello-header, .name-header{
-      font-size: 40px;
-    }
-    
-    .frontEnd-header{
-      font-size: 33px;
-    }
-  
-    .resume{
-      font-size: 23px;
-    }
-  
-    .github-profile{
-      font-size: 23px
-    }
-  
-  }
-
-@media(min-width:1441px){
-  
-     /*
-    ============================
-                HOME
-    ============================
-    */
-  
-    .navbar a{
-      font-size: 35px;
-    }
-  
-    .hello-header, .name-header{
-      font-size: 70px;
-    }
-    
-    .frontEnd-header{
-      font-size: 60px;
-    }
-  
-    .resume{
-      font-size: 32px;
-    }
-  
-    .github-profile{
-      font-size: 32px
-    }
-
-
-    /*
-    ================
-          ABOUT
-    ================
-    */
-
-    .about-header{
-      font-size:80px;
-    }
-
-    p{
-      font-size: 35px;
-    }
-
-    .stack-header{
-      font-size: 80px;
-    }
-
-    .tech-stack-ul li{
-      font-size: 40px;
-    }
-
-    /*
-    ==========================
-          PORTFOLIO
-    ==========================
-    */
-
    
-    .projects-header{
-      font-size: 80px;
-      margin-top: 2%;
-    }
-
-    .rsvp-h1{
-      font-size: 70px;
-    }
-
-    .rsvp-description{
-      font-size: 35px;
-    }
-
-    .rsvp-github-link, .rsvp-website-link{
-      max-width: 25%;
-      font-size: 35px;
-      padding: 1% 0
-    }
-
-    /*
-    ==========================
-            CONTACT
-    ==========================
-    */
-    .contact-header{
-      font-size: 60px;
-    }
-
-    .contact-me-email{
-      font-size: 50px;
-    }
-
-    .github, .fa-twitter-square,
-    .fa-linkedin-square,
-    .fa-google-plus-square{
-      font-size: 70px;
-    }
-
-    .footer-text{
-      font-size: 40px;
-    }
-}
+   
