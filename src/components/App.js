@@ -36,12 +36,19 @@ showAbout = () => {
   }
 }
 
+
 showSubIntro = () => {
   const top = window.pageYOffset;
   if(top>700)
   this.setState({
-  showSubIntro: true
+  showSubIntro: true,
+  showNavBackground: true
   })
+  else{
+    this.setState({
+      showNavBackground: false
+    })
+  }
 }
 
 showCodingInfo = () => {
