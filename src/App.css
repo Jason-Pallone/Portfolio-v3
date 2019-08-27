@@ -77,6 +77,7 @@ html, body{
   a:hover{
     cursor:pointer;
     transform: scale(1.2);
+    color: blue;
   }
 
   .navbar{
@@ -412,6 +413,11 @@ html, body{
     
     .navbar{
       padding:1% 0;
+      display: block;
+    }
+
+    .navbar a{
+      margin-left: 2%
     }
   
     /*
