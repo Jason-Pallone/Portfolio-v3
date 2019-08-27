@@ -23,6 +23,7 @@ const Footer =()=>
           
         </footer>
         <p className='footer-text'>&copy; Jason Pallone</p>
+        <a className='footer-text' href="https://icons8.com/icon/20906/git"> icons by Icons8</a>
     </div>
 
 export default Footer

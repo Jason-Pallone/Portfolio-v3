@@ -99,7 +99,7 @@ html, body{
   */
   
   .home-div{
-    background:linear-gradient( rgba(209, 209, 209, 0.4), rgba(139, 139, 139, 0.6)),
+    background:linear-gradient( rgba(248, 248, 248, 0.4), rgba(29, 29, 29, 0.6)),
      url("../src/photos/clement-h-95YRwf6CNw8-unsplash.jpg") center no-repeat;
     background-size: cover;
    /* height: 500px;
@@ -210,31 +210,32 @@ html, body{
   ===============================
   */
 
+  .tech-container{
+    border-radius: 10px;
+    border:solid;
+    border-color: rgb(224, 224, 224);
+    border-width: 1px;
+    padding-bottom: 5%;
+    margin-top: 25%;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
+  }
 
   .stack-header{
-    color: rgb(2, 36, 109);;
+    color:rgb(2, 36, 109);
     letter-spacing: 1px;
     display: flex;
     justify-content: center;
-    margin-top: 30%;
+    margin-top: 20%;
   }
 
-  
-  
-  .tech-stack-ul li{
-    color: rgb(1, 48, 150);
-    font-weight: 300;
-    list-style: none;
-    float: left;
-    display: flex;
-    justify-content: center;
-    width: 45%;
-    margin: 2% 0 0 2%;
-    position: relative;
-    right:14px;
+  .techStack-icon{
+    margin: 5% 1% 0 1%;
   }
-  
 
+  .express{
+    color: rgb(2, 36, 109);
+    font-weight: 400;
+  }
   /*
   ============================
             PROJECTS
@@ -272,6 +273,10 @@ html, body{
     font-weight: 300;
   }
 
+  .rsvp-gif{
+    border-radius: 10px;
+  }
+
   .rsvp-description{
     font-size: 1.2rem;
     font-weight: 300;
@@ -297,11 +302,14 @@ html, body{
   .rsvp-github-link{
     margin-top: 5%;
   }
+
+  
   /*
   =================================
               CONTACT
   =================================
   */
+
   
   .contact-container{
     text-align: center;
@@ -477,9 +485,9 @@ html, body{
       margin-bottom: 2%;
       font-size: 50px;
     }
-
-    .tech-stack-ul li{
-      font-size: 22px;
+    
+    i{
+      font-size: 25px;
     }
   
     /*
@@ -488,7 +496,7 @@ html, body{
 
     .projects-header{
       font-size: 50px;
-      margin-top: 28%;
+      margin-top: 10%;
     }
 
     .projects-container{
@@ -676,7 +684,7 @@ html, body{
     
     .projects-header{
       font-size: 35px;
-      margin-top: 40%
+      margin-top: 10%
     }
 
 
@@ -735,14 +743,6 @@ html, body{
 
       
     @media(max-width:768px){
-      .App
-      {
-          width: 100%;
-          height: 100%;
-          margin: 0px;
-          padding: 0px;
-          overflow-x: hidden; 
-      }
    
         /*
         ============================
@@ -812,7 +812,7 @@ html, body{
       
         .projects-header{
           font-size: 40px;
-          margin-top: 40%;
+          margin-top: 10%;
         }
       
         /*
@@ -942,7 +942,7 @@ html, body{
       }
 
       .projects-header{
-        margin-top: 70%;
+        margin-top: 10%;
         font-size: 35px;
       }
     
@@ -1023,7 +1023,7 @@ html, body{
       }
 
       .projects-header{
-        margin-top: 80%;
+        margin-top: 10%;
       }
     
   }

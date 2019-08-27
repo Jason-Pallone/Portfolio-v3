@@ -8,7 +8,8 @@ const About =(props)=>
         <div  id="about" className='about-container'>
             <h1 className='about-header'>About me</h1>
 
-            <div  className={ props.showAbout ? 'intro fade-in' : 'hidden'} >
+            
+            <div  className={ props.showAbout ? 'intro fade-in' : 'hidden'}>
                 <p>
                 My name is Jason Pallone, I'm a Front End Developer.
                 I love to learn and I am currently seeking a new role as a Developer.
