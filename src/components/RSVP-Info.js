@@ -1,6 +1,6 @@
 import React from 'react';
 import RSVPLinks from './RSVPLinks'
-import RubberBand from 'react-reveal/RubberBand'
+import Flip from 'react-reveal/Flip'
 
 
 const RSVPInfo =()=>
@@ -11,9 +11,9 @@ const RSVPInfo =()=>
             remove the guest and confirm them.
         </p>
     
-    <RubberBand>
+    <Flip down>
        <RSVPLinks />
-    </RubberBand>
+    </Flip>
     </div>
 
 export default RSVPInfo
