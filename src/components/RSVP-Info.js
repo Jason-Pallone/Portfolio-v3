@@ -11,7 +11,7 @@ const RSVPInfo =()=>
             remove the guest and confirm them.
         </p>
     
-    <Flip down>
+    <Flip bottom>
        <RSVPLinks />
     </Flip>
     </div>
