@@ -32,12 +32,12 @@ html, body{
   */
 
   @keyframes slide-in-right{
-   0% {transform: translateX(50%);}
+   0% {transform: translateX(30%);}
    100% {transform: translateX(0);}
   }
 
   @keyframes slide-in-left{
-    0% {transform: translateX(-50%);}
+    0% {transform: translateX(-30%);}
     100% {transform: translateX(0);}
    }
 
@@ -106,7 +106,7 @@ html, body{
 
   .resume{
     animation: slide-in-right;
-    animation-duration: .7s;
+    animation-duration: .5s;
   }
 
   .github-profile{
