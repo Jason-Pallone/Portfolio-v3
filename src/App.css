@@ -265,6 +265,8 @@ html, body{
     font-weight: 300;
   }
 
+  
+
   .rsvp-gif{
     border-radius: 10px;
   }
@@ -483,10 +485,6 @@ html, body{
       font-size: 50px;
     }
     
-    i{
-      font-size: 25px;
-    }
-  
     /*
           PROJECTS
     */
