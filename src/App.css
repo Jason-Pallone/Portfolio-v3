@@ -82,7 +82,7 @@ html, body{
   */
   
   .home-div{
-    background:linear-gradient( rgba(0, 0, 0, .97), rgba(0, 0, 0, .8)),
+    background:linear-gradient( rgb(0, 0, 0), rgba(0, 0, 0, .5)),
      url("../src/photos/markus-spiske-qjnAnF0jIGk-unsplash.jpg") center no-repeat;
     background-size: cover;
   }
