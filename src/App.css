@@ -99,7 +99,6 @@ html, body{
     background: transparent;
     padding:3%;
     font-size: 30px;
-    font-weight: 400;
     margin: auto;
   }
 
@@ -135,7 +134,7 @@ html, body{
   
   .name-header{
     font-size: 50px;
-    color: rgb(2, 36, 109);
+    color: rgb(0, 53, 168);
     margin-left: 3%;
     vertical-align: top;
   }
@@ -438,11 +437,14 @@ html, body{
     .resume, .github-profile{
       font-size: 20px;
       max-width: 20%;
-      padding: 1% 0
+      padding: 1% 0;
+      font-weight: bold;
+      letter-spacing: 2.5px;
+      margin-top: 4%;
     }
 
     .github-profile{
-      margin-top: 2%;
+      margin-top: 4%;
     }
   
   
@@ -889,7 +891,7 @@ html, body{
       .resume, .github-profile{
         font-size: 23px;
         max-width: 75%;
-        margin-top: 20%;
+        margin-top: 23%;
       }
 
     /*
