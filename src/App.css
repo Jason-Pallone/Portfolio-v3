@@ -192,7 +192,7 @@ html, body{
   .tech-container{
     border-radius: 10px;
     border:solid;
-    border-color: rgb(235, 232, 232);
+    border-color: rgb(226, 226, 226);
     border-width: 1px;
     padding-bottom: 5%;
     margin-top: 25%;
@@ -916,6 +916,10 @@ html, body{
     
       .stack-header{
         font-size: 40px;
+      }
+
+      .tech-container{
+        border-color: rgb(241, 240, 240);
       }
     
       /*
