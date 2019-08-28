@@ -106,12 +106,12 @@ html, body{
 
   .resume{
     animation: slide-in-right;
-    animation-duration: .5s;
+    animation-duration: .6s;
   }
 
   .github-profile{
     animation: slide-in-left;
-    animation-duration: .5s;
+    animation-duration: .6s;
   }
   
   /* 
