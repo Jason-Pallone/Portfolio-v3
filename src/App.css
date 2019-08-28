@@ -32,12 +32,12 @@ html, body{
   */
 
   @keyframes slide-in-right{
-   0% {transform: translateX(30%);}
+   0% {transform: translateX(15%);}
    100% {transform: translateX(0);}
   }
 
   @keyframes slide-in-left{
-    0% {transform: translateX(-30%);}
+    0% {transform: translateX(-15%);}
     100% {transform: translateX(0);}
    }
 
@@ -104,12 +104,12 @@ html, body{
 
   .resume{
     animation: slide-in-right;
-    animation-duration: .6s;
+    animation-duration: 1s;
   }
 
   .github-profile{
     animation: slide-in-left;
-    animation-duration: .6s;
+    animation-duration: 1s;
   }
   
   /* 
@@ -256,6 +256,7 @@ html, body{
 
   .rsvp-gif{
     border-radius: 10px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
   }
 
   .rsvp-description{
