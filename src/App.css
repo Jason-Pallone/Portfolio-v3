@@ -55,14 +55,13 @@ html, body{
   a{
     font-size: 20px;
     text-decoration: none;
-    font-weight: 400;
     letter-spacing: 1.5px;
     color:black;
   }
 
   a:hover{
     cursor:pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
     color:rgb(2, 28, 83);
   }
 
@@ -83,8 +82,8 @@ html, body{
   */
   
   .home-div{
-    background:linear-gradient( rgba(248, 248, 248, 0.4), rgba(29, 29, 29, 0.6)),
-     url("../src/photos/clement-h-95YRwf6CNw8-unsplash.jpg") center no-repeat;
+    background:linear-gradient( rgba(0, 0, 0, .97), rgba(0, 0, 0, .8)),
+     url("../src/photos/markus-spiske-qjnAnF0jIGk-unsplash.jpg") center no-repeat;
     background-size: cover;
   }
   
@@ -100,7 +99,7 @@ html, body{
     background: transparent;
     padding:3%;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 400;
     margin: auto;
   }
 
@@ -136,7 +135,7 @@ html, body{
   
   .name-header{
     font-size: 50px;
-    color: rgb(2, 28, 83);
+    color: rgb(2, 36, 109);
     margin-left: 3%;
     vertical-align: top;
   }
@@ -225,7 +224,7 @@ html, body{
   
   .projects-header{
     font-size: 70px;
-    color:  rgb(2, 36, 109);;
+    color:  rgb(2, 36, 109);
     letter-spacing: 2px;
     display: flex;
     justify-content: center;
@@ -399,7 +398,7 @@ html, body{
   =====================================
   */
 
-  @media(min-width:1025px){
+  @media screen and (min-width:1025px){
   
     
     .navbar{
@@ -529,7 +528,7 @@ html, body{
 
   }
 
-  @media(min-width:1900px){
+  @media screen and (min-width:1900px){
 
     .navbar a{
       font-size: 35px;
@@ -591,7 +590,7 @@ html, body{
   }
   
 
-  @media (max-width:1024px) and (min-width:769px){
+  @media screen and (max-width:1024px) and (min-width:769px){
   
     .navbar{
       padding: 2% 0
@@ -726,7 +725,7 @@ html, body{
     */
 
       
-    @media(max-width:768px){
+    @media screen and (max-width:768px){
    
         /*
         ============================
