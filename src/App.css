@@ -925,6 +925,7 @@ html, body{
         font-size: 23px;
         max-width: 75%;
         margin-top: 23%;
+        padding: 3% 0;
       }
 
     /*
@@ -944,7 +945,7 @@ html, body{
 
       .intro{
         padding:0 8%;
-        width: 95%
+        width: 95%;
       }
     
       .stack-header{
