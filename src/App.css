@@ -211,6 +211,10 @@ html, body{
     margin: 5% 1% 0 1%;
   }
 
+  .react{
+    width:48px;
+  }
+
   .express{
     color: rgb(2, 36, 109);
     font-weight: 400;
