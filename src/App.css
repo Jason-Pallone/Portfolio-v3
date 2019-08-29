@@ -32,12 +32,12 @@ html, body{
   */
 
   @keyframes slide-in-right{
-   0% {transform: translateX(15%);}
+   0% {transform: translateX(20%);}
    100% {transform: translateX(0);}
   }
 
   @keyframes slide-in-left{
-    0% {transform: translateX(-15%);}
+    0% {transform: translateX(-20%);}
     100% {transform: translateX(0);}
    }
 
@@ -101,11 +101,11 @@ html, body{
   }
 
   .resume{
-    animation: slide-in-right 1s;
+    animation: slide-in-right 1.5s;
   }
 
   .github-profile{
-    animation: slide-in-left 1s;
+    animation: slide-in-left 1.5s;
   }
   
   /* 
@@ -274,7 +274,7 @@ html, body{
     justify-content: center;
     border-radius:50px;
     color: rgb(44, 44, 44);
-    border: rgb(226, 226, 226) solid 1px;
+    border: rgb(240, 240, 240) solid 1px;
     margin: auto;
     max-width: 50%;
     font-weight: 100;
