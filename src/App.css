@@ -1,16 +1,16 @@
 @import url("Normalize.css");
 
 html, body{
-    font-family: 'Alegreya Sans', sans-serif;
-    scroll-behavior: smooth;
+   font-family: 'Alegreya Sans', sans-serif;
+   scroll-behavior: smooth;
   }
 
   .App{
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden; 
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
   }
 
   *{
@@ -61,8 +61,8 @@ html, body{
 
   a:hover{
     cursor:pointer;
-    transform: scale(1.1);
-    color:rgb(2, 28, 83);
+    transform: scale(.9);
+    color:rgb(3, 65, 199);
   }
 
   .navbar{
@@ -92,9 +92,7 @@ html, body{
     display: flex;
     justify-content: center;
     border-radius: 50px;
-    border-color: rgb(255, 254, 254);
-    border-style: solid;
-    border-width: 1px;
+    border: rgb(255, 254, 254) solid 1px;
     color: white;
     background: transparent;
     padding:3%;
@@ -103,13 +101,11 @@ html, body{
   }
 
   .resume{
-    animation: slide-in-right;
-    animation-duration: 1s;
+    animation: slide-in-right 1s;
   }
 
   .github-profile{
-    animation: slide-in-left;
-    animation-duration: 1s;
+    animation: slide-in-left 1s;
   }
   
   /* 
@@ -144,8 +140,7 @@ html, body{
   .frontEnd-header{
     display: flex;
     justify-content: center;
-    animation: fade-in;
-    animation-duration: 1.5s;
+    animation: fade-in 1.2s;
     font-size: 50px;
     color:white;
     margin-top:0;
@@ -191,9 +186,7 @@ html, body{
 
   .tech-container{
     border-radius: 10px;
-    border:solid;
-    border-color: rgb(226, 226, 226);
-    border-width: 1px;
+    border:solid rgb(226, 226, 226) 1px;
     padding-bottom: 5%;
     margin-top: 25%;
     box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
@@ -245,13 +238,11 @@ html, body{
   */
 
   .RSVP-container{
-      border: solid;
+      border: solid rgb(226, 226, 226) 1px;
       border-radius: 10px;
-      border-color: rgb(226, 226, 226);
       margin: auto;
       padding-bottom: 2%;
       box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
-      border-width: 1px;
   }
   
   .rsvp-h1{
@@ -261,8 +252,7 @@ html, body{
     display: flex;
     justify-content: center;
     width: 30%;
-    margin-left:35%;
-    margin-top: 15%;
+    margin: 15% 0 3% 35%;
     font-weight: 300;
   }
 
@@ -284,11 +274,7 @@ html, body{
     justify-content: center;
     border-radius:50px;
     color: rgb(44, 44, 44);
-    border-color: rgb(226, 226, 226);
-    border-style: solid;
-    border-width: 2px;
-    background: transparent;
-    padding:2%;
+    border: rgb(226, 226, 226) solid 1px;
     margin: auto;
     max-width: 50%;
     font-weight: 100;
@@ -311,8 +297,7 @@ html, body{
     text-align: center;
     border-top: solid;
     border-color: rgb(80, 80, 80);
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-radius: 10% 10% 0 0;
   }
   
   .contact-header{
@@ -325,6 +310,7 @@ html, body{
     width:50%;
     margin:auto;
   }
+
   .contact-me-email{
     margin-top: 5%;
     color: rgb(44, 44, 44);
@@ -372,10 +358,8 @@ html, body{
   
   .fa-twitter-square{
     opacity: .9;
-    border-bottom-style: solid;
     border-radius: 4px;
     border-spacing: 10px;
-    border-bottom-style: none;
     font-size: 45px;
   }
   
@@ -393,11 +377,7 @@ html, body{
   .github,
   .fa-linkedin-square{
     color:rgb(44, 44, 44);
-    margin-right: 10%;
-  }
-
-  .fa-google-plus-square{
-    margin-left: 10%
+    margin: auto;
   }
 
   .footer-text{
