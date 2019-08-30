@@ -57,12 +57,12 @@ html, body{
     text-decoration: none;
     letter-spacing: 1.5px;
     color:black;
+    transition: .2s;
   }
 
   a:hover{
     cursor:pointer;
     transform: scale(.9);
-    transition: .2s;
     color:rgb(3, 65, 199);
   }
 
