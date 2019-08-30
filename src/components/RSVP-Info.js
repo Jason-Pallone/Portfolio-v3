@@ -11,7 +11,7 @@ const RSVPInfo =()=>
         <img src="http://img.icons8.com/color/48/000000/css3.png" alt='CSS icon' />
         <img src='/react.png' className='react' alt='React icon'></img> 
         <br></br>
-            This is an RSVP app created in React. You can add a guest, edit the guest,
+            This is my first React app, it is an RSVP app. You can add a guest, edit the guest,
             remove the guest and confirm them.
         </p>
     
