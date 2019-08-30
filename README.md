@@ -1,6 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my current portfolio site, I did a full redesign recently. 
 
-## Available Scripts
+
+
+
+
+
+
+
+
+
+
 
 In the project directory, you can run:
 
