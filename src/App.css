@@ -273,7 +273,8 @@ html, body{
   
   .rsvp-website-link,
   .rsvp-github-link,
-  .contact-form-github-link{
+  .contact-form-github-link,
+  .contact-form-demo-link{
     display: flex;
     justify-content: center;
     border-radius:50px;
@@ -285,7 +286,8 @@ html, body{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   }
   
-  .rsvp-github-link{
+  .rsvp-github-link,
+  .contact-form-github-link{
     margin-top: 5%;
   }
 
@@ -516,16 +518,17 @@ html, body{
 
     .rsvp-github-link,
      .rsvp-website-link,
-     .contact-form-github-link{
+     .contact-form-github-link,
+     .contact-form-demo-link{
       max-width: 30%;
       padding: 10px ; 
       margin: auto;
     }
 
-    .rsvp-github-link{
+    .rsvp-github-link,
+    .contact-form-github-link{
       margin-top: 3%;
     }
-
 
     /*
     ==================================
@@ -616,7 +619,8 @@ html, body{
 
     .rsvp-github-link,
     .rsvp-website-link,
-    .contact-form-github-link{
+    .contact-form-github-link,
+    .contact-form-demo-link{
       max-width: 30%;
       font-size: 35px;
     }
@@ -746,19 +750,18 @@ html, body{
 
     .rsvp-website-link,
     .rsvp-github-link,
-    .contact-form-github-link{
+    .contact-form-github-link,
+    .contact-form-demo-link{
       font-size: 20px;
       width:35%;
       padding: 1.3%;
       margin-left: 36%
     }
 
-    .rsvp-website-link{
+    .rsvp-website-link,
+    .rsvp-github-link,
+    .contact-form-github-link{
       margin-top: 3%
-    }
-  
-    .rsvp-github-link{
-      margin-top: 3%;
     }
 
    
@@ -815,7 +818,8 @@ html, body{
           font-size: 37px;
         }
       
-        .resume, .github-profile{
+        .resume, 
+        .github-profile{
           font-size: 23px;
           max-width: 51%;
           padding: 1.5%;
@@ -894,7 +898,8 @@ html, body{
   
         .rsvp-github-link,
         .rsvp-website-link,
-        .contact-form-github-link{
+        .contact-form-github-link,
+        .contact-form-demo-link{
           padding: 2%;
           max-width: 55%;
         }
@@ -1046,13 +1051,15 @@ html, body{
     
       .rsvp-github-link,
       .rsvp-website-link,
-      .contact-form-github-link{
+      .contact-form-github-link,
+      .contact-form-demo-link{
         font-size: 17px;
         max-width: 70%;
         padding: 3%;
       }
 
-      .rsvp-github-link{
+      .rsvp-github-link,
+      .contact-form-github-link{
         margin-top: 8%;
       }
     
@@ -1111,7 +1118,8 @@ html, body{
 
       .rsvp-github-link,
       .rsvp-website-link,
-      .contact-form-github-link{
+      .contact-form-github-link,
+      .contact-form-demo-link{
         padding: 4%;
         font-size: 16px;
       }

@@ -7,7 +7,7 @@ const RSVPLinks =()=>
         <div className= 'website-div-rsvp'>
             <a href="https://jasonpallone-rsvp.com/" rel='noopener noreferrer' target="_blank" 
             alt='RSVP site link' className='rsvp-website-link'>
-            <strong>View the live site!</strong>
+            <strong>View the live demo!</strong>
             </a>
         </div>
 
