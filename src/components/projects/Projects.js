@@ -6,10 +6,11 @@ import Flip from 'react-reveal/Flip'
 const Projects =()=>
     <div id='portfolio' className='projects-container'>
         <h1 className='projects-header'>Portfolio</h1>
-
-        <RSVP/>
+        <Flip top>  
+          <RSVP/>
+        </Flip>
         <Flip top>
-        <ContactForm />
+          <ContactForm />
         </Flip>
     </div>
 

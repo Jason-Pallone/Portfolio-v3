@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactFormLinks from './Contact_form_links'
+import Flip from 'react-reveal/Flip'
 
 
 const ContactForm =()=>
@@ -13,7 +14,9 @@ const ContactForm =()=>
             <br></br>
             This is a basic contact/login from. I made this mainly to practice my CSS selectors skills and HTML skills.
         </p>
+        <Flip top>
         <ContactFormLinks />
+        </Flip>
     </div>
 
 export default ContactForm
