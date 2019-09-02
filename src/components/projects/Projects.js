@@ -1,6 +1,6 @@
 import React from 'react';
-import RSVP from './RSVP'
-import ContactForm from './ContactForm';
+import RSVP from './rsvp/RSVP'
+import ContactForm from './contact_form/ContactForm';
 import Flip from 'react-reveal/Flip'
 
 const Projects =()=>

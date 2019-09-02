@@ -4,11 +4,11 @@ import Zoom from 'react-reveal/Zoom'
 
 
 // components
-import HomePage from './HomePage'
-import About from './About'
-import Projects from './Projects'
-import Contact from './Contact'
-import Footer from './Footer'
+import HomePage from './home-page/HomePage'
+import About from './about/About'
+import Projects from './projects/Projects'
+import Contact from './contact/Contact'
+import Footer from './footer/Footer'
 
 
 class App extends Component{
@@ -47,7 +47,7 @@ componentWillUnmount(){
       <div className='App'>
         <HomePage showNavBackground={this.state.showNavBackground}/>
         <Zoom>
-        <About />
+          <About />
         </Zoom>
         <Projects />
         <Contact />
