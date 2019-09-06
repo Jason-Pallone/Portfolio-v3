@@ -399,7 +399,6 @@ html, body{
   */
 
   @media screen and (min-width:1025px){
-  
     
     .navbar{
       padding:1% 0;
@@ -550,12 +549,20 @@ html, body{
   */
 
     .contact-container{
-      padding: 1% 0 0 0
+      padding: 0;
     }
 
     .contact-header{
       font-size: 35px;
-      margin-top: 3%;
+      margin-top: 1%;
+    }
+
+    .fa-google-plus-square,
+    .fa-twitter-square,
+    .github,
+    .fa-linkedin-square{
+      margin-top: 0;
+      margin-bottom: 0;
     }
 
 
