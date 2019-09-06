@@ -5,7 +5,7 @@ import Flip from 'react-reveal/Flip'
 
 const ContactForm =()=>
     <div className='contact-form-container'>
-        <h1 className='contact-form-h1'>Contact/Sign in form</h1>
+        <h1 className='contact-form-h1'>Contact form</h1>
         <img src='./gifs/contact-form.gif' alt='contact form project' className='contact-form-gif'></img>
 
         <p className= 'contact-form-description'>

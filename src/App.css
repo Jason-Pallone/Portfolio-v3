@@ -231,7 +231,7 @@ html, body{
   .projects-container{
     text-align: center;
   }
-  
+
   /*
   ===========================
             RSVP
@@ -339,7 +339,7 @@ html, body{
   }
   
   .footer-container{
-    padding-top: 5%;
+    padding-top: 2%;
     padding-bottom: 1%
   }
 
@@ -477,6 +477,11 @@ html, body{
       margin-bottom: 2%;
       font-size: 50px;
     }
+
+    .tech-container{
+      width: 65%;
+      margin: 10% auto auto auto;
+    }
     
     /*
           PROJECTS
@@ -484,17 +489,25 @@ html, body{
 
     .projects-header{
       font-size: 50px;
-      margin-top: 10%;
+      margin-top: 15%;
     }
 
     .projects-container{
       padding-bottom: 10%;
     }
 
+    .projects-grid-container{
+      display: grid;
+      margin: auto;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      margin-top: 5%;
+    }
+    
+
     .RSVP-container,
     .contact-form-container{
-      width: 67%;
-      padding-bottom: 3%;
+      width:65%;
+      padding-bottom: 5%;
     }
 
     .rsvp-h1,
@@ -511,8 +524,8 @@ html, body{
 
     .rsvp-description,
     .contact-form-description{
-      font-size: 20px;
-      width: 60%;
+      font-size: 19px;
+      width: 85%;
       margin: 0 auto 1% auto;
     }
 
@@ -520,27 +533,16 @@ html, body{
      .rsvp-website-link,
      .contact-form-github-link,
      .contact-form-demo-link{
-      max-width: 30%;
+      max-width: 70%;
       padding: 10px ; 
-      margin: auto;
+      margin: 3% auto auto auto;
     }
 
     .rsvp-github-link,
     .contact-form-github-link{
-      margin-top: 3%;
+      margin-top: 5%;
     }
 
-    /*
-    ==================================
-          CONTACT FORM PROJECT
-    ==================================
-    */
-
-    .contact-form-container{
-      margin-top: 8%;
-    }
-
-    
 
     /*
   ============================
@@ -621,7 +623,7 @@ html, body{
     .rsvp-website-link,
     .contact-form-github-link,
     .contact-form-demo-link{
-      max-width: 30%;
+      max-width: 55%;
       font-size: 35px;
     }
 
@@ -702,6 +704,11 @@ html, body{
       font-size: 35px;
     }
   
+
+    .tech-container{
+      width: 70%;
+      margin: 15% auto 18% auto;
+    }
     /*
           PROJECTS
     */
@@ -843,6 +850,11 @@ html, body{
           width:70%;
           margin: auto;
         }
+
+        .tech-container{
+          width: 75%;
+          margin: 10% auto 0 auto;
+        }
       
         /*
         ==================================
@@ -857,7 +869,7 @@ html, body{
       
         .projects-header{
           font-size: 40px;
-          margin-top: 10%;
+          margin-top: 15%;
         }
       
         /*
@@ -869,7 +881,7 @@ html, body{
          
        .RSVP-container,
        .contact-form-container{
-        width: 73%;
+        width: 60%;
         padding-bottom: 4%;
         }
 
@@ -901,7 +913,7 @@ html, body{
         .contact-form-github-link,
         .contact-form-demo-link{
           padding: 2%;
-          max-width: 55%;
+          max-width: 70%;
         }
         /*
       ============================
