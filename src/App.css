@@ -539,7 +539,7 @@ html, body{
 
     .rsvp-github-link,
     .contact-form-github-link{
-      margin-top: 5%;
+      margin-top: 7%;
     }
 
 
@@ -761,13 +761,11 @@ html, body{
       font-size: 20px;
       width:35%;
       padding: 1.3%;
-      margin-left: 36%
     }
 
-    .rsvp-website-link,
     .rsvp-github-link,
     .contact-form-github-link{
-      margin-top: 3%
+      margin-top: 5%
     }
 
    
@@ -914,6 +912,12 @@ html, body{
           padding: 2%;
           max-width: 70%;
         }
+
+        .rsvp-github-link,
+        .contact-form-github-link{
+          margin-top:6%;
+        }
+
         /*
       ============================
               CONTACT
