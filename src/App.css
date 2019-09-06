@@ -734,7 +734,7 @@ html, body{
      
     .RSVP-container,
     .contact-form-container{
-      width: 73%;
+      width: 50%;
       padding-bottom: 3%;
     }
 
@@ -766,7 +766,7 @@ html, body{
     .contact-form-github-link,
     .contact-form-demo-link{
       font-size: 20px;
-      width:35%;
+      width:55%;
       padding: 1.3%;
     }
 
