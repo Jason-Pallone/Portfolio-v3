@@ -208,6 +208,8 @@ html, body{
     color: rgb(2, 36, 109);
     font-weight: 400;
   }
+
+
   /*
   ============================
             PROJECTS
@@ -225,14 +227,7 @@ html, body{
     text-align: center;
   }
 
-  /*
-  ===========================
-            RSVP
-  ===========================
-  */
-
-  .RSVP-container,
-  .contact-form-container{
+  .single-project-container{
       border: solid rgb(226, 226, 226) 1px;
       border-radius: 10px;
       margin: auto;
@@ -240,8 +235,7 @@ html, body{
       box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
   }
   
-  .rsvp-h1,
-  .contact-form-h1{
+  .single-project-h1{
     font-size: 60px;
     letter-spacing: 1.5px;
     color: rgb(44, 44, 44);
@@ -250,13 +244,11 @@ html, body{
     font-weight: 300;
   }
 
-  .rsvp-gif,
-  .contact-form-gif{
+  .gif{
     border-radius: 10px;
   }
 
-  .rsvp-description,
-  .contact-form-description{
+  .project-description{
     font-size: 1.2rem;
     font-weight: 300;
     color:rgb(0, 0, 0);
@@ -482,26 +474,22 @@ html, body{
       margin-top: 5%;
     }
     
-    .RSVP-container,
-    .contact-form-container{
+    .single-project-container{
       width:65%;
       padding-bottom: 5%;
     }
 
-    .rsvp-h1,
-    .contact-form-h1{
+    .single-project-h1{
       font-size: 40px;
       margin: 10% auto;
       width: 90%
     }
 
-    .rsvp-gif,
-    .contact-form-gif{
+    .gif{
       width:60%;
     }
 
-    .rsvp-description,
-    .contact-form-description{
+    .project-description{
       font-size: 19px;
       width: 85%;
       margin: 0 auto 1% auto;
@@ -586,19 +574,16 @@ html, body{
       font-size: 40px;
     }
 
-    .RSVP-container,
     .tech-container,
-    .contact-form-container{
+    .single-project-container{
       box-shadow: 40px 40px 10px rgba(0, 0, 0, 0.5);
     }
 
-    .rsvp-h1,
-    .contact-form-h1{
+    .single-project-h1{
       font-size: 75px;
     }
 
-    .rsvp-description,
-    .contact-form-description{
+    .project-description{
       font-size: 35px;
     }
 
@@ -713,26 +698,22 @@ html, body{
       margin-top: 5%;
     }
      
-    .RSVP-container,
-    .contact-form-container{
+    .single-project-container{
       width: 80%;
       padding-bottom: 8%;
     }
 
-    .rsvp-h1,
-    .contact-form-h1{
+    .single-project-h1{
       font-size: 30px;
       margin: 10% auto;
       width: 90%;
     }
 
-    .rsvp-gif,
-    .contact-form-gif{
+    .gif{
       width: 60%;
     }
 
-    .rsvp-description,
-    .contact-form-description{
+    .project-description{
       width: 85%;
       margin: 3% auto;
     }
@@ -849,37 +830,24 @@ html, body{
           margin-top: 15%;
         }
       
-        /*
-        =======================
-                  RSVP
-        =======================
-        */
-
          
-       .RSVP-container,
-       .contact-form-container{
+       .single-project-container{
         width: 60%;
         padding-bottom: 4%;
+        margin-top: 10%;
         }
 
-        .contact-form-container{
-          margin-top: 10%;
-        }
-    
-        .rsvp-h1,
-        .contact-form-h1{
+        .single-project-h1{
           font-size: 35px;
           margin: 10% auto;
           width: 90%;
         }
       
-        .rsvp-gif,
-        .contact-form-gif{
+        .gif{
           width: 70%;
         }
   
-        .rsvp-description,
-        .contact-form-description{
+        .project-description{
           width:70%;
           margin: 3% auto;
         }
@@ -1017,28 +985,21 @@ html, body{
       =======================
       */
     
-      .RSVP-container,
-      .contact-form-container{
+      .single-project-container{
         width: 80%;
         padding-bottom: 9%;
-      }
-
-      .contact-form-container{
         margin-top: 15%;
       }
-      
-      .rsvp-h1,
-      .contact-form-h1{
+
+      .single-project-h1{
         font-size: 30px;
       }
 
-      .rsvp-gif,
-      .contact-form-gif{
+      .gif{
         width: 90%;
       }
 
-      .rsvp-description,
-      .contact-form-description{
+      .project-description{
         width:90%;
       }
     
@@ -1106,7 +1067,7 @@ html, body{
         font-size: 16px;
       }
 
-      .contact-form-h1{
+      .single-project-h1{
         font-size: 23px;
       }
   }
