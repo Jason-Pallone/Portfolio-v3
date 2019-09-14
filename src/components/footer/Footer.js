@@ -2,6 +2,7 @@ import React from 'react';
 
 const Footer =()=>
 
+
     <div className='footer-container'>
         <footer>
             <a href="mailto:jason.pallone@gmail.com" rel='noopener noreferrer'  alt='gmail logo'
