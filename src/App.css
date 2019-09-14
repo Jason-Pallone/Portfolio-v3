@@ -227,7 +227,7 @@ html, body{
     text-align: center;
   }
 
-  .single-project-container{
+  .individual-project-container{
       border: solid rgb(226, 226, 226) 1px;
       border-radius: 10px;
       margin: auto;
@@ -235,7 +235,7 @@ html, body{
       box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
   }
   
-  .single-project-h1{
+  .individual-project-h1{
     font-size: 60px;
     letter-spacing: 1.5px;
     color: rgb(44, 44, 44);
@@ -474,12 +474,12 @@ html, body{
       margin-top: 5%;
     }
     
-    .single-project-container{
+    .individual-project-container{
       width:65%;
       padding-bottom: 5%;
     }
 
-    .single-project-h1{
+    .individual-project-h1{
       font-size: 40px;
       margin: 10% auto;
       width: 90%
@@ -575,11 +575,11 @@ html, body{
     }
 
     .tech-container,
-    .single-project-container{
+    .individual-project-container{
       box-shadow: 40px 40px 10px rgba(0, 0, 0, 0.5);
     }
 
-    .single-project-h1{
+    .individual-project-h1{
       font-size: 75px;
     }
 
@@ -698,12 +698,12 @@ html, body{
       margin-top: 5%;
     }
      
-    .single-project-container{
+    .individual-project-container{
       width: 80%;
       padding-bottom: 8%;
     }
 
-    .single-project-h1{
+    .individual-project-h1{
       font-size: 30px;
       margin: 10% auto;
       width: 90%;
@@ -831,13 +831,13 @@ html, body{
         }
       
          
-       .single-project-container{
+       .individual-project-container{
         width: 60%;
         padding-bottom: 4%;
         margin-top: 10%;
         }
 
-        .single-project-h1{
+        .individual-project-h1{
           font-size: 35px;
           margin: 10% auto;
           width: 90%;
@@ -978,20 +978,13 @@ html, body{
         font-size: 35px;
       }
     
-    
-      /*
-      =======================
-                RSVP
-      =======================
-      */
-    
-      .single-project-container{
+      .individual-project-container{
         width: 80%;
         padding-bottom: 9%;
         margin-top: 15%;
       }
 
-      .single-project-h1{
+      .individual-project-h1{
         font-size: 30px;
       }
 
@@ -1067,7 +1060,7 @@ html, body{
         font-size: 16px;
       }
 
-      .single-project-h1{
+      .individual-project-h1{
         font-size: 23px;
       }
   }

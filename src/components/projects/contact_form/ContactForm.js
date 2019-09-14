@@ -4,8 +4,8 @@ import Flip from 'react-reveal/Flip'
 
 
 const ContactForm =()=>
-    <div className='single-project-container'>
-        <h1 className='single-project-h1'>Contact form</h1>
+    <div className='individual-project-container'>
+        <h1 className='individual-project-h1'>Contact form</h1>
         <img src='./gifs/contact-form.gif' alt='contact form project' className='gif'></img>
 
         <p className= 'project-description'>
