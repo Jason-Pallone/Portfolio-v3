@@ -142,7 +142,7 @@ html, body{
   .frontEnd-header{
     display: flex;
     justify-content: center;
-    animation: fade-in 1.2s;
+    animation: fade-in 1.5s;
     font-size: 50px;
     color:white;
     margin-top:0;

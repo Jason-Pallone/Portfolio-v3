@@ -23,8 +23,8 @@ class HomePage extends Component{
     }
 
     componentDidMount(){
-      setTimeout(() =>  this.showFrontEndDevHeader(), 1400);
-      setTimeout(() =>  this.showLinks(), 1800);
+      setTimeout(() =>  this.showFrontEndDevHeader(), 1700);
+      setTimeout(() =>  this.showLinks(), 1900);
     }
 
     render(){
