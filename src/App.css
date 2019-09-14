@@ -1,7 +1,7 @@
 @import url("Normalize.css");
 
 html, body{
-  font-family: 'Roboto', sans-serif;
+   font-family: 'Alegreya Sans', sans-serif;
    scroll-behavior: smooth;
   }
 
@@ -193,7 +193,7 @@ html, body{
 
   .stack-header{
     color:rgb(2, 36, 109);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-top: 20%;
   }
 
@@ -397,7 +397,6 @@ html, body{
     .name-header{
       font-size: 40px;
       margin-top: -15%;
-      letter-spacing: 1.5px;
     }
 
     .name-header{
@@ -407,7 +406,6 @@ html, body{
     .frontEnd-header{
       font-size: 30px;
       margin-top: -5%;
-      letter-spacing: 1.5px;
     }
   
     .resume, 
@@ -637,7 +635,7 @@ html, body{
 
     .resume,
     .github-profile{
-      max-width: 40%;
+      max-width: 30%;
       padding:1%;
       font-size: 20px;
     }
@@ -723,7 +721,7 @@ html, body{
 
     .github-link,
     .demo-link{
-      font-size: 13px;
+      font-size: 14px;
       width:100%;
       padding: 2.3%;
     }
@@ -788,7 +786,7 @@ html, body{
       
         .resume, 
         .github-profile{
-          font-size: 21px;
+          font-size: 23px;
           max-width: 51%;
           padding: 1.5%;
         }
@@ -858,7 +856,7 @@ html, body{
         .github-link,
         .demo-link{
           padding: 2%;
-          max-width: 80%;
+          max-width: 70%;
         }
 
         .github-link{
@@ -898,7 +896,7 @@ html, body{
     }
 
     .navbar a{
-      font-size: 18px
+      font-size: 19px
     }
     
       /*
@@ -915,9 +913,8 @@ html, body{
     
       .hello-header,
       .name-header{
-        font-size: 29px;
+        font-size: 33px;
         margin-top: 25%;
-        letter-spacing: 1.5px;
       }
       
       .name-header{
@@ -925,13 +922,12 @@ html, body{
       }
 
       .frontEnd-header{
-        font-size: 25px;
-        letter-spacing: 1.5px;
+        font-size: 28px;
       }
     
       .resume, 
       .github-profile{
-        font-size: 20px;
+        font-size: 23px;
         max-width: 75%;
         margin-top: 23%;
         padding: 3% 0;
@@ -1041,15 +1037,10 @@ html, body{
 
   @media(max-width:350px){
 
-      .navbar a{
-        font-size: 15px;
-      }
-
       .hello-header,
       .name-header{
-        font-size: 25px;
+        font-size: 29px;
         margin-top: 25%;
-        letter-spacing: 1px
       }
       
       .name-header{
@@ -1057,13 +1048,12 @@ html, body{
       }
 
       .frontEnd-header{
-        font-size: 21px;
-        letter-spacing: 1px;
+        font-size: 25px;
       }
     
       .resume,
       .github-profile{
-        font-size: 19px;
+        font-size: 23px;
         max-width: 85%;
         margin-top: 20%;
       }
@@ -1075,7 +1065,7 @@ html, body{
       .github-link,
       .demo-link{
         padding: 4%;
-        font-size: 14px;
+        font-size: 16px;
       }
 
       .single-project-h1{
