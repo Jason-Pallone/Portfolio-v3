@@ -470,7 +470,7 @@ html, body{
     .projects-grid-container{
       display: grid;
       margin: auto;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(3, minmax(300px, 1fr));
       margin-top: 5%;
     }
     
@@ -577,6 +577,7 @@ html, body{
     .tech-container,
     .individual-project-container{
       box-shadow: 40px 40px 10px rgba(0, 0, 0, 0.5);
+      width: 75%
     }
 
     .individual-project-h1{
@@ -696,6 +697,7 @@ html, body{
       margin: auto;
       grid-template-columns: repeat(2, minmax(300px, 1fr));
       margin-top: 5%;
+      grid-gap: 50px;
     }
      
     .individual-project-container{
