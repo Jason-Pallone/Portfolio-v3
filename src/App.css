@@ -475,7 +475,7 @@ html, body{
     }
     
     .individual-project-container{
-      width:65%;
+      width:80%;
       padding-bottom: 5%;
     }
 
@@ -577,7 +577,7 @@ html, body{
     .tech-container,
     .individual-project-container{
       box-shadow: 40px 40px 10px rgba(0, 0, 0, 0.5);
-      width: 75%
+      width: 85%
     }
 
     .individual-project-h1{
