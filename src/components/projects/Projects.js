@@ -1,6 +1,6 @@
 import React from 'react';
 import RSVP from './rsvp/RSVP'
-import ContactForm from './contact_form/ContactForm';
+import MarsRoverAPI from './mars_rover/Mars_rover_API';
 import Flip from 'react-reveal/Flip'
 import PhotoGallery from './photo_gallery/photoGallery';
 
@@ -13,7 +13,7 @@ const Projects =()=>
           </Flip>
 
           <Flip top>
-            <ContactForm />
+            <MarsRoverAPI />
           </Flip>
 
           <Flip top>
