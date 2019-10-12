@@ -12,21 +12,9 @@ const Projects =()=>
         <div className='projects-grid-container'>
           <Flip top>  
             <RSVP/>
-          </Flip>
-          
-          <Flip top>
             <Breakout2D />
-          </Flip>
-
-          <Flip top>
             <GiphyAPI />
-          </Flip>
-
-          <Flip top>
             <MarsRoverAPI />
-          </Flip>
-
-          <Flip top>
             <PhotoGallery />
           </Flip>
         </div>
