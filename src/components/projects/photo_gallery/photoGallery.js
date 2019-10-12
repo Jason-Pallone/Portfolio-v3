@@ -12,6 +12,10 @@ const PhotoGallery = ()=>
             <img src="http://img.icons8.com/color/48/000000/html-5.png" alt='HTML icon' />
             <img src="http://img.icons8.com/color/48/000000/css3.png" alt='CSS icon' /> 
             <br></br>
+            <img src="pc-icon.png" alt="pc icon"/>
+            <img src="tablet-icon.png" alt="tablet icon"/>
+            <img src="smartphone-icon.png" alt="smartphone icon"/>
+            <br></br>
             This is a simple photo gallery app. You can hover over each photo to see a description and a download link.
         </p>
         <Flip top>

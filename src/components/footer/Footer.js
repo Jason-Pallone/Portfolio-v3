@@ -25,6 +25,7 @@ const Footer =()=>
         </footer>
         <p className='footer-text'>&copy; Jason Pallone</p>
         <a className='footer-text' href="https://icons8.com/icon/20906/git"> icons by Icons8</a>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik & Dave Gandy</a></div>
     </div>
 
 export default Footer

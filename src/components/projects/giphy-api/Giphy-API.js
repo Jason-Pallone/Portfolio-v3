@@ -12,6 +12,10 @@ const GiphyAPI =()=>
             <img src="http://img.icons8.com/color/48/000000/css3.png" alt='CSS icon' />
             <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/javascript.png" alt='JavaScript icon' />
             <br></br>
+            <img src="pc-icon.png" alt="pc icon"/>
+            <img src="tablet-icon.png" alt="tablet icon"/>
+            <img src="smartphone-icon.png" alt="smartphone icon"/>
+            <br></br>
             This is a project using Giphy API, you can search for Gifs and click on any gif to be brought
             to the source of that gif.
         </p>
