@@ -1,6 +1,7 @@
 import React from 'react'
 import Flip from 'react-reveal/Flip'
 import BreakoutLinks from './Breakout-links'
+import TechIcons from '../../icons/tech-icons/Tech-icons'
 
 
 const Breakout2D =()=>
@@ -8,9 +9,7 @@ const Breakout2D =()=>
         <h1 className='individual-project-h1'>Breakout 2D</h1>
         <img src='./gifs/Breakout-2D.gif' alt='breakout game' className='gif'></img>
         <p className= 'project-description'>
-            <img src="http://img.icons8.com/color/48/000000/html-5.png" alt='HTML icon' />
-            <img src="http://img.icons8.com/color/48/000000/css3.png" alt='CSS icon' />
-            <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/javascript.png" alt='JavaScript icon' />
+            <TechIcons />
             <br></br>
             <img src="pc-icon.png" alt="pc icon"/>
             <br></br>
