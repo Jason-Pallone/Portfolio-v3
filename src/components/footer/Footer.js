@@ -23,7 +23,7 @@ const Footer =()=>
             </a>
           
         </footer>
-        <p className='footer-text'>&copy; Jason Pallone</p>
+        <p className='footer-text'>&copy; Jason Pallone 2019</p>
         <a className='footer-text' href="https://icons8.com/icon/20906/git"> icons by Icons8, Freepik & Dave Gandy </a>
         <a className='footer-text' href="https://www.flaticon.com/authors/freepik" title="Freepik"> Visit the authors here</a>
     </div>
