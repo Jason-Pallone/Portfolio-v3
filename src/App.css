@@ -472,6 +472,7 @@ html, body{
       margin: auto;
       grid-template-columns: repeat(3, minmax(300px, 1fr));
       margin-top: 5%;
+      grid-gap: 50px 10px ;
     }
     
     .individual-project-container{
