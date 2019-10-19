@@ -11,7 +11,7 @@ const Projects =()=>
         <h1 className='projects-header'>Portfolio</h1>
         <div className='projects-grid-container'>
           <Flip top>  
-            <RSVP/>
+            <RSVP />
             <Breakout2D />
             <GiphyAPI />
             <MarsRoverAPI />
