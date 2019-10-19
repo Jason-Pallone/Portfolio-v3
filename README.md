@@ -7,10 +7,12 @@ This is my current portfolio site.
 
 [View my portfolio here](https://jasonpallone.com)
 
+# Getting started
+
 To run my portfolio site on your PC follow the steps below:
 
-1. Clone this repo to your PC using git clone.
-2. Open the directory on your command line.
+1. Clone or download this repo to your PC.
+2. Open the directory on the command line.
 3. Run "NPM start".
 4. When it has finished starting the local server, open your preferred broswer and go to http://localhost:3000
 5. You should now be able to fully view the site in your broswer.
