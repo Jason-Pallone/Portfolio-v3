@@ -1,7 +1,7 @@
 This is my current portfolio site. 
 
 
-![Portfolio gif](.gifs/Portfolio-gif.gif)
+![Portfolio gif](./public/.gifs/Portfolio-gif.gif)
 
 [View my portfolio here](https://jasonpallone.com)
 
