@@ -7,9 +7,6 @@ class HomePage extends Component{
         showLinks:'none',
       }
     
-
-
-
     showFrontEndDevHeader=()=>{
         this.setState({
             showFrontEndDevHeader: ''
@@ -52,9 +49,6 @@ class HomePage extends Component{
                 </a>
             </div>
         </div>
-
-       
-    
     )}
 }
 

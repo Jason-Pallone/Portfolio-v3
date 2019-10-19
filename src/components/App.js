@@ -12,25 +12,22 @@ import Footer from './footer/Footer'
 
 
 class App extends Component{
-
   state={
     showNavBackground: false
 }
 
-
-
-showNavBackground = () => {
-  const top = window.pageYOffset;
-  if(top>700)
-  this.setState({
-  showNavBackground: true
-  })
-  else{
+  showNavBackground = () => {
+    const top = window.pageYOffset;
+    if(top>700)
     this.setState({
-      showNavBackground: false
+    showNavBackground: true
     })
+    else{
+      this.setState({
+        showNavBackground: false
+      })
+    }
   }
-}
 
 
 
