@@ -1,15 +1,9 @@
-This is my current portfolio site, I did a full redesign recently. 
+This is my current portfolio site. 
 
 
 
 
-
-
-
-
-
-
-
+[View my portfolio here](https://jasonpallone.com)
 
 In the project directory, you can run:
 
