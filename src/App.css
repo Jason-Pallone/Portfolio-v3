@@ -262,6 +262,7 @@ html, body{
     color: rgb(44, 44, 44);
     border: rgb(241, 240, 240) solid .5px;
     margin: auto;
+    font-weight: 300;
     max-width: 50%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   }
