@@ -1,7 +1,7 @@
 @import url("Normalize.css");
 
 html, body{
-   font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
    scroll-behavior: smooth;
   }
 
@@ -1036,9 +1036,13 @@ html, body{
 
   @media(max-width:350px){
 
+     .navbar a{
+        font-size: 16px;
+     }
+
       .hello-header,
       .name-header{
-        font-size: 29px;
+        font-size: 25px;
         margin-top: 25%;
       }
       
@@ -1047,12 +1051,12 @@ html, body{
       }
 
       .frontEnd-header{
-        font-size: 25px;
+        font-size: 21px;
       }
     
       .resume,
       .github-profile{
-        font-size: 23px;
+        font-size: 19px;
         max-width: 85%;
         margin-top: 20%;
       }
@@ -1064,7 +1068,7 @@ html, body{
       .github-link,
       .demo-link{
         padding: 4%;
-        font-size: 16px;
+        font-size: 14px;
       }
 
       .individual-project-h1{
