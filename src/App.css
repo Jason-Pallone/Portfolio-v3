@@ -263,7 +263,6 @@ html, body{
     border: rgb(241, 240, 240) solid .5px;
     margin: auto;
     max-width: 50%;
-    font-weight: 100;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   }
   
@@ -394,7 +393,7 @@ html, body{
   
     .hello-header, 
     .name-header{
-      font-size: 40px;
+      font-size: 38px;
       margin-top: -15%;
     }
 
@@ -403,13 +402,13 @@ html, body{
     }
     
     .frontEnd-header{
-      font-size: 30px;
+      font-size: 28px;
       margin-top: -5%;
     }
   
     .resume, 
     .github-profile{
-      font-size: 20px;
+      font-size: 19px;
       max-width: 25%;
       padding: 1% 0;
       font-weight: bold;
@@ -501,6 +500,7 @@ html, body{
       max-width: 70%;
       padding: 10px ; 
       margin: 3% auto auto auto;
+      font-size: 15px;
     }
 
     .github-link{
@@ -621,7 +621,7 @@ html, body{
   
     .hello-header,
     .name-header{
-      font-size: 43px;
+      font-size: 40px;
       margin-top: -5%;
     }
 
@@ -630,7 +630,7 @@ html, body{
     }
     
     .frontEnd-header{
-      font-size: 38px;
+      font-size: 36px;
       margin-top: 0;
     }
 
@@ -638,7 +638,7 @@ html, body{
     .github-profile{
       max-width: 30%;
       padding:1%;
-      font-size: 20px;
+      font-size: 18px;
     }
 
     .github-profile{
@@ -723,7 +723,7 @@ html, body{
 
     .github-link,
     .demo-link{
-      font-size: 14px;
+      font-size: 11px;
       width:100%;
       padding: 2.3%;
     }
@@ -765,6 +765,10 @@ html, body{
         .navbar{
           padding: 2%;
         }
+
+        .navbar a{
+          font-size: 17px;
+        }
       
         .home-div{
           padding-top: 1%;
@@ -773,7 +777,7 @@ html, body{
       
         .hello-header,
         .name-header{
-          font-size: 40px;
+          font-size: 38px;
           margin-top: 0;
         }
   
@@ -788,7 +792,7 @@ html, body{
       
         .resume, 
         .github-profile{
-          font-size: 23px;
+          font-size: 19px;
           max-width: 51%;
           padding: 1.5%;
         }
@@ -859,6 +863,7 @@ html, body{
         .demo-link{
           padding: 2%;
           max-width: 70%;
+          font-size: 16px;
         }
 
         .github-link{
@@ -898,7 +903,7 @@ html, body{
     }
 
     .navbar a{
-      font-size: 19px
+      font-size: 16px
     }
     
       /*
@@ -915,7 +920,7 @@ html, body{
     
       .hello-header,
       .name-header{
-        font-size: 33px;
+        font-size: 29px;
         margin-top: 25%;
       }
       
@@ -924,12 +929,12 @@ html, body{
       }
 
       .frontEnd-header{
-        font-size: 28px;
+        font-size: 24px;
       }
     
       .resume, 
       .github-profile{
-        font-size: 23px;
+        font-size: 19px;
         max-width: 75%;
         margin-top: 23%;
         padding: 3% 0;
@@ -1002,7 +1007,7 @@ html, body{
       
       .github-link,
       .demo-link{
-        font-size: 17px;
+        font-size: 15px;
         max-width: 70%;
         padding: 3%;
       }
@@ -1037,7 +1042,7 @@ html, body{
   @media(max-width:350px){
 
      .navbar a{
-        font-size: 16px;
+        font-size: 14px;
      }
 
       .hello-header,
@@ -1068,7 +1073,7 @@ html, body{
       .github-link,
       .demo-link{
         padding: 4%;
-        font-size: 14px;
+        font-size: 13px;
       }
 
       .individual-project-h1{
