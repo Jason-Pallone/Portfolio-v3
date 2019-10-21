@@ -14,7 +14,8 @@ const PhotoGallery = ()=>
             <img src="http://img.icons8.com/color/48/000000/css3.png" alt='CSS icon' /> 
             <br></br>
             <DeviceIcons />
-            This is a simple photo gallery app. You can hover over each photo to see a description and a download link.
+            This is an interactive photo gallery. You can hover over each photo to see different animations that 
+            will display the description and a download link. This project was created using HTML and CSS. 
         </p>
         <Flip top>
             <PhotoGalleryLinks />

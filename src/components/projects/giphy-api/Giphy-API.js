@@ -14,7 +14,7 @@ const GiphyAPI =()=>
             <TechIcons />
             <DeviceIcons />
             This is a project using Giphy API, you can search for Gifs and click on any gif to be brought
-            to the source of that gif.
+            to the source of that gif. This project was created using JavaScript, HTML and CSS.
         </p>
         <Flip top>
             <GiphyLinks />

@@ -16,6 +16,7 @@ const RSVPInfo =()=>
             This is an RSVP app, you can add a guest, edit the guest,
             remove the guest and confirm them. As well you can filter
             the guests that have not confirmed they are attending.
+            This project was created using React, JSX and CSS. 
         </p>
         <Flip bottom>
             <RSVPLinks />

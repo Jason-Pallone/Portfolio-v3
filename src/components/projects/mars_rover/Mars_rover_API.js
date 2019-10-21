@@ -12,8 +12,8 @@ const MarsRoverAPI =()=>
         <p className= 'project-description'>
             <TechIcons />
             <DeviceIcons />
-            This is a project using NASAs open API for the Mars Curiosity rover. It gathers photos from the API 
-            and displays them with their description.
+            This is a project that uses NASAs open API for the Mars Curiosity rover. It gathers images from the API 
+            and displays the images with basic information. This project was created using JavaScript, HTML and CSS.
         </p>
         <Flip top>
             <MarsRoverApiLinks />

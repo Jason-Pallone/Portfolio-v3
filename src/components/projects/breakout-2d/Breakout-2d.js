@@ -14,9 +14,9 @@ const Breakout2D =()=>
             <img src="pc-icon.png" alt="pc icon"/>
             <br></br>
             This game is PC/Laptop only as of right now, but can still be viewed in mobile.
-            This is the game known as breakout, it is created using JavaScript, HTML canvas and CSS. 
-            The game has game over and winning messages. It also keeps tracks of your score and current
-            lives before the game ends. 
+            This is the game known as breakout, it is created using JavaScript, HTML canvas and CSS. Break all the bricks 
+            to win the game! There is a message displayed once the player has won or lost the game, as well
+            the game keeps tracks of your score and current lives while playing.
         </p>
         <Flip top>
             <BreakoutLinks />
