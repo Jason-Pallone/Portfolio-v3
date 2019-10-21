@@ -6,8 +6,7 @@ import Zoom from 'react-reveal/Zoom'
 import Flip from 'react-reveal/Flip'
 
 const About =()=>
-  
-        <div  id="about" className='about-container'>
+        <div id="about" className='about-container'>
             <h1 className='about-header'>About me</h1>
             <div  className= 'intro'>
                 <p>
@@ -26,14 +25,12 @@ const About =()=>
                 </p>
             <Zoom>
               <SubIntro />
-            </Zoom>
-            <Zoom>
               <CodingInfo  />
             </Zoom>
             <Flip right>
               <TechStack /> 
             </Flip>
             </div>
-        </div>
+        </div>      
 
     export default About

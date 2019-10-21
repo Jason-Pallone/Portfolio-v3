@@ -109,6 +109,12 @@ html, body{
   .github-profile{
     animation: slide-in-left 1.5s;
   }
+
+  a:active{
+    background: rgb(0, 53, 168);
+    color: white;
+    transition: .3s;
+  }
   
   /* 
   ================================
