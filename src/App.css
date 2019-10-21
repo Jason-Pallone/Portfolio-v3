@@ -167,6 +167,12 @@ html, body{
     margin: 5% auto auto auto;
   }
   
+  #about::before{
+    content: "";
+    display: block;
+    height: 70px;
+    margin: -30px 0 0;
+  }
 
   .about-header{
     font-size: 70px;
@@ -231,6 +237,13 @@ html, body{
   
   .projects-container{
     text-align: center;
+  }
+
+  #portfolio::before{
+    content: "";
+    display: block;
+    height: 1px;
+    margin: -10px 0 0;
   }
 
   .individual-project-container{
