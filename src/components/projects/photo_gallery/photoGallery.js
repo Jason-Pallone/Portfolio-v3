@@ -15,7 +15,8 @@ const PhotoGallery = ()=>
             <br></br>
             <DeviceIcons />
             This is an interactive photo gallery. You can hover over each photo to see different animations that 
-            will display the description and a download link. This project was created using HTML and CSS. 
+            will display the description and a download link. The download link is for display only because the 
+            images are from unsplash. This project was created using HTML and CSS. 
         </p>
         <Flip top>
             <PhotoGalleryLinks />
