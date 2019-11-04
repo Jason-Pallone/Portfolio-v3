@@ -10,10 +10,10 @@ const RSVPInfo =()=>
         <img src="./gifs/RSVP-gif.gif" alt='rsvp project' className='gif' />
         <p className= 'project-description'>
             <TechIcons />
-            <img src='/react.png' className='react' alt='React icon'></img>
+            <img src='/React-icon.png' className='react' alt='React icon'></img>
             <br></br>
             <DeviceIcons />
-            This is an RSVP app, you can add a guest, edit the guest,
+            This is an RSVP app. You can add a guest, edit the guest,
             remove the guest and confirm them. As well you can filter
             the guests that have not confirmed they are attending.
             This project was created using React, JSX and CSS. 
