@@ -13,7 +13,7 @@ const SassPortfolio =()=>
         <img className='techStack-icon' src='/Sass-icon.png' alt='sass icon' />
         <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/html-5.png" alt='HTML icon' />
             <DeviceIcons />
-            This is a project built using Sass and HTML5. The gif displayed is the mobile version of this project.
+            This is a project built using Sass and HTML5.
             This project is a basic portfolio site. You can view the about me section,
             work section and contact section. The site is fully responsive for all devices. 
         </p>
