@@ -5,6 +5,7 @@ import MarsRoverAPI from './mars_rover/Mars_rover_API';
 import Flip from 'react-reveal/Flip'
 import PhotoGallery from './photo_gallery/photoGallery';
 import Breakout2D from './breakout-2d/Breakout-2d'
+import SassPortfolio from './sass_portfolio/Sass-portfolio';
 
 const Projects =()=>
     <div id='portfolio' className='projects-container'>
@@ -16,6 +17,7 @@ const Projects =()=>
             <GiphyAPI />
             <MarsRoverAPI />
             <PhotoGallery />
+            <SassPortfolio />
           </Flip>
         </div>
     </div>
