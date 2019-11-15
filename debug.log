@@ -250,3 +250,5 @@
 [1105/020348.150:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1105/021848.291:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1115/002202.978:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1115/003044.550:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1115/113825.062:ERROR:crash_report_database_win.cc(469)] failed to stat report

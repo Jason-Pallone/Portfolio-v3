@@ -10,7 +10,6 @@ const Breakout2D =()=>
         <img src='./gifs/Breakout-2D.gif' alt='breakout game' className='gif'></img>
         <p className= 'project-description'>
             <TechIcons />
-            <br></br>
             <img src="pc-icon.png" alt="pc icon"/>
             <br></br>
             This game is PC/Laptop only as of right now, but can still be viewed in mobile.
