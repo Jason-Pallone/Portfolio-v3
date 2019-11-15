@@ -6,6 +6,7 @@ import Flip from 'react-reveal/Flip'
 import PhotoGallery from './photo_gallery/photoGallery';
 import Breakout2D from './breakout-2d/Breakout-2d'
 import SassPortfolio from './sass_portfolio/Sass-portfolio';
+import FullStackConf from './full-stack-conf-bootstrap/full-stack-conf';
 
 const Projects =()=>
     <div id='portfolio' className='projects-container'>
@@ -17,6 +18,7 @@ const Projects =()=>
             <GiphyAPI />
             <MarsRoverAPI />
             <PhotoGallery />
+            <FullStackConf />
             <SassPortfolio />
           </Flip>
         </div>
