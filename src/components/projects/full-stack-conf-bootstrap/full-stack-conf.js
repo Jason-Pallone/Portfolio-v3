@@ -1,7 +1,7 @@
 import React from 'react'
 import Flip from 'react-reveal/Flip'
 import DeviceIcons from '../../icons/device icons/Device-icons'
-import FullStackConfLinks from './Full-stack-conf-links'
+import FullStackConfLinks from './full-stack-conf-links'
 
 
 
