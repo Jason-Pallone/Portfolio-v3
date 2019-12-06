@@ -3,7 +3,7 @@ import React from 'react'
 const MarsRoverApiLinks = () =>
     <div>
         <div>
-            <a href="https://mars-rover-api.herokuapp.com" rel='noopener noreferrer' target="_blank"
+            <a href="https://jason-pallone.github.io/Mars-Rover-API/" rel='noopener noreferrer' target="_blank"
             alt='link to mars rover api project'  className='demo-link'> 
                 <strong>View the live demo!</strong>
             </a>

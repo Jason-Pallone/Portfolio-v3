@@ -3,7 +3,7 @@ import React from 'react'
 const photoGalleryLinks = () =>
     <div>
         <div>
-            <a href="https://css-photo-gallery.herokuapp.com/index.html" rel='noopener noreferrer' target="_blank"
+            <a href="https://jason-pallone.github.io/css-photo-gallery/" rel='noopener noreferrer' target="_blank"
             alt='link to photo gallery demo'  className='demo-link'> 
                 <strong>View the live demo!</strong>
             </a>

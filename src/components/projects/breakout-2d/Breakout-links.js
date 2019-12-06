@@ -3,7 +3,7 @@ import React from 'react'
 const BreakoutLinks = () =>
     <div>
         <div>
-            <a href="https://breakout-2d-jp.herokuapp.com/index.html" rel='noopener noreferrer' target="_blank"
+            <a href="https://jason-pallone.github.io/Breakout-2D/index.html" rel='noopener noreferrer' target="_blank"
             alt='link to the breakout game'  className='demo-link'> 
                 <strong>View the live demo!</strong>
             </a>

@@ -3,7 +3,7 @@ import React from 'react'
 const GiphyLinks = () =>
     <div>
         <div>
-            <a href="https://giphy-api-jp.herokuapp.com/index.html" rel='noopener noreferrer' target="_blank"
+            <a href="https://jason-pallone.github.io/Giphy-API/index.html" rel='noopener noreferrer' target="_blank"
             alt='link to giphy api project'  className='demo-link'> 
                 <strong>View the live demo!</strong>
             </a>
