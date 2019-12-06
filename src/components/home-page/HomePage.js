@@ -36,16 +36,13 @@ class HomePage extends Component{
                 </div>
 
 
-                <h2 className='frontEnd-header' style={{display: this.state.showFrontEndDevHeader}}>
-                I'm a Front End Developer.
-                </h2>
-                <a className='resume' href='../resume/Jason-Pallone.pdf' download
-                style={{display: this.state.showLinks}}>
-                View my resume here!
+                <h2 className='frontEnd-header' > I'm a Front End Developer. </h2>
+                <a className='resume' href='../resume/Jason-Pallone.pdf' download>
+                  View my resume here!
                 </a>
                 <a className='github-profile' href='https://github.com/Jason-Pallone'
-                target="_blank" rel='noopener noreferrer' style={{display: this.state.showLinks}}>
-                View my GitHub here!
+                target="_blank" rel='noopener noreferrer' >
+                  View my GitHub here!
                 </a>
             </div>
         </div>
