@@ -15,12 +15,14 @@ const ExerciseTracker =()=>
         <img className='techStack-icon' src='/MongoDB-icon.png' alt='mongoDB icon' />
         <img className='techStack-icon' src='/Bootstrap-icon.png' alt='bootstrap icon' />
         <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/css3.png" alt='CSS icon' />
-            <DeviceIcons />
-            This is a Full Stack project, created using the MERN stack (mongoDB, Express.js, React, Node.js). Designed
-            using Bootstrap and custom CSS. This is an exercise tracker app, that you can add a user by any name then
-            add an exercise, duration they did the exercise and the date they did the exercise. Then you can edit or delete
-            the exercise log as needed. All information is saved to MonogoDB using Express/Node for the Backend and using
-            React on the Front-end. This app is fully responsive for all devices, check out the live demo!
+          <DeviceIcons />
+          This is a Full Stack project, created using the MERN stack (mongoDB, Express.js, React, Node.js).
+          Designed using Bootstrap and custom CSS. This is an Exercise Tracker App, 
+          that you can add a user by name then add an exercise log for that user,
+          in the exercise log you can add a duration for how long that user did the exercise for and the date they did the exercise.
+          Then you can edit or delete the exercise log as needed after it's been created.
+          All information is saved to MonogoDB using Express/Node for the Backend and using React on the Front-end. 
+          This app is fully responsive for all devices.
         </p>
         <Flip top>
             <ExerciseTrackerLinks />
