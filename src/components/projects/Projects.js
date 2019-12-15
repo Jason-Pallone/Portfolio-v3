@@ -13,7 +13,7 @@ const Projects =()=>
     <div id='portfolio' className='projects-container'>
         <h1 className='projects-header'>Portfolio</h1>
         <div className='projects-grid-container'>
-          <Flip top>  
+          <Flip right>  
             <ExerciseTracker />
             <RSVP />
             <Breakout2D />
