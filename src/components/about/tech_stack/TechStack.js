@@ -22,7 +22,7 @@ const TechStack=()=>
                     <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/npm.png" alt='NPM icon' />
                     <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/git.png" alt='GIT icon' />
                     <br></br>
-                    <img className='techStack-icon' src='/MongoDB-icon.png' alt='mongoDB icon' />
+                    <img className='techStack-icon mongo-icon' src='/MongoDB-icon.png' alt='mongoDB icon' />
                     <img className='techStack-icon express-icon' src='/Express-icon.png' alt='express icon' />
                 </div>
             </div>

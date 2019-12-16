@@ -14,7 +14,7 @@ const ExerciseTracker =()=>
           <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/nodejs.png" alt='Node.js icon' />
           <img className='techStack-icon express-icon-exercise-app' src='/Express-icon.png' alt='express icon' />
         </div>
-        <img className='techStack-icon mongo-icon' src='/MongoDB-icon.png' alt='mongoDB icon' />
+        <img className='techStack-icon mongo-icon-exercise-app' src='/MongoDB-icon.png' alt='mongoDB icon' />
         <img className='techStack-icon' src='/Bootstrap-icon.png' alt='bootstrap icon' />
         <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/css3.png" alt='CSS icon' />
           <DeviceIcons />
