@@ -10,8 +10,8 @@ const TechStack=()=>
                 <div>
                     <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/html-5.png" alt='HTML icon' />
                     <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/css3.png" alt='CSS icon' />
-                    <img className="techStack-icon js" src="/js-icon.png" alt="JavaScript icon"></img>
-                    <img className='techStack-icon react' src='/React-icon.png' alt='React icon'></img> 
+                    <img className="techStack-icon js-icon" src="/js-icon.png" alt="JavaScript icon"></img>
+                    <img className='techStack-icon react-icon' src='/React-icon.png' alt='React icon'></img> 
                     <img className='techStack-icon' src="http://img.icons8.com/ios/50/000000/jquery.png" alt='jQuery icon' />
                 </div>
 
@@ -23,7 +23,7 @@ const TechStack=()=>
                     <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/git.png" alt='GIT icon' />
                     <br></br>
                     <img className='techStack-icon' src='/MongoDB-icon.png' alt='mongoDB icon' />
-                    <img className='techStack-icon express' src='/Express-icon.png' alt='express icon' />
+                    <img className='techStack-icon express-icon' src='/Express-icon.png' alt='express icon' />
                 </div>
             </div>
         </div>

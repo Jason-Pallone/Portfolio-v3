@@ -6,13 +6,15 @@ import ExerciseTrackerLinks from './exercise-tracker-links'
 
 const ExerciseTracker =()=>
     <div className='individual-project-container'>
-        <h1 className='individual-project-h1'>Full Stack Exercise Tracker</h1>
+        <h1 className='individual-project-h1 xl-project-title'>Full Stack Exercise Tracker</h1>
         <img src='./gifs/exercise-tracker.gif' alt='mern stack exercise tracker project' className='gif'></img>
         <p className= 'project-description'>
-        <img className='techStack-icon react' src='/React-icon.png' alt='React icon'></img>
-        <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/nodejs.png" alt='Node.js icon' />
-        <img className='techStack-icon express' src='/Express-icon.png' alt='express icon' />
-        <img className='techStack-icon' src='/MongoDB-icon.png' alt='mongoDB icon' />
+        <div className='exercise-icons-container'>
+          <img className='techStack-icon react-icon' src='/React-icon.png' alt='React icon'></img>
+          <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/nodejs.png" alt='Node.js icon' />
+          <img className='techStack-icon express-icon-exercise-app' src='/Express-icon.png' alt='express icon' />
+        </div>
+        <img className='techStack-icon mongo-icon' src='/MongoDB-icon.png' alt='mongoDB icon' />
         <img className='techStack-icon' src='/Bootstrap-icon.png' alt='bootstrap icon' />
         <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/css3.png" alt='CSS icon' />
           <DeviceIcons />

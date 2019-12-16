@@ -10,7 +10,7 @@ const RSVPInfo =()=>
         <img src="./gifs/RSVP-gif.gif" alt='rsvp project' className='gif' />
         <p className= 'project-description'>
             <TechIcons />
-            <img src='/React-icon.png' className='react' alt='React icon'></img>
+            <img src='/React-icon.png' className='react-icon' alt='React icon'></img>
             <br></br>
             <DeviceIcons />
             This is an RSVP app. You can add a guest, edit the guest,
