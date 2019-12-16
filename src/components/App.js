@@ -14,13 +14,13 @@ import Footer from './footer/Footer'
 class App extends Component{
   state={
     showNavBackground: false
-}
+  }
 
   showNavBackground = () => {
     const top = window.pageYOffset;
     if(top>700)
     this.setState({
-    showNavBackground: true
+      showNavBackground: true
     })
     else{
       this.setState({
@@ -32,7 +32,7 @@ class App extends Component{
 
 
 componentDidMount(){
-    window.addEventListener("scroll", this.showNavBackground)
+  window.addEventListener("scroll", this.showNavBackground)
 }
 
 componentWillUnmount(){
