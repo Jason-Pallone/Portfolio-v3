@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
-import Reveal from 'react-reveal/Reveal';
+import LightSpeed from 'react-reveal/LightSpeed';
 
 
 // Components
@@ -43,9 +43,9 @@ componentWillUnmount(){
     return(
       <div className='App'>
         <HomePage showNavBackground={this.state.showNavBackground}/>
-        <Reveal effect="fadeInUp">
+        <LightSpeed left>
           <About />
-        </Reveal>
+        </LightSpeed>
         <Projects />
         <Contact />
         <Footer />
