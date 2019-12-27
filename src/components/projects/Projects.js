@@ -1,5 +1,4 @@
 import React from 'react';
-import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
 
 //Components
