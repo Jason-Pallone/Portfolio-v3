@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import Fade from 'react-reveal/Fade';
-import Bounce from 'react-reveal/Bounce';
+
 
 
 // Components

@@ -1,5 +1,6 @@
 import React from 'react';
-import Flip from 'react-reveal/Flip'
+import Flip from 'react-reveal/Flip';
+import Fade from 'react-reveal/Fade';
 
 //Components
 import RSVP from './rsvp/RSVP'
@@ -15,7 +16,7 @@ const Projects =()=>
     <div id='portfolio' className='projects-container'>
         <h1 className='projects-header'>Portfolio</h1>
         <div className='projects-grid-container'>
-          <Flip right>  
+          <Fade bottom>  
             <ExerciseTracker />
             <RSVP />
             <Breakout2D />
@@ -24,7 +25,7 @@ const Projects =()=>
             <PhotoGallery />
             <FullStackConf />
             <SassPortfolio />
-          </Flip>
+          </Fade>
         </div>
     </div>
 
