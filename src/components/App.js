@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
-import LightSpeed from 'react-reveal/LightSpeed';
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 
 
 // Components
@@ -43,9 +44,9 @@ componentWillUnmount(){
     return(
       <div className='App'>
         <HomePage showNavBackground={this.state.showNavBackground}/>
-        <LightSpeed left>
+        <Fade bottom>
           <About />
-        </LightSpeed>
+        </Fade>
         <Projects />
         <Contact />
         <Footer />
