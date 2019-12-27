@@ -3,7 +3,7 @@ import '../App.css';
 import Reveal from 'react-reveal/Reveal';
 
 
-// components
+// Components
 import HomePage from './home-page/HomePage'
 import About from './about/About'
 import Projects from './projects/Projects'
