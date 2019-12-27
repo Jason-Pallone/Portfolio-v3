@@ -1,8 +1,10 @@
 import React from 'react';
-import RSVPLinks from './RSVPLinks'
-import Flip from 'react-reveal/Flip'
+import Fade from 'react-reveal/Fade';
+
+//Components
+import RSVPLinks from './RSVPLinks';
 import DeviceIcons from '../../icons/device icons/Device-icons';
-import TechIcons from '../../icons/tech-icons/Tech-icons'
+import TechIcons from '../../icons/tech-icons/Tech-icons';
 
 
 const RSVPInfo =()=>
@@ -18,9 +20,9 @@ const RSVPInfo =()=>
             the guests that have not confirmed they are attending.
             This project was created using React, JSX and CSS. 
         </p>
-        <Flip bottom>
+        <Fade top>
             <RSVPLinks />
-        </Flip>
+        </Fade>
     </div>
 
 export default RSVPInfo

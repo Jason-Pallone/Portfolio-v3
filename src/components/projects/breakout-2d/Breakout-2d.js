@@ -1,7 +1,9 @@
-import React from 'react'
-import Flip from 'react-reveal/Flip'
-import BreakoutLinks from './Breakout-links'
-import TechIcons from '../../icons/tech-icons/Tech-icons'
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+
+//Components
+import BreakoutLinks from './Breakout-links';
+import TechIcons from '../../icons/tech-icons/Tech-icons';
 
 
 const Breakout2D =()=>
@@ -17,9 +19,9 @@ const Breakout2D =()=>
             to win the game! There is a message displayed once the player has won or lost the game, as well
             the game keeps tracks of your score and current lives while playing.
         </p>
-        <Flip top>
+        <Fade top>
             <BreakoutLinks />
-        </Flip>
+        </Fade>
     </div>
 
 export default Breakout2D

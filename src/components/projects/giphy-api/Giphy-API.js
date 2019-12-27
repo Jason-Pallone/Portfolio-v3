@@ -1,8 +1,10 @@
-import React from 'react'
-import Flip from 'react-reveal/Flip'
-import TechIcons from '../../icons/tech-icons/Tech-icons'
-import DeviceIcons from '../../icons/device icons/Device-icons'
-import GiphyLinks from './Giphy-links'
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+
+//Components
+import TechIcons from '../../icons/tech-icons/Tech-icons';
+import DeviceIcons from '../../icons/device icons/Device-icons';
+import GiphyLinks from './Giphy-links';
 
 
 
@@ -16,9 +18,9 @@ const GiphyAPI =()=>
             This is a project using Giphy API, you can search for Gifs and click on any gif to be brought
             to the source of that gif. This project was created using JavaScript, HTML and CSS.
         </p>
-        <Flip top>
+        <Fade top>
             <GiphyLinks />
-        </Flip>
+        </Fade>
     </div>
 
 export default GiphyAPI

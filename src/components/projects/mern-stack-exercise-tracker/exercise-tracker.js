@@ -1,7 +1,9 @@
-import React from 'react'
-import Flip from 'react-reveal/Flip'
-import DeviceIcons from '../../icons/device icons/Device-icons'
-import ExerciseTrackerLinks from './exercise-tracker-links'
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+
+//Components
+import DeviceIcons from '../../icons/device icons/Device-icons';
+import ExerciseTrackerLinks from './exercise-tracker-links';
 
 
 const ExerciseTracker =()=>
@@ -26,9 +28,9 @@ const ExerciseTracker =()=>
           All information is saved to MonogoDB using Express/Node for the Backend and using React on the Front-end. 
           This app is fully responsive for all devices.
         </p>
-        <Flip top>
+        <Fade top>
             <ExerciseTrackerLinks />
-        </Flip>
+        </Fade>
     </div>
 
 export default ExerciseTracker

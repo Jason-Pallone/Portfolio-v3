@@ -1,7 +1,10 @@
-import React from 'react'
-import PhotoGalleryLinks from './photoGalleryLinks.js'
-import DeviceIcons from '../../icons/device icons/Device-icons'
-import Flip from 'react-reveal/Flip'
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+
+//Components
+import PhotoGalleryLinks from './photoGalleryLinks.js';
+import DeviceIcons from '../../icons/device icons/Device-icons';
+
 
 
 
@@ -18,9 +21,9 @@ const PhotoGallery = ()=>
             will display the description and a download link. The download link is for display only because the 
             images are from unsplash. This project was created using HTML and CSS. 
         </p>
-        <Flip top>
+        <Fade top>
             <PhotoGalleryLinks />
-        </Flip>
+        </Fade>
     </div>
 
 

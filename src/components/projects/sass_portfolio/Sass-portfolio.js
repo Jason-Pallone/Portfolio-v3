@@ -1,7 +1,9 @@
-import React from 'react'
-import Flip from 'react-reveal/Flip'
-import DeviceIcons from '../../icons/device icons/Device-icons'
-import SassPortfolioLinks from './Sass-portfolio-links'
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+
+//Components
+import DeviceIcons from '../../icons/device icons/Device-icons';
+import SassPortfolioLinks from './Sass-portfolio-links';
 
 
 
@@ -17,9 +19,9 @@ const SassPortfolio =()=>
             This project is a basic portfolio site. You can view the about me section,
             work section and contact section. The site is fully responsive for all devices. 
         </p>
-        <Flip top>
+        <Fade top>
             <SassPortfolioLinks />
-        </Flip>
+        </Fade>
     </div>
 
 export default SassPortfolio

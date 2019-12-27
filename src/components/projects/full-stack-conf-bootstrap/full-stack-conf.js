@@ -1,7 +1,9 @@
-import React from 'react'
-import Flip from 'react-reveal/Flip'
-import DeviceIcons from '../../icons/device icons/Device-icons'
-import FullStackConfLinks from './full-stack-conf-links'
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+
+//Components
+import DeviceIcons from '../../icons/device icons/Device-icons';
+import FullStackConfLinks from './full-stack-conf-links';
 
 
 
@@ -17,9 +19,9 @@ const FullStackConf =()=>
             it has a modal that pops up when you click any of the register buttons. The site is fully responsive for all
             devices.
         </p>
-        <Flip top>
+        <Fade top>
             <FullStackConfLinks />
-        </Flip>
+        </Fade>
     </div>
 
 export default FullStackConf
