@@ -1,8 +1,10 @@
 import React from 'react';
+import Flip from 'react-reveal/Flip'
+
+//Components
 import RSVP from './rsvp/RSVP'
 import GiphyAPI from './giphy-api/Giphy-API'
 import MarsRoverAPI from './mars_rover/Mars_rover_API';
-import Flip from 'react-reveal/Flip'
 import PhotoGallery from './photo_gallery/photoGallery';
 import Breakout2D from './breakout-2d/Breakout-2d'
 import SassPortfolio from './sass_portfolio/Sass-portfolio';

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
-import Zoom from 'react-reveal/Zoom'
+import Reveal from 'react-reveal/Reveal';
 
 
 // components
@@ -38,14 +38,14 @@ componentDidMount(){
 componentWillUnmount(){
   window.addEventListener("scroll", this.showNavBackground)
 }
-
+ 
   render(){
     return(
       <div className='App'>
         <HomePage showNavBackground={this.state.showNavBackground}/>
-        <Zoom>
+        <Reveal effect="fadeInUp">
           <About />
-        </Zoom>
+        </Reveal>
         <Projects />
         <Contact />
         <Footer />
