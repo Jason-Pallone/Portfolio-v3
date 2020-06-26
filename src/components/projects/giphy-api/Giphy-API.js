@@ -11,7 +11,7 @@ import GiphyLinks from './Giphy-links';
 const GiphyAPI =()=>
     <div className='individual-project-container'>
         <h1 className='individual-project-h1'>Giphy API</h1>
-        <img src='./gifs/giphy-api.gif' alt='giphy api project' className='gif'></img>
+        <img src='./gifs/giphy-api-screenshot.PNG' alt='giphy api project' className='gif'></img>
         <p className= 'project-description'>
             <TechIcons />
             <DeviceIcons />

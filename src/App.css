@@ -254,6 +254,22 @@ html, body{
     width: 35%;
   }
 
+  .sql-icon {
+    width: 9%;
+  }
+
+  .sql-icon-apps {
+    width: 13%;
+    position: relative;
+    bottom: 7px;
+  }
+
+  .sequelize-icon-apps {
+    width: 25%;
+    position: relative;
+    bottom: 20px;
+  }
+
   .mongo-icon-exercise-app {
     margin-bottom: 10px;
   }
@@ -998,6 +1014,11 @@ html, body{
         margin-bottom: -7%;
       }
     
+      .sql-icon {
+        position: relative;
+        bottom: 10px;
+      }
+
       /*
       ==================================
                     PROJECTS

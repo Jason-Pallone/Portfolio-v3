@@ -10,7 +10,7 @@ import SassPortfolioLinks from './Sass-portfolio-links';
 const SassPortfolio =()=>
     <div className='individual-project-container'>
         <h1 className='individual-project-h1'>Sass Portfolio</h1>
-        <img src='./gifs/Sass-portfolio-gif.gif' alt='sass portfolio project' className='gif'></img>
+        <img src='./gifs/Sass-portfolio-screenshot.PNG' alt='sass portfolio project' className='gif'></img>
         <p className= 'project-description'>
         <img className='techStack-icon' src='/Sass-icon.png' alt='sass icon' />
         <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/html-5.png" alt='HTML icon' />

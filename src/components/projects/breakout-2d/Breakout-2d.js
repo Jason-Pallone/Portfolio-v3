@@ -9,7 +9,7 @@ import TechIcons from '../../icons/tech-icons/Tech-icons';
 const Breakout2D =()=>
     <div className='individual-project-container'>
         <h1 className='individual-project-h1'>Breakout 2D</h1>
-        <img src='./gifs/Breakout-2D.gif' alt='breakout game' className='gif'></img>
+        <img src='./gifs/Breakout-screenshot.PNG' alt='breakout game' className='gif'></img>
         <p className= 'project-description'>
             <TechIcons />
             <img src="pc-icon.png" alt="pc icon"/>

@@ -19,6 +19,7 @@ const TechStack=()=>
                     <img className='techStack-icon' src='/Sass-icon.png' alt='sass icon' />
                     <img className='techStack-icon' src='/Bootstrap-icon.png' alt='bootstrap icon' />
                     <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/nodejs.png" alt='Node.js icon' />
+                    <img className='techStack-icon sql-icon' src='/sql-icon.png' alt='sql icon' />
                     <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/npm.png" alt='NPM icon' />
                     <img className='techStack-icon' src="http://img.icons8.com/color/48/000000/git.png" alt='GIT icon' />
                     <br></br>
