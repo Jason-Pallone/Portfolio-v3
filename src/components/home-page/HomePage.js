@@ -13,14 +13,7 @@ const HomePage = (props) => {
             </div>
 
 
-            <h2 className='frontEnd-header' > I'm a Front End Developer. </h2>
-            <a className='resume' href='../resume/Jason-Pallone.pdf' download>
-                View my resume here!
-            </a>
-            <a className='github-profile' href='https://github.com/Jason-Pallone'
-            target="_blank" rel='noopener noreferrer' >
-                View my GitHub here!
-            </a>
+            <h2 className='frontEnd-header' > I'm a Web Developer.</h2>
         </div>
     </div>
   )
